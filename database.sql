@@ -1,4 +1,5 @@
 CREATE DATABASE IF NOT EXISTS `eeepma26_biblioteca`;
+USE `eeepma26_biblioteca`
 
 -- Criar Tabela de Usuarios/Bibliotecarios
 
