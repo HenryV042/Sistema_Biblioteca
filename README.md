@@ -1,5 +1,4 @@
 # Sistema_Biblioteca
-Veja o exemplo abaixo:
 
 Criando o `Banco de Dados` 
 
