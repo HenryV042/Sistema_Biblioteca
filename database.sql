@@ -1,14 +1,13 @@
 CREATE DATABASE IF NOT EXISTS `eeepma26_biblioteca`;
 USE `eeepma26_biblioteca`
 
--- Criar Tabela de Usuarios/Bibliotecarios
-
+-- Criar a tabela bibliotecario
 CREATE TABLE IF NOT EXISTS bibliotecario(
   id INT AUTO_INCREMENT,
   usuario VARCHAR(50) NOT NULL,
   senha VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id)
 );
-
 
 -- Criar a tabela turma
 CREATE TABLE IF NOT EXISTS turma(
@@ -31,6 +30,7 @@ CREATE TABLE IF NOT EXISTS aluno(
   nome_completo VARCHAR(55),
   sala_identificacao VARCHAR(55),
   curso VARCHAR(15),
+  serie VARCHAR(1),
   PRIMARY KEY (id),
   FOREIGN KEY (sala_identificacao, curso) REFERENCES turma(nome_identificacao, curso)
 );
@@ -51,29 +51,24 @@ CREATE TABLE IF NOT EXISTS livros(
   imagem LONGBLOB,
   PRIMARY KEY (id),
   UNIQUE (titulo_livro, numero_registro)
-  
-  
-  
 );
+
 -- Criar tabela Emprestimos
 CREATE TABLE IF NOT EXISTS emprestimos(
   id INT AUTO_INCREMENT,
-  aluno VARCHAR(255) NOT NULL,
+  aluno_id INT,
   matricula VARCHAR(7) NOT NULL,
   titulo_livro VARCHAR(300) NOT NULL,
   numero_registro VARCHAR(10),
   curso VARCHAR(30) NOT NULL,
   serie VARCHAR(1) NOT NULL,
-  data_emprestimo TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
+  data_emprestimo TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
   data_devolucao DATETIME,
   data_rascunho DATETIME,
   descricao VARCHAR(750),
   nome_bibliotecario VARCHAR(255) NOT NULL,
   status VARCHAR(255) NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (aluno, matricula, curso, serie) REFERENCES aluno(nome_completo, matricula, curso, serie),
+  FOREIGN KEY (aluno_id) REFERENCES aluno(id),
   FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro)
 );
-  
-
-
