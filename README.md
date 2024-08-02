@@ -1,9 +1,15 @@
 # Sistema_Biblioteca
+Veja o exemplo abaixo:
+
+Criando o `Banco de Dados` 
+
 
 ```sql
-CREATE DATABASE IF NOT EXISTS `eeepma26_biblioteca`;
-USE `eeepma26_biblioteca`
-
+CREATE DATABASE IF NOT EXISTS `biblioteca`;
+USE `biblioteca`
+````
+Criando as `Tabelas`
+```sql
 -- Criar a tabela bibliotecario
 CREATE TABLE IF NOT EXISTS bibliotecario(
   id INT AUTO_INCREMENT,
