@@ -1,4 +1,29 @@
-# Sistema_Biblioteca
+<div align="center">
+  <h1 align="center">
+     Sistema_Biblioteca
+    <br />
+    <br />
+      <img src="(https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)" width"700px>
+    </a>
+  </h1>
+</div>
+
+![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
+
+# Colaboradores 
+Breno 
+ <br />
+Gustavo Bandeira
+ <br />
+Francisco Flavio
+ <br />
+Gabriel Pinto
+ <br />
+Ciro 
+ <br />
+Nagila
+<br />
+Ycaro
 
 Criando o `Banco de Dados` 
 
