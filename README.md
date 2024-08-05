@@ -10,10 +10,10 @@
 
 ![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
 
-# Líder do projeto <br />
+# 💭Líder do projeto <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
 
-# Projeto de software <br />
+# 💡Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
 Jhonatta <br />
 Vanessa <br /> 
@@ -23,7 +23,7 @@ Julia <br />
 Érica <br />
 Maria clara <br />
 
-# Colaboradores do design <br />
+# ✒️Colaboradores do design <br />
 Kauã <br />
 Karol<br /> 
 Paulo Iago <br /> 
@@ -32,7 +32,7 @@ Ruan <br />
 Samuel <br />
 Angélica <br />
 
-# Colaboradores do desenvolvimento
+# 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheus) <br>
 Paulo Henrique
 <br />
@@ -53,7 +53,7 @@ David
 <br />
 
 
-# Colaboradores de implementação
+# 📝Colaboradores de implementação
 Breno 
  <br />
 Gustavo Bandeira
@@ -68,7 +68,7 @@ Nagila
 <br />
 Ycaro
 
-# Colaboradores de documentação
+# 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
 Gabriel Lima <br />
 Pedro Iure <br />
