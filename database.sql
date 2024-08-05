@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   numero_registro VARCHAR(10),
   curso VARCHAR(30) NOT NULL,
   serie VARCHAR(1) NOT NULL,
-  data_emprestimo DATETIME NOT NULL DEFAULT NOW(),
+  data_emprestimo DATETIME NOT NULL DEFAULT (NOW() AT TIME ZONE 'America/SAO_PAULO'),
   data_devolucao DATETIME,
   data_rascunho DATETIME,
   descricao VARCHAR(750),
