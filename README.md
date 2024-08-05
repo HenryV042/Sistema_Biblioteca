@@ -10,7 +10,50 @@
 
 ![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
 
-# Colaboradores 
+#Líder do projeto
+[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
+
+#Projeto de software
+[![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
+Jhonatta
+Vanessa
+Pedro Wesley
+Julia
+[![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
+Érica
+Maria clara
+
+#Colaboradores do design
+Kauã
+Karol
+Paulo Iago
+Kelly
+Ruan
+Samuel
+Angélica
+
+# Colaboradores do desenvolvimento
+[![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheus) <br>
+Paulo Henrique
+<br />
+Felipe
+<br />
+Gustavo Henrique
+<br />
+Josué
+<br />
+José Luiz
+<br />
+Anderson
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Emerson-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emerson096) <br>
+Kevin
+<br />
+David
+<br />
+
+
+# Colaboradores de implementação
 Breno 
  <br />
 Gustavo Bandeira
@@ -24,6 +67,18 @@ Ciro
 Nagila
 <br />
 Ycaro
+
+# Colaboradores de documentação
+[![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
+Gabriel Lima
+Pedro Iure
+Mylena
+Ytalo
+Arthur Oliveira
+[![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
+
+
+
 
 Criando o `Banco de Dados` 
 
