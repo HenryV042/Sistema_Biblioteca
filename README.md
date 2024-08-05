@@ -10,27 +10,27 @@
 
 ![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
 
-#Líder do projeto
+# Líder do projeto <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
 
-#Projeto de software
+# Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
-Jhonatta
-Vanessa
-Pedro Wesley
-Julia
+Jhonatta <br />
+Vanessa <br /> 
+Pedro Wesley <br />
+Julia <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
-Érica
-Maria clara
+Érica <br />
+Maria clara <br />
 
-#Colaboradores do design
-Kauã
-Karol
-Paulo Iago
-Kelly
-Ruan
-Samuel
-Angélica
+# Colaboradores do design <br />
+Kauã <br />
+Karol<br /> 
+Paulo Iago <br /> 
+Kelly <br /> 
+Ruan <br />
+Samuel <br />
+Angélica <br />
 
 # Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheus) <br>
@@ -70,12 +70,17 @@ Ycaro
 
 # Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
-Gabriel Lima
-Pedro Iure
-Mylena
-Ytalo
-Arthur Oliveira
+Gabriel Lima <br />
+Pedro Iure <br />
+Mylena <br />
+Ytalo <br />
+Arthur Oliveira <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
+
+# Descrição <br />
+Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão.
+
+#
 
 
 
