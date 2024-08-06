@@ -33,7 +33,7 @@
                       <img class="iconeTranca" src="img/trancar.png" alt="">
                       <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
                     </div>
-                    <button type="submit" class="BotaoDeentrar">Entrar</button>
+                    <button type="submit" class="BotaoDeEntrar">Entrar</button>
                   </form>
             </div>
         </div>

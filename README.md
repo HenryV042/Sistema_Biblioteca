@@ -10,7 +10,52 @@
 
 ![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
 
-# Colaboradores 
+# 💭Líder do projeto <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
+
+# 💡Projeto de software <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Jhonatta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhonatta-oliveira) <br>
+Vanessa <br /> 
+Pedro Wesley <br />
+Julia <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
+Maria clara <br />
+
+# ✒️Colaboradores do design <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
+Karol<br /> 
+[![GitHub](https://img.shields.io/badge/GitHub-Jose-Luiz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joseluiz03) <br>
+Kelly <br /> 
+[![GitHub](https://img.shields.io/badge/GitHub-Ruan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/28082006ruan123) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
+Angélica <br />
+
+# 🖥️Colaboradores do desenvolvimento
+[![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheus) <br>
+Paulo Henrique
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Felipe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Felipefar) <br>
+
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Gustavo-Henrique-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morc007) <br>
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Josue-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/josuets011) <br>
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Jose-Luiz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joseluiz03) <br>
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Anderson-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0AndersonMelo0) <br>
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Emerson-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emerson096) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Kevin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre) <br>
+<br />
+[![GitHub](https://img.shields.io/badge/GitHub-David-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DavidSSF) <br>
+
+<br />
+
+
+# 📝Colaboradores de implementação
 Breno 
  <br />
 Gustavo Bandeira
@@ -24,6 +69,23 @@ Ciro
 Nagila
 <br />
 Ycaro
+
+# 📋Colaboradores de documentação
+[![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
+Gabriel Lima <br />
+Pedro Iure <br />
+Mylena <br />
+Ytalo <br />
+Arthur Oliveira <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
+
+# Descrição <br />
+Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão.
+
+#
+
+
+
 
 Criando o `Banco de Dados` 
 
