@@ -25,13 +25,13 @@
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Karol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karol) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Karol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/k4aro0lineFranca) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Paulo_Iago-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iaguitotuiuiu) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kelly-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KellyRomualdo) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ruan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/28082006ruan123) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Regilane-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/regilanenascimento) <br>
-Angélica <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Angelica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/angelica_alves) <br>
 
 # 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheussoares1) <br>
@@ -62,8 +62,8 @@ Angélica <br />
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Gabriel_Lima-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gzinl) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Pedro_Iuri-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pedro_Iuri) <br>
-Mylena <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Pedro_Iuri-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pedroiure) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Mylena-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ytalo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ytaloliver) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Arthur_Oliveira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurOliveeira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
