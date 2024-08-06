@@ -22,6 +22,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Maria-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclara76869) <br>
+Este grupo tem como objetivo organizar etapas de produção para o sistema bibliotecario por meio de cronogramas e prazos de entrega. <br>
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
@@ -47,7 +48,7 @@
 
 <br />
 
-O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do sistema para facilitar o acesso aos funcionários , este grupo tem como setor fazer toda a parte de funcionamento do sistema, alunos envolvidos a esse processo procuram agilizar e fluir de maneira mas rápida para que o processo de desenvolvimento ocorra de modo mais veloz e o site seja feito para acesso a todos. 
+O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do sistema para facilitar o acesso aos funcionários , este grupo tem como setor fazer toda a parte de funcionamento do sistema, alunos envolvidos a esse processo procuram agilizar e fluir de maneira mas rápida para que o processo de desenvolvimento ocorra de modo mais veloz e o site seja feito para acesso a todos. <br>
 
 
 # 📝Colaboradores de implementação
@@ -73,7 +74,7 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 
 
 # Descrição <br />
-Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão.
+Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão. <br>
 
 #
 
