@@ -16,68 +16,59 @@
 # 💡Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Jhonatta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhonatta-oliveira) <br>
-Vanessa <br /> 
-Pedro Wesley <br />
-Julia <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Vanessa-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vanessa) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Pedro-Wesley-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/byid887766pedro) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Julia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juliabarros-info) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
 Maria clara <br />
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
-Karol<br /> 
-[![GitHub](https://img.shields.io/badge/GitHub-Jose-Luiz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joseluiz03) <br>
-Kelly <br /> 
+[![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karol) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Paulo-Iago-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iaguitotuiuiu) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Kelly-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KellyRomualdo) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ruan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/28082006ruan123) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
 Angélica <br />
 
 # 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheus) <br>
-Paulo Henrique
-<br />
+[![GitHub](https://img.shields.io/badge/GitHub-Paulo-Henrique-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phgomes40) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Felipe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Felipefar) <br>
-
-<br />
 [![GitHub](https://img.shields.io/badge/GitHub-Gustavo-Henrique-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morc007) <br>
-<br />
 [![GitHub](https://img.shields.io/badge/GitHub-Josue-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/josuets011) <br>
-<br />
 [![GitHub](https://img.shields.io/badge/GitHub-Jose-Luiz-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joseluiz03) <br>
-<br />
 [![GitHub](https://img.shields.io/badge/GitHub-Anderson-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0AndersonMelo0) <br>
-<br />
 [![GitHub](https://img.shields.io/badge/GitHub-Emerson-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/emerson096) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kevin-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KevinBNobre) <br>
-<br />
 [![GitHub](https://img.shields.io/badge/GitHub-David-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DavidSSF) <br>
 
 <br />
 
 
 # 📝Colaboradores de implementação
-Breno 
- <br />
-Gustavo Bandeira
- <br />
-Francisco Flavio
- <br />
-Gabriel Pinto
- <br />
-Ciro 
- <br />
-Nagila
-<br />
-Ycaro
+[![GitHub](https://img.shields.io/badge/GitHub-Breno-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/breno0sx) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Gustavo-Bandeira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guxtavobandeira) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Junior-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juniorx) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Gabriel-Veras-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabrielveraspinto) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Ciro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CiroNobre3) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Nagila-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NagilaLopes) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Ykaro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ykaroribeiro) <br>
+
 
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
-Gabriel Lima <br />
-Pedro Iure <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Gabriel-Lima-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gzinl) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Pedro-Iuri-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pedro_Iuri) <br>
 Mylena <br />
-Ytalo <br />
-Arthur Oliveira <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Ytalo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ytaloliver) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Arthur-Oliveira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurOliveeira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Ygor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YguBao) <br>
+
 
 # Descrição <br />
 Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão.
