@@ -6,7 +6,7 @@ body {
     background-position: bottom;
     background-size: contain;
 }
-
+/* nav-bar */
 nav{
     display: flex;
     position: static;
@@ -15,18 +15,24 @@ nav{
     background: linear-gradient(90deg, #22A638 0%, #36B39E 100%);
     border-bottom: 0.35rem solid #e7750b;
 }
+/* fim nav-bra */
 
+/* corpo do site */
 main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 83vh;
 }
+/* fim corpo do site */
 
+/* ondas do fim da tela do site */
 .main base{
     margin-left: 100px;
 }
+/* fim ondas do fim da tela do site */
 
+/* poiligono verde escrito restrito */
 .restrito{
     display: flex;
     justify-content: center;
@@ -41,11 +47,15 @@ main{
     background: #5EB030;
     clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 90% 100%);
 } 
+/* fim poiligono verde escrito restrito */
 
+/* texto dentro do poligono */
 .ClasseTexto{
     padding: 2px;
 }
+/* fim texto dentro do poligono */
 
+/* area ao redor do campo de intridução de dados */
 .area-login{
     display: flex;
     justify-content: center;
@@ -58,18 +68,27 @@ main{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 
 }
+/* fim area ao redor do campo de intridução de dados */
+
+/* logo da ares de login */
 .area-login img{
     width: 40vh;
     background-size: cover;
     width: 10vw;
 }
+/* fim logo da ares de login */
+
+/* area de introdução de dados */
 form{
     align-items: center;
     justify-content: center;
-    width: 15vw;
+    width: 14.5vw;
 }
+/* fim area de introdução de dados */
 
-.iconeUsuario{
+/* stilização de icones q não esta sendo utilizada no momento */
+
+/* .fa-solid-fa-user{
     max-width: 10px;
     max-height: 10px;
     font-size: 2px;
@@ -79,7 +98,7 @@ form{
     position: absolute;
 }
 
-.iconeTranca{
+.fa-solid-fa-look{
     max-width: 10px;
     max-height: 10px;
     font-size: 2px;
@@ -87,26 +106,24 @@ form{
     margin-top: 0.6%;
     display: flex;
     position: absolute;
-}
+} */
+ /* fim */
 
-.BotaoDeentrar{
+.Botao-entrar{
     background-color: #e7750b;
     border-radius:5px ;
-    width: 40vh;
     border: 1px solid #e7750b;
     margin: 2%;
     width: 14vw;
+    height: 2vw;
     color: white;
 
 }
 
-
+/* media screen para dispositivos */
 @media (max-width: 1280px) {
     .area-login{
-        width: 35vw;
-    }
-    .BotaoDeentrar{
-
+        width: 40vw;
     }
 }
 @media (max-width: 337px) {
@@ -117,3 +134,5 @@ form{
         width: 70%;
     }
 }
+
+/* fim midia screen */
