@@ -48,7 +48,7 @@ Angélica <br />
 
 
 # 📝Colaboradores de implementação
-[![GitHub](https://img.shields.io/badge/GitHub-Breno-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/breno0sx) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Breno-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bren0sx) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Gustavo_Bandeira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/guxtavobandeira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Arthur_Melo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arthurmelo0) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Junior-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juniorx) <br>
