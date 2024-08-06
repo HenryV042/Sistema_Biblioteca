@@ -69,7 +69,27 @@ form{
     width: 15vw;
 }
 
-.teubotao{
+.iconeUsuario{
+    max-width: 10px;
+    max-height: 10px;
+    font-size: 2px;
+    margin-left: -1%;
+    margin-top: 0.6%;
+    display: flex;
+    position: absolute;
+}
+
+.iconeTranca{
+    max-width: 10px;
+    max-height: 10px;
+    font-size: 2px;
+    margin-left: -1%;
+    margin-top: 0.6%;
+    display: flex;
+    position: absolute;
+}
+
+.BotaoDeentrar{
     background-color: #e7750b;
     border-radius:5px ;
     width: 40vh;
@@ -85,12 +105,15 @@ form{
     .area-login{
         width: 35vw;
     }
-    .teubotao{
+    .BotaoDeentrar{
 
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 337px) {
     .area-login{
         width: 70vw;
+    }
+    .form{
+        width: 70%;
     }
 }
