@@ -33,7 +33,7 @@ Maria clara <br />
 Angélica <br />
 
 # 🖥️Colaboradores do desenvolvimento
-[![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Matheus) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheussoares1) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Paulo_Henrique-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phgomes40) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Felipe-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Felipefar) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Gustavo_Henrique-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morc007) <br>
