@@ -18,6 +18,6 @@ VALUES
 
 INSERT INTO emprestimos (aluno_id, matricula, titulo_livro, numero_registro, curso, serie, data_emprestimo, data_devolucao, nome_bibliotecario, status)
 VALUES
-  (1, '123456', 'Livro de Informática', '123456', 'Informática', '1', '2023-03-01 10:00:00', '2023-03-15 10:00:00', 'Bibliotecário 1', 'Emprestado'),
-  (2, '234567', 'Livro de Administração', '234567', 'Administração', '2', '2023-04-01 10:00:00', '2023-04-15 10:00:00', 'Bibliotecário 2', 'Emprestado'),
-  (3, '345678', 'Livro de Engenharia', '345678', 'Engenharia', '3', '2023-05-01 10:00:00', '2023-05-15 10:00:00', 'Bibliotecário 3', 'Emprestado');
+  ((SELECT id FROM aluno WHERE matricula = '123456'), '123456', 'Livro de Informática', '123456', 'Informática', '1', '2023-03-01 10:00:00', '2023-03-15 10:00:00', 'Bibliotecário 1', 'Emprestado'),
+  ((SELECT id FROM aluno WHERE matricula = '234567'), '234567', 'Livro de Administração', '234567', 'Administração', '2', '2023-04-01 10:00:00', '2023-04-15 10:00:00', 'Bibliotecário 2', 'Emprestado'),
+  ((SELECT id FROM aluno WHERE matricula = '345678'), '345678', 'Livro de Engenharia', '345678', 'Engenharia', '3', '2023-05-01 10:00:00', '2023-05-15 10:00:00', 'Bibliotecário 3', 'Emprestado');
