@@ -21,7 +21,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Julia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juliabarros-info) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
-Maria clara <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Maria-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclara76869) <br>
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
@@ -66,7 +66,7 @@ Mylena <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Ytalo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ytaloliver) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Arthur_Oliveira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurOliveeira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Ygor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YguBao) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Ygor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YgorBao) <br>
 
 
 # Descrição <br />
