@@ -7,7 +7,7 @@ VALUES
   ('2º A - Enfermagem', 'Enfermagem', 2023, 2025, 1),
   ('2º B - Informática', 'Informática', 2023, 2025, 1),
   ('2º C - Comércio', 'Comércio', 2023, 2025, 1),
-  ('2º D - Administração', 'Administração', 2023, 2025, 1);
+  ('2º D - Administração', 'Administração', 2023, 2025, 1),
   ('3º A - Enfermagem', 'Enfermagem', 2022, 2024, 1),
   ('3º B - Informática', 'Informática', 2022, 2024, 1),
   ('3º C - Comércio', 'Comércio', 2022, 2024, 1),
