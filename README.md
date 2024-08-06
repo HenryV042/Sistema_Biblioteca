@@ -15,7 +15,7 @@
 
 # 💡Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
-Jhonatta <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Jhonatta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhonatta-oliveira) <br>
 Vanessa <br /> 
 Pedro Wesley <br />
 Julia <br />
