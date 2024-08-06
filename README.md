@@ -31,7 +31,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Ruan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/28082006ruan123) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Regilane-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/regilanenascimento) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Angelica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/angelica_alves) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Angelica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Angelicaalves) <br>
 
 # 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheussoares1) <br>
