@@ -16,7 +16,7 @@
 # 💡Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Jhonatta-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jhonatta-oliveira) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Vanessa-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vanessa) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Vanessa-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vanessamarinh0) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Pedro_Wesley-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/byid887766pedro) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Julia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/juliabarros-info) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
