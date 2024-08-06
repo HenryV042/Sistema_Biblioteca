@@ -18,7 +18,7 @@
     <main>
         <div class="conteiner">
             <div class="area-login">
-                <img src="./img/img-logo.png" class="Imagelogo" alt="">
+                <img src="./img/img-logo.png" class="Imagelogo" alt="1">
                 <div class="restrito">
                   <span class="ClasseTexto">Acesso restrito</span>
                 </div>
