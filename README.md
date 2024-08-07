@@ -78,8 +78,6 @@ O grupo de implantação tem como objetivo, implementar dados dos livros, com os
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ygor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YgorBao) <br>
 
-
-# Descrição <br />
 Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão. <br>
 
 #
@@ -102,8 +100,15 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
 
 # Tela de login
 
+![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7) <br >
 
+# Tela Principal
 
+![WhatsApp Image 2024-08-06 at 14 01 38](https://github.com/user-attachments/assets/f9e96b95-96bf-4f67-879f-8909bce0fb98) <br >
+
+# Catalago de livros
+
+![WhatsApp Image 2024-08-06 at 15 43 26](https://github.com/user-attachments/assets/ef88adf4-c952-4f99-a6bd-407256e1ebd8) <br > 
 
 Criando o `Banco de Dados` 
 
