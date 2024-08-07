@@ -3,17 +3,18 @@
      Sistema Biblioteca
     <br />
     <br />
-      <img src="![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)heigth="700"  >
+    <a>
+      <img src="![P-Final3_20240802193823](https://github.com/user-attachments/assets/a08e2317-da2f-4149-b6d2-a98daae0217b)">
     </a>
   </h1>
 </div>
 
-# Gerente do projeto <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Lucas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasalmeidar) <br>
+# ⚙️Gerente do projeto <br> 
+[![GitHub](https://img.shields.io/badge/GitHub-Lucas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasalmeidar) <br> <br>
 
 
 # 💭Líder do projeto <br />
-[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br> <br>
 
 # 💡Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
