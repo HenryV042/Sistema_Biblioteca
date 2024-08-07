@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("./img/ondas-governo-rodape.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+    width: 100vw;
+    height: 100vh;
+}
 
 .CadastrarLivro {
     display: flex;
@@ -28,16 +37,10 @@
 }
 
 .Encapsulamento {
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
-
-    background-image: url("./img/ondas-governo-rodape.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
 }
 
 .grayBox {
@@ -51,7 +54,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 2px;
     padding: 10px;
 }
 
@@ -76,7 +79,7 @@ label {
 input[type="text"],
 input[type="number"],
 select {
-    padding: 7px;
+    padding: 3px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
@@ -85,13 +88,37 @@ select {
 
 input[type="file"] {
     display: none;
-    /* Oculta o campo de upload */
+}
+
+.imgContainerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .file-input-container {
-    height: 15rem;
-    background-color: white;
+    min-height: 256px;
+    height: 256px;
+    width: 256px;
+    background-color: rgba(255, 255, 255, 0.404);
     border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px black;
+}
+
+.file-input-container img {
+    object-fit: cover;
+    display: none; /* Oculta a imagem por padrão */
+}
+
+#previewImage {
+    display: none;
+    width: 256px;
+    height: 256px;
+    object-fit: cover; /* Garante que a imagem será cortada para se ajustar ao tamanho */
 }
 
 .file-icon {
@@ -99,9 +126,10 @@ input[type="file"] {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 24px;
+    font-size: 36px;
     color: #888;
     pointer-events: none;
+    z-index: 1;
 }
 
 .button-container {
@@ -109,7 +137,7 @@ input[type="file"] {
     justify-content: flex-start;
 }
 
-button {
+.cadastrarButton {
     margin-top: 1rem;
     padding: 10px 20px;
     border: none;
@@ -124,24 +152,23 @@ button {
     gap: 10px;
 }
 
-button:hover {
+.cadastrarButton:hover {
     background-color: #0056b3;
 }
 
-button:focus {
+.cadastrarButton:focus {
     outline: none;
 }
 
 .form-row {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .form-row .form-group {
     flex: 1;
     min-width: calc(33.33% - 20px);
-    /* Ajusta o tamanho para três colunas com espaço entre elas */
 }
 
 .file-input-container {
@@ -150,8 +177,7 @@ button:focus {
 }
 
 .file-input-container::before {
-    content: "\f03e";
-    /* Código para o ícone de quadro */
+    content: "\f03e"; /* Código para o ícone de quadro */
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 36px;
@@ -163,13 +189,13 @@ button:focus {
 }
 
 @media (max-width: 1000px) {
-    .CadastrarLivro{
+    .CadastrarLivro {
         font-size: 10px;
     }
 }
 
 @media (max-width: 800px) {
-    .CadastrarLivro{
+    .CadastrarLivro {
         font-size: 8px;
     }
 
@@ -178,7 +204,7 @@ button:focus {
         flex-direction: column;
     }
 
-    .grayBox{
+    .grayBox {
         width: 70vw;
     }
 }

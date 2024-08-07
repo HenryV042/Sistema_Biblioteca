@@ -1,18 +1,27 @@
 // script.js
-const imagemInput = document.getElementById('imagem');
-const imagemPreview = document.getElementById('imagem-preview');
+const fileInput = document.getElementById('bookImage');
+const fileInputContainer = document.getElementById('fileInputContainer');
 
-imagemInput.addEventListener('change', () => {
-  const file = imagemInput.files[0];
-  const reader = new FileReader();
+fileInputContainer.addEventListener('click', () => {
+  fileInput.click();
+});
 
-  reader.onload = (e) => {
-    imagemPreview.src = e.target.result;
-  };
+fileInputContainer.addEventListener('dragover', (event) => {
+  event.preventDefault();
+  fileInputContainer.classList.add('dragover');
+});
 
-  if (file) {
-    reader.readAsDataURL(file);
-  } else {
-    imagemPreview.src = "img/imagem-placeholder.png"; // Define o placeholder caso nenhum arquivo seja selecionado
+fileInputContainer.addEventListener('dragleave', () => {
+  fileInputContainer.classList.remove('dragover');
+});
+
+fileInputContainer.addEventListener('drop', (event) => {
+  event.preventDefault();
+  fileInputContainer.classList.remove('dragover');
+  const files = event.dataTransfer.files;
+  if (files.length > 0) {
+    fileInput.files = files;
+    // Optionally, trigger any change events or handle the file
+    console.log('File dropped:', files[0]);
   }
 });
