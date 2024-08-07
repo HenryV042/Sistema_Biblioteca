@@ -22,7 +22,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Maria-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclara76869) <br>
-Este grupo tem como objetivo organizar etapas de produção para o sistema bibliotecario por meio de cronogramas e prazos de entrega. <br>
+Este grupo tem como objetivo organizar as etapas de produção para o sistema da biblioteca. Através de cronogramas e prazos de entrega, visam garantir que todas as fases do projeto sejam concluídas de maneira eficiente e no tempo estipulado, promovendo a organização das etapas e definição de funções para que todos produzam. . <br>
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
@@ -33,6 +33,12 @@ Este grupo tem como objetivo organizar etapas de produção para o sistema bibli
 [![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Regilane-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/regilanenascimento) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Angelica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Angelicaalves) <br>
+O grupo de design é responsável por toda a criação visual e experiência do usuário do sistema da biblioteca. Suas principais atividades incluem:
+
+1. Criação da identidade visual do sistema.
+2. Desenvolvimento de wireframes e protótipos.
+3. Design da interface do usuário (UI) e experiência do usuário (UX).
+4. Colaboração com os desenvolvedores para garantir a implementação adequada dos designs.
 
 # 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheussoares1) <br>
@@ -60,7 +66,7 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 [![GitHub](https://img.shields.io/badge/GitHub-Ciro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CiroNobre3) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Nagila-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NagilaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ykaro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ykaroribeiro) <br>
-
+O grupo de implantação tem como objetivo, implementar dados dos livros, com os materiais recolhidos, todos por meio de testes verificam se o site do sistema está em funcionamento.
 
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
