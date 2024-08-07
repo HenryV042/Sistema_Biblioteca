@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    /* ondas do fim da tela */
     background-image: url("./img/ondas-governo-rodape.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -26,11 +27,6 @@ main{
 }
 /* fim corpo do site */
 
-/* ondas do fim da tela do site */
-.main base{
-    margin-left: 100px;
-}
-/* fim ondas do fim da tela do site */
 
 /* poiligono verde escrito restrito */
 .restrito{
@@ -51,7 +47,8 @@ main{
 
 /* texto dentro do poligono */
 .ClasseTexto{
-    padding: 2px;
+    margin-left:-3vh;
+    padding: 0.3vw;
 }
 /* fim texto dentro do poligono */
 
