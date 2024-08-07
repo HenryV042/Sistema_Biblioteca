@@ -1,14 +1,16 @@
 <div align="center">
   <h1 align="center">
-     Sistema_Biblioteca
+     Sistema Biblioteca
     <br />
     <br />
-      <img src="(https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)" width"700px>
+      <img src="![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)heigth="700"  >
     </a>
   </h1>
 </div>
 
-![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
+# Gerente do projeto <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Lucas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasalmeidar) <br>
+
 
 # 💭Líder do projeto <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
@@ -98,15 +100,15 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
 </div> <br />
 
 
-# Tela de login
+## Tela de login
 
 ![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7) <br >
 
-# Tela Principal
+## Tela Principal
 
 ![WhatsApp Image 2024-08-06 at 14 01 38](https://github.com/user-attachments/assets/f9e96b95-96bf-4f67-879f-8909bce0fb98) <br >
 
-# Catalago de livros
+## Catalogo de livros
 
 ![WhatsApp Image 2024-08-06 at 15 43 26](https://github.com/user-attachments/assets/ef88adf4-c952-4f99-a6bd-407256e1ebd8) <br > 
 
