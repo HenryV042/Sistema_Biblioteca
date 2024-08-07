@@ -1,17 +1,23 @@
 <div align="center">
   <h1 align="center">
-     Sistema_Biblioteca
+     Sistema Biblioteca
     <br />
     <br />
-      <img src="(https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)" width"700px>
+    <a>
+      <img src="https://github.com/user-attachments/assets/714a3116-ff68-42e1-9eae-80114f601d13" width="600px" height="450px"/>
     </a>
   </h1>
 </div>
 
-![P-Final3_20240802193823](https://github.com/user-attachments/assets/7389160b-f082-4a3c-b7ce-be2a743d1bf0)
+
+
+
+# ⚙️Gerente do projeto <br> 
+[![GitHub](https://img.shields.io/badge/GitHub-Lucas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasalmeidar) <br> <br>
+
 
 # 💭Líder do projeto <br />
-[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Henry-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HenryV042) <br> <br>
 
 # 💡Projeto de software <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Luiza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nalu2) <br>
@@ -22,16 +28,23 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Maria-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclara76869) <br>
+Este grupo tem como objetivo organizar as etapas de produção para o sistema da biblioteca. Através de cronogramas e prazos de entrega, visam garantir que todas as fases do projeto sejam concluídas de maneira eficiente e no tempo estipulado, promovendo a organização das etapas e definição de funções para que todos produzam. . <br>
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Karol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karol) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Karol-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/k4aro0lineFranca) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Paulo_Iago-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iaguitotuiuiu) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kelly-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KellyRomualdo) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ruan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/28082006ruan123) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Regilane-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/regilanenascimento) <br>
-Angélica <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Angelica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Angelicaalves) <br>
+O grupo de design é responsável por toda a criação visual e experiência do usuário do sistema da biblioteca. Suas principais atividades incluem:
+
+1. Criação da identidade visual do sistema.
+2. Desenvolvimento de wireframes e protótipos.
+3. Design da interface do usuário (UI) e experiência do usuário (UX).
+4. Colaboração com os desenvolvedores para garantir a implementação adequada dos designs.
 
 # 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheussoares1) <br>
@@ -47,6 +60,8 @@ Angélica <br />
 
 <br />
 
+O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do sistema para facilitar o acesso aos funcionários , este grupo tem como setor fazer toda a parte de funcionamento do sistema, alunos envolvidos a esse processo procuram agilizar e fluir de maneira mas rápida para que o processo de desenvolvimento ocorra de modo mais veloz e o site seja feito para acesso a todos. <br>
+
 
 # 📝Colaboradores de implementação
 [![GitHub](https://img.shields.io/badge/GitHub-Breno-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bren0sx) <br>
@@ -57,26 +72,49 @@ Angélica <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Ciro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CiroNobre3) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Nagila-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NagilaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ykaro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ykaroribeiro) <br>
-
+O grupo de implementação tem como objetivo, implementar dados dos livros, com os materiais recolhidos, todos por meio de testes verificam se o site do sistema está em funcionamento.
 
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Gabriel_Lima-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gzinl) <br>
-[![GitHub](https://img.shields.io/badge/GitHub-Pedro_Iuri-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pedro_Iuri) <br>
-Mylena <br />
+[![GitHub](https://img.shields.io/badge/GitHub-Pedro_Iuri-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pedroiure) <br>
+[![GitHub](https://img.shields.io/badge/GitHub-Mylena-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mylenacm) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ytalo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ytaloliver) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Arthur_Oliveira-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ArthurOliveeira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ygor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YgorBao) <br>
 
-
-# Descrição <br />
-Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão.
+Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão. <br>
 
 #
 
+<h3 align="left">🛠️ Linguagens e ferramentas utilizadas </h3>
+
+<div align="left">
+  <img src= "https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" />
+  <img width="12" />
+  <img src= "https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
+  <img width="12" />
+  <img src= "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img width="12" />
+  <img src= "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img width="12" />
+  <img src= "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img width="12" />
+</div> <br />
 
 
+## Tela de login
+
+![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7) <br >
+
+## Tela Principal
+
+![WhatsApp Image 2024-08-06 at 14 01 38](https://github.com/user-attachments/assets/f9e96b95-96bf-4f67-879f-8909bce0fb98) <br >
+
+## Catalogo de livros
+
+![WhatsApp Image 2024-08-06 at 15 43 26](https://github.com/user-attachments/assets/ef88adf4-c952-4f99-a6bd-407256e1ebd8) <br > 
 
 Criando o `Banco de Dados` 
 
