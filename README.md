@@ -4,10 +4,12 @@
     <br />
     <br />
     <a>
-      <img src="![P-Final3_20240802193823](https://github.com/user-attachments/assets/a08e2317-da2f-4149-b6d2-a98daae0217b)">
+      <img src="https://github.com/user-attachments/assets/f7ca4147-fdcb-4ba6-94fc-630c2fdef613" width="600px" height="450px"/>
     </a>
   </h1>
 </div>
+
+
 
 # ⚙️Gerente do projeto <br> 
 [![GitHub](https://img.shields.io/badge/GitHub-Lucas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasalmeidar) <br> <br>
@@ -69,7 +71,7 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 [![GitHub](https://img.shields.io/badge/GitHub-Ciro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CiroNobre3) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Nagila-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NagilaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ykaro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ykaroribeiro) <br>
-O grupo de implantação tem como objetivo, implementar dados dos livros, com os materiais recolhidos, todos por meio de testes verificam se o site do sistema está em funcionamento.
+O grupo de implementação tem como objetivo, implementar dados dos livros, com os materiais recolhidos, todos por meio de testes verificam se o site do sistema está em funcionamento.
 
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
