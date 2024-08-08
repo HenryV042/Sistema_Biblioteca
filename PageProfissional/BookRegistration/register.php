@@ -37,34 +37,39 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $image = file_get_contents($_FILES['bookImage']['tmp_name']);
     }
 
-    function checkRegistrationNumber($conn, $registrationNumber) {
-        $sql = 'SELECT COUNT(*) FROM items WHERE registrationNumber = :registrationNumber';
+    function checkRegistrationNumber($conn, $registrationNumber)
+    {
+        $sql = 'SELECT COUNT(*) FROM livros WHERE numero_registro = :registrationNumber';
         $stmt = $conn->prepare($sql);
         $stmt->bindParam(':registrationNumber', $registrationNumber);
         $stmt->execute();
         $count = $stmt->fetchColumn();
-    
+
         return $count > 0;
     }
-    
-    // Example usage
 
     try {
-        $stmt = $conn->prepare($sql);
-        $stmt->bindParam(':bookName', $bookName);
-        $stmt->bindParam(':author', $author);
-        $stmt->bindParam(':publisher', $publisher);
-        $stmt->bindParam(':acquisitionYear', $acquisitionYear);
-        $stmt->bindParam(':origin', $origin);
-        $stmt->bindParam(':location', $location);
-        $stmt->bindParam(':genre', $genre);
-        $stmt->bindParam(':cdd', $cdd);
-        $stmt->bindParam(':cdu', $cdu);
-        $stmt->bindParam(':registrationNumber', $registrationNumber);
-        $stmt->bindParam(':image', $image, PDO::PARAM_LOB);
-        $stmt->execute();
+        if (checkRegistrationNumber($conn, $registrationNumber)) {
+            echo json_encode(['status' => 'error', 'message' => 'Erro: Livro com este número de registro já existe.']);
+        } else {
+            // Prepare and execute the insert statement
+            $sql = 'INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, imagem) VALUES (:bookName, :author, :publisher, :acquisitionYear, :origin, :location, :genre, :cdd, :cdu, :registrationNumber, :image)';
+            $stmt = $conn->prepare($sql);
+            $stmt->bindParam(':bookName', $bookName);
+            $stmt->bindParam(':author', $author);
+            $stmt->bindParam(':publisher', $publisher);
+            $stmt->bindParam(':acquisitionYear', $acquisitionYear);
+            $stmt->bindParam(':origin', $origin);
+            $stmt->bindParam(':location', $location);
+            $stmt->bindParam(':genre', $genre);
+            $stmt->bindParam(':cdd', $cdd);
+            $stmt->bindParam(':cdu', $cdu);
+            $stmt->bindParam(':registrationNumber', $registrationNumber);
+            $stmt->bindParam(':image', $image, PDO::PARAM_LOB);
+            $stmt->execute();
 
-        echo json_encode(['status' => 'success', 'message' => 'Livro cadastrado com sucesso!']);
+            echo json_encode(['status' => 'success', 'message' => 'Livro cadastrado com sucesso!']);
+        }
     } catch (PDOException $e) {
         echo json_encode(['status' => 'error', 'message' => "Erro ao cadastrar livro: " . $e->getMessage()]);
     }
