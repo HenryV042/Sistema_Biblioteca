@@ -107,9 +107,9 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
   <img width="12" />
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
   <img width="12" />
-  <img src="https://img.shields.io/badge/googleapis-FF0000?style=for-the-badge&logo=googleinc&logoColor=white"/>
+  <img src="https://img.shields.io/badge/googleapis-FF0000?style=for-the-badge&logo=npm&logoColor=white"/>
   <img width="12" />
-  <img src="https://img.shields.io/badge/googleapis-FF0000?style=for-the-badge&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/openlibrary-0000FF?style=for-the-badge&logo=&logoColor=white"/>
 
 </div> <br />
 

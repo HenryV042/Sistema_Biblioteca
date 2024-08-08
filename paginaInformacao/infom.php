@@ -36,7 +36,7 @@
             
     </aside>
     <section id="principal">
-        <span style="font-size:43px;cursor:pointer"onclick="abrirMenu()">&#9776;</span>
+        <span style="font-size:30px;cursor:pointer"onclick="abrirMenu()">&#9776;</span>
         <div class="nav-logo">
             <img  src="img/logoEEEP.png" alt="logo" class="logo_eeep"/>
             <div class="ret"></div>
