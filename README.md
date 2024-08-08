@@ -105,28 +105,45 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
   <img width="12" />
   <img src= "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
   <img width="12" />
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <img width="12" />
+  <img src="https://img.shields.io/badge/googleapis-FF0000?style=for-the-badge&logo=googleinc&logoColor=white"/>
+  <img width="12" />
+  <img src="https://img.shields.io/badge/googleapis-FF0000?style=for-the-badge&logo=google&logoColor=white"/>
+
 </div> <br />
 
 # Visão do aluno <br>
-## Tela de login
+# Tela de login
 
-![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7) <br >
+![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7)  <br >
 
-## Catalogo de livros
+# Catalogo de livros
 
 ![WhatsApp Image 2024-08-06 at 15 43 26](https://github.com/user-attachments/assets/ef88adf4-c952-4f99-a6bd-407256e1ebd8) <br > 
 
-## Mais Informações dos livros
+# Pedidos
 
-![Captura de tela 2024-08-08 133304](https://github.com/user-attachments/assets/b5ffb7a7-86b6-4ad7-a89f-84171b775bfc)
-
+![Captura de tela 2024-08-08 133450](https://github.com/user-attachments/assets/5d80c903-00ec-427e-bfff-8d8558b64312)
 
 # Visão Administrador
 
 
-## Tela Principal
+# Tela Principal
 
 ![WhatsApp Image 2024-08-06 at 14 01 38](https://github.com/user-attachments/assets/f9e96b95-96bf-4f67-879f-8909bce0fb98) <br >
+
+# Mais Informações dos livros
+
+![Captura de tela 2024-08-08 133304](https://github.com/user-attachments/assets/b5ffb7a7-86b6-4ad7-a89f-84171b775bfc) <br>
+
+# Adicionar turmas
+
+![Captura de tela 2024-08-08 134317](https://github.com/user-attachments/assets/e6b02358-2d67-40db-8005-a3c8cc5b9f39)
+
+# Empréstimos
+
+![Captura de tela 2024-08-08 134532](https://github.com/user-attachments/assets/11a5dfa6-6ee3-4beb-98a5-fbb5b6ce193e)
 
 Criando o `Banco de Dados` 
 
