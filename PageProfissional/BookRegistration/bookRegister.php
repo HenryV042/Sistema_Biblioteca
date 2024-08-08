@@ -20,7 +20,7 @@
             <form action="register.php" method="post" enctype="multipart/form-data">
                 <div class="form-group full-width imgContainerImg">
                     <div class="file-input-container" id="fileInputContainer">
-                        <input type="file" id="bookImage" name="bookImage" accept="image/*" required>
+                        <input type="file" id="bookImage" name="bookImage" accept="image/*">
                         <img id="previewImage" src="" alt="Pré-visualização da imagem"
                             style="display: none; max-height: auto;">
                     </div>
