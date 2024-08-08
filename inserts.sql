@@ -1,3 +1,4 @@
+
 INSERT INTO turma (nome_identificacao, curso, ano_inicio, ano_conclusao, serie)
 VALUES
   ('1º A - Enfermagem', 'Enfermagem', 2024, 2026, 1),
@@ -12,8 +13,8 @@ VALUES
   ('3º B - Informática', 'Informática', 2022, 2024, 1),
   ('3º C - Comércio', 'Comércio', 2022, 2024, 1),
   ('3º D - Administração', 'Administração', 2022, 2024, 1);
-
---- 1A 
+-- -------------------------------------------------------------------------------------------------------------------
+-- 1A 
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 3528107, '120.459.613-11', 'Alana Kelly Ferreira de Araújo', '1º A - Enfermagem', 'Enfermagem', '1'),
@@ -61,9 +62,8 @@ VALUES
   (43, 1582516, '112.805.003-01', 'Tiago dos Santos Silva', '1º A - Enfermagem', 'Enfermagem', '1'),
   (44, 2974839, '621.742.433-93', 'Victória Manuella Alves Sales', '1º A - Enfermagem', 'Enfermagem', '1'),
   (45, 2349965, '092.751.803-18', 'Welinton Chagas Evangelista Júnior', '1º A - Enfermagem', 'Enfermagem', '1');
-
------------------------------------------------------------------------------------------------------------------------------------------
---1B
+-- --------------------------------------------------------------------------------------------------------------------
+-- 1B
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 2821913, '086.404.843-25', 'Adrielson Ferreira Castro', '1º B - Informática', 'Informática', '1'),
@@ -111,10 +111,8 @@ VALUES
   (43, 5258015, '080.531.683-37', 'Thais Marinho Gomes', '1º B - Informática', 'Informática', '1'),
   (44, 2908467, '109.894.443-76', 'Ticiane Gomes Lima', '1º B - Informática', 'Informática', '1'),
   (45, 5242170, '603.633.373-00', 'Victor Emanuel Soares Cavalcante Lima', '1º B - Informática', 'Informática', '1');
-
----------------------------------------------------------------------------------------------------------------------------
----1C
-
+-- --------------------------------------------------------------------------------------------------------------------
+-- 1C
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 2972593, '086.305.673-33', 'Alana Alves Soares', '1º C - Comércio', 'Comércio', '1'),
@@ -162,11 +160,8 @@ VALUES
   (43, 2853800, '076.445.963-56', 'Vitor Dias Pereira', '1º C - Comércio', 'Comércio', '1'),
   (44, 2712548, '061.198.903-43', 'Vitória Régia Meneses Silva', '1º C - Comércio', 'Comércio', '1'),
   (45, 4359467, '055.198.903-43', 'Wesley Rodrigues da Silva', '1º C - Comércio', 'Comércio', '1');
-
-
---------------------------------------------------------------------------------------------------------
----1D
-
+-- --------------------------------------------------------------------------------------------------------------------
+-- 1D
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 2848877, '088.410.613-67', 'Ana Cristina Carneiro Machado', '1º D - Administração', 'Administração', '1'),
@@ -214,10 +209,8 @@ VALUES
   (43, 2918497, '085.917.513-88', 'Wendilla Elisama Ribeiro Vieira', '1º D - Administração', 'Administração', '1'),
   (44, 5256320, '060.648.123-03', 'Yago Honorato Cavalvante Vieira', '1º D - Administração', 'Administração', '1'),
   (45, 4691130, '084.268.183-31', 'Pedro Henrique Soares Coutinho', '1º D - Administração', 'Administração', '1');
-
-
----------------------------------------------------------------------------------------------------------
----2A
+-- --------------------------------------------------------------------------------------------------------------------
+-- 2A
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 2265307, '071.460.203-55', 'Aline Kelly Rosa de lima', '2º A - Enfermagem', 'Enfermagem', '2'),
@@ -262,11 +255,8 @@ VALUES
   (40, 3190316, '091.119.333-21', 'Stefanny Rafhaely da Silva Gomes', '2º A - Enfermagem', 'Enfermagem', '2'),
   (41, 3420334, '073.844.383-22', 'Thatyla Rhafaela Paulino Bulhoes Lima', '2º A - Enfermagem', 'Enfermagem', '2'),
   (42, 2430039, '097.827.913-18', 'Thays Azevedo Beserra', '2º A - Enfermagem', 'Enfermagem', '2');
-
-
----------------------------------------------------------------------------------------------------------------------------
----2B
-
+-- --------------------------------------------------------------------------------------------------------------------
+-- 2B
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 3576500, '091.239.793-48', 'Antonio Andryellysson Loṕes de Souza', '2º B - Informática', 'Informática', '2'),
@@ -313,10 +303,8 @@ VALUES
   (42, 4676761, '069.128.133-56', 'Sophia Sousa Campelo', '2º B - Informática', 'Informática', '2'),
   (43, 3172067, '087.937.653-80', 'Thauana Beatriz Soares Barbosa', '2º B - Informática', 'Informática', '2'),
   (44, 2880623, '621.910.433-13', 'Yasmim Pedroza Bonfim', '2º B - Informática', 'Informática', '2');
-
-
---------------------------------------------------------------------------------------------------------------------
----2C
+-- --------------------------------------------------------------------------------------------------------------------
+-- 2C
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie) VALUES
   (1, 2215365, '091.066.643-18', 'Ana Carolina Lima de Sousa', '2º C - Comércio', 'Comércio', '2'),
   (2, 2352548, '089.141.883-02', 'Ana Livia Claudino Sousa', '2º C - Comércio', 'Comércio', '2'),
@@ -360,12 +348,8 @@ INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, cu
   (40, 2863944, '082.541.493-80', 'Salatiel Lima dos Santos', '2º C - Comércio', 'Comércio', '2'),
   (41, 2345634, '087.817.113-44', 'Tania Mara Alves da Silva', '2º C - Comércio', 'Comércio', '2'),
   (42, 3836449, '097.497.473-05', 'Yasmin Rodrigues Barbosa', '2º C - Comércio', 'Comércio', '2');
-
-
-
---------------------------------------------------------------------------------------------------------------------
-
----2D
+-- --------------------------------------------------------------------------------------------------------------------
+-- 2D
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie) VALUES
   (1, 2586220, '088.144.713-71', 'Ana Cecilia Pereira Madureira', '2º D - Administração', 'Administração', '2'),
   (2, 1809062, '107.315.503-07', 'Ana Clara Gomes Pereira', '2º D - Administração', 'Administração', '2'),
@@ -413,10 +397,8 @@ INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, cu
   (44, 2314280, '081.177.473-24', 'Pedro Henrique de Sousa Ferreira', '2º D - Administração', 'Administração', '2'),
   (45, 2596167, '090.877.033-25', 'Raila da Silva Mota', '2º D - Administração', 'Administração', '2'),
   (46, 2459524, '086.416.943-40', 'Samuel Lopes Sales', '2º D - Administração', 'Administração', '2');
-
---------------------------------------------------------------------------------------------------------------------
----3A
-
+-- --------------------------------------------------------------------------------------------------------------------
+-- 3A
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie) VALUES
   (1, 4892886, '047.727.993-70', 'Ana Batriz Ribeiro Lima', '3º A - Enfermagem', 'Enfermagem', '3'),
   (2, 1808414, '088.888.653-57', 'Ana Clara Meneses Maia', '3º A - Enfermagem', 'Enfermagem', '3'),
@@ -464,8 +446,8 @@ INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, cu
   (44, 1643183, '089.382.673-18', 'Victoria Emyle Rodrigues de Sousa', '3º A - Enfermagem', 'Enfermagem', '3'),
   (45, 4893330, '043.386.873-20', 'Vinicius Carvalho Duarte Mourão', '3º A - Enfermagem', 'Enfermagem', '3'),
   (46, 3200604, '088.109.523-08', 'Yasmim Soares Lopes', '3º A - Enfermagem', 'Enfermagem', '3');
---------------------------------------------------------------------------------------------------------------------
----3B
+-- --------------------------------------------------------------------------------------------------------------------
+-- 3B
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie) VALUES
   (1, 3252293, '090.480.533-66', 'Alanna Vilky Lopes Rodrigues', '3º B - Informática', 'Informática', '3'),
   (2, 2877480, '090.390.883-22', 'Ana Karoline França do Vale', '3º B - Informática', 'Informática', '3'),
@@ -510,8 +492,8 @@ INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, cu
   (41, 3254819, '082.478.373-58', 'Samuel Araujo Portela', '3º B - Informática', 'Informática', '3'),
   (42, 3256394, '085.207.933-80', 'Ygor José de Souza Rodrigues', '3º B - Informática', 'Informática', '3'),
   (43, 2349748, '082.823.833-25', 'Ykaro Ribeiro Rosa', '3º B - Informática', 'Informática', '3');
----------------------------------------------------------------------------------------------------------------------
----3C
+-- --------------------------------------------------------------------------------------------------------------------
+-- 3C
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie) VALUES
   (1, 2928837, '622.005.443-16', 'Ana Carolina Vieira da Silva', '3º C - Comércio', 'Comércio', '3'),
   (2, 3594871, '090.773.553-32', 'Anna Vitoria Rodrigies Batista', '3º C - Comércio', 'Comércio', '3'),
@@ -551,9 +533,8 @@ INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, cu
   (36, 2329430, '093.343.033-79', 'Thalles Gabriel de Sousa Cavalcante', '3º C - Comércio', 'Comércio', '3'),
   (37, 4895525, '064.244.963-51', 'Victoria Servolo de Araujo', '3º C - Comércio', 'Comércio', '3'),
   (38, 2712929, '086.838.873-40', 'Yasmin Sabóia Rodrigues', '3º C - Comércio', 'Comércio', '3');
-
--------------------------------------------------------------------------------------------------------
----3D
+-- --------------------------------------------------------------------------------------------------------------------
+-- 3D
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
 VALUES
   (1, 3250339, '098.030.953-07', 'Adryan Luan Farias Brandão', '3º D - Administração', 'Administração', '3'),
@@ -614,9 +595,7 @@ VALUES
   ((SELECT id FROM aluno WHERE matricula = '345678'), '345678', 'Livro de Engenharia', '345678', 'Engenharia', '3', '2023-05-01 10:00:00', '2023-05-15 10:00:00', 'Bibliotecário 3', 'Emprestado');
 
 
-
-
----------------------------------------------------------------------------------------------------------------------------------------------------------
+-- -------------------------------------------------------------------------------------------------------------------
 
 INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, imagem) VALUES
   ('O Alquimista', 'Paulo Coelho', 'HarperCollins', 2021, 'Compra', 'São Paulo', 'Ficção', '891', '864', '0001', NULL),
@@ -639,4 +618,3 @@ INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, 
   ('Sapiens: Uma Breve História da Humanidade', 'Yuval Noah Harari', 'Lemos', 2021, 'Compra', 'Porto Alegre', 'História', '909', '910', '0018', NULL),
   ('O Poder do Hábito', 'Charles Duhigg', 'Objetiva', 2020, 'Compra', 'Belo Horizonte', 'Autoajuda', '158', '150', '0019', NULL),
   ('Quem Mexeu no Meu Queijo?', 'Spencer Johnson', 'Editora Record', 2019, 'Doação', 'Rio de Janeiro', 'Autoajuda', '158', '150', '0020', NULL);
-
