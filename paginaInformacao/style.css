@@ -99,7 +99,7 @@ header {
 
 #principal{
    display: flex;
-   padding: 16px;
+   padding: 10px;
    transition: margin-left 0.5s;
 }
 
@@ -115,22 +115,21 @@ header {
 
 .logo_eeep{
    margin: 1px 30px 1px 27px;
-   width: 8vw;   
-   max-width: 100%;
-   height: auto; 
+   width: 6.6vw;
+   height: 6vh;    
 }
 
 .ret{
    border-radius: 100px;
    width: 0.3vw;
-   height: 9vh;
+   height: 5.5vh;
    background: #ffffff;
    margin-right: 12px;
 }
 .nav-logo .library{
-   width: 15vw;
-   height: 9vh;
-   margin: 1px 0px 1px 30px;
+   width: 13vw;
+   height: 5.8vh;
+   margin: 0px 0px 0px 40px;
 }
 
 /* corpo do site */
