@@ -37,11 +37,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $image = file_get_contents($_FILES['bookImage']['tmp_name']);
     }
 
-    // Prepare SQL statement
-    $sql = "INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, imagem)
-            VALUES (:bookName, :author, :publisher, :acquisitionYear, :origin, :location, :genre, :cdd, :cdu, :registrationNumber, :image)";
+    function checkRegistrationNumber($conn, $registrationNumber) {
+        $sql = 'SELECT COUNT(*) FROM items WHERE registrationNumber = :registrationNumber';
+        $stmt = $conn->prepare($sql);
+        $stmt->bindParam(':registrationNumber', $registrationNumber);
+        $stmt->execute();
+        $count = $stmt->fetchColumn();
+    
+        return $count > 0;
+    }
+    
+    // Example usage
 
-    // Prepare and execute the statement
     try {
         $stmt = $conn->prepare($sql);
         $stmt->bindParam(':bookName', $bookName);
