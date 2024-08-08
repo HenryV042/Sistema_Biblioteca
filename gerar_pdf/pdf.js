@@ -17,10 +17,14 @@ btnGenerate.addEventListener("click", () => {
       let content = document.querySelector("#content");
       content.innerHTML = '';
       let html = '';
+      html += `<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+                <h1 style="font-family: 'Poppins', sans-serif; text-align: center; font-size: 24px;">Relatório de Empréstimos ${new Date().getFullYear()}</h1>
+              </div>`;
+      html += `<div style="width: 100%; height: 4px; background: linear-gradient(to right, #FFA07A, #F7DC6F); margin-bottom: 20px;"></div>`; // Adicionado linha de gradiente
       for (let chave in grupos) {
         let serie = chave.split(' - ')[0];
         let curso = chave.split(' - ')[1];
-        html += `<h1>Turma ${serie} - ${curso}</h1>`;
+        html += `<h1 style="font-family: 'Poppins', sans-serif; text-align: center;">Turma ${serie} - ${curso}</h1>`;
         let meses = {};
         for (let emprestimo of grupos[chave]) {
           let mes = new Date(emprestimo.data_emprestimo).toLocaleString('pt-BR', { month: 'long' });
@@ -30,21 +34,21 @@ btnGenerate.addEventListener("click", () => {
           meses[mes].push(emprestimo);
         }
         for (let mes in meses) {
-          html += `<h2>${mes}</h2>`;
+          html += `<h2 style="font-size: 24px; font-family: 'Poppins', sans-serif; text-align: center; background-color: #f7f7f7; padding: 10px;">${mes}</h2>` ;
           html += `
-            <table>
+            <table style="width: 90%; margin: 0 auto; border-collapse: collapse;">
               <tr>
-                <th>Nome</th>
-                <th>Livro</th>
-                <th>Série</th>
+                <th style="text-align: center; background-color: #f0f0f0; border: 1px solid #ddd; padding: 8px; font-weight: bold; font-family: 'Poppins', sans-serif;">Nome</th>
+                <th style="text-align: center; background-color: #f0f0f0; border: 1px solid #ddd; padding: 8px; font-weight: bold; font-family: 'Poppins', sans-serif;">Livro</th>
+                <th style="text-align: center; background-color: #f0f0f0; border: 1px solid #ddd; padding: 8px; font-weight: bold; font-family: 'Poppins', sans-serif;">Série</th>
               </tr>
           `;
           for (let emprestimo of meses[mes]) {
             html += `
               <tr>
-                <td>${emprestimo.nome_aluno}</td>
-                <td>${emprestimo.titulo_livro}</td>
-                <td>${emprestimo.serie}</td>
+                <td style="text-align: center; border: 1px solid #ddd; padding: 8px; font-family: 'Poppins', sans-serif;">${emprestimo.nome_aluno}</td>
+                <td style="text-align: center; border: 1px solid #ddd; padding: 8px; font-family: 'Poppins', sans-serif;">${emprestimo.titulo_livro}</td>
+                <td style="text-align: center; border: 1px solid #ddd; padding: 8px; font-family: 'Poppins', sans-serif;">${emprestimo.serie}</td>
               </tr>
             `;
           }
