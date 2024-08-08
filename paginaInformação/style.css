@@ -134,8 +134,7 @@ header {
 
 /* corpo do site */
 main{
-
-    height: 90vh;
+   margin-top: 2vh;
 }
 .voltar{
    font-size: 200%;
