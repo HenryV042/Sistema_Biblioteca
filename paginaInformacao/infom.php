@@ -84,6 +84,12 @@
                 
             </div>
             
+            <form action="mostrar_aluno.php" method="get">
+        <label for="id">ID do Aluno:</label>
+        <input type="number" id="id" name="id" required>
+        <button type="submit">Buscar</button>
+    </form>
+
         </div>
       </main>
       <!-- fim do corpo do site -->
