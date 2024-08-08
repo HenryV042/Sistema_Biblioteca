@@ -9,7 +9,11 @@
   </h1>
 </div>
 
+# 📌Descrição
 
+A presente introdução tem como objetivo oferecer uma visão geral sobre a criação e execução do projeto social por parte da turma do 3º ano do curso técnico em informática na escola de ensino profissionalizante Manoel Mano. O projeto consiste no desenvolvimento de um sistema destinado às necessidades da biblioteca da mesma instituição, aglutinando funcionalidades comuns do dia a dia nesta área escolar, como a organização de seções de livros e empréstimo dos mesmos. 
+Nesse contexto, a turma foi dividida em grupos com seus respectivos líderes e responsabilidades específicas, baseadas na experiência e especialidades de cada aluno, visando otimizar o tempo de realização do projeto. Este relatório detalha o objetivo, as fases de criação e as contribuições de cada grupo envolvido em suas respectivas áreas. Além disso, serão apresentados os resultados desta aplicação ao ser executada.
+Ao logo da apresentação do projeto, estará uma síntese dos principais pontos discutidos ao longo do relatório, reiterando a relevância da iniciativa e dos objetivos alcançados, além das considerações finais sobre a experiência adquirida.
 
 
 # ⚙️Gerente do projeto <br> 
@@ -108,13 +112,21 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
 
 ![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7) <br >
 
-## Tela Principal
-
-![WhatsApp Image 2024-08-06 at 14 01 38](https://github.com/user-attachments/assets/f9e96b95-96bf-4f67-879f-8909bce0fb98) <br >
-
 ## Catalogo de livros
 
 ![WhatsApp Image 2024-08-06 at 15 43 26](https://github.com/user-attachments/assets/ef88adf4-c952-4f99-a6bd-407256e1ebd8) <br > 
+
+## Mais Informações dos livros
+
+![Captura de tela 2024-08-08 133304](https://github.com/user-attachments/assets/b5ffb7a7-86b6-4ad7-a89f-84171b775bfc)
+
+
+# Visão Administrador
+
+
+## Tela Principal
+
+![WhatsApp Image 2024-08-06 at 14 01 38](https://github.com/user-attachments/assets/f9e96b95-96bf-4f67-879f-8909bce0fb98) <br >
 
 Criando o `Banco de Dados` 
 
