@@ -34,7 +34,7 @@
                 </div>
             </aside>
             <section id="principal">
-                <span style="font-size:43px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
+                <span style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
                 <div class="nav-logo">
                     <img src="/sistema_biblioteca/Component/Menu_Nav/img/logoEEEP.png" alt="Logo EEEP" class="logo_eeep">
                     <!-- Verifique o caminho da imagem -->
