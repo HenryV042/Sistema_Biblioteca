@@ -109,7 +109,7 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
   <img width="12" />
   <img src="https://img.shields.io/badge/googleapis-FF0000?style=for-the-badge&logo=npm&logoColor=white"/>
   <img width="12" />
-  <img src="https://img.shields.io/badge/openlibrary-0000FF?style=for-the-badge&logo=open&logoColor=white"/>
+  <img src="https://img.shields.io/badge/openlibrary-0000FF?style=for-the-badge&logo=&logoColor=white"/>
 
 </div> <br />
 
