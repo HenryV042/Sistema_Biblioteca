@@ -57,6 +57,7 @@
         </a>
     
         <div class="conteiner">
+        <form action="" method="get">
             <div class="informacao-aluno">
                 <h1 class="titulo">INFORMAÇÃO DO ALUNO</h1>
                 <div class="linha"></div>
@@ -83,12 +84,18 @@
                 </div>
                 
             </div>
+            </form>
+
+
+            <!-- area de teste  -->
             
             <form action="mostrar_aluno.php" method="get">
         <label for="id">ID do Aluno:</label>
         <input type="number" id="id" name="id" required>
         <button type="submit">Buscar</button>
     </form>
+
+    <!-- fim da area de teste  -->
 
         </div>
       </main>
