@@ -52,6 +52,10 @@
 
     <!-- corpo do site -->
     <main>
+        <a class="voltar" href="">
+        <i class="fa-solid fa-circle-arrow-left" style="color: #26a737;"></i>
+        </a>
+    
         <div class="conteiner">
             <div class="informacao-aluno">
                 <h1 class="titulo">INFORMAÇÃO DO ALUNO</h1>
@@ -60,6 +64,7 @@
                 <h3 class="">Nome:<span></span></h3>
                 <h3 class="">matricula:<span></span></h3>
                 <h3 class="">turma:<span></span></h3>
+            
                 </div>
                 
                 

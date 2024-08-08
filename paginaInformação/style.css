@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
 
 * {
+   overflow: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -114,7 +115,9 @@ header {
 
 .logo_eeep{
    margin: 1px 30px 1px 27px;
-   width: 8vw;    
+   width: 8vw;   
+   max-width: 100%;
+   height: auto; 
 }
 
 .ret{
@@ -130,22 +133,26 @@ header {
    margin: 1px 0px 1px 30px;
 }
 
-
 /* corpo do site */
 main{
-
-    height: 65vh;
+   margin-top: 2vh;
 }
+.voltar{
+   font-size: 200%;
+}
+
 /* fim corpo do site */
 .titulo{
     padding: 0.3vw;
     color: #44B172;
-    font-size: 30px;
+    font-size: 3.5vh;
+    margin-left:7vh;
 }
 
 .rot{
+   font-size: 2%;
     margin-left:7vh;
-    color: #656866;
+    color: #7d807e;
 }
 
 .linha{
@@ -157,5 +164,5 @@ background:#e7750b;
 
 
 /* media screen para dispositivos */
-
+@media(max-width ){}
 /* fim midia screen */
