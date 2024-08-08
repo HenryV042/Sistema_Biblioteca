@@ -39,8 +39,8 @@ Este grupo tem como objetivo organizar as etapas de produção para o sistema da
 [![GitHub](https://img.shields.io/badge/GitHub-Samuel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Samuelzr) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Regilane-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/regilanenascimento) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Angelica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Angelicaalves) <br>
-O grupo de design é responsável por toda a criação visual e experiência do usuário do sistema da biblioteca. Suas principais atividades incluem:
-
+O grupo de design é responsável por toda a criação visual e experiência do usuário do sistema da biblioteca. <br>
+Suas principais atividades incluem:
 1. Criação da identidade visual do sistema.
 2. Desenvolvimento de wireframes e protótipos.
 3. Design da interface do usuário (UI) e experiência do usuário (UX).
@@ -72,7 +72,7 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 [![GitHub](https://img.shields.io/badge/GitHub-Ciro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CiroNobre3) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Nagila-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NagilaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ykaro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ykaroribeiro) <br>
-O grupo de implementação tem como objetivo, implementar dados dos livros, com os materiais recolhidos, todos por meio de testes verificam se o site do sistema está em funcionamento.
+A divisão responsável pela implantação e testes do sistema da biblioteca visa assegurar uma integração eficiente do novo sistema ao acervo e operações da biblioteca. Seu objetivo inclui a catalogação detalhada dos livros disponíveis, configurando o sistema para refletir as necessidades da biblioteca, e realizar testes para garantir que todas as funcionalidades operem conforme o esperado. Além disso, a divisão identifica e reporta os problemas encontrados durante os testes, fornece treinamento aos funcionários e oferece suporte contínuo durante a fase inicial de operação para garantir uma transição suave e sem interrupções.
 
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
@@ -103,7 +103,7 @@ Esta equipe é responsável por registrar não somente a apresentação geral do
   <img width="12" />
 </div> <br />
 
-
+# Visão do aluno <br>
 ## Tela de login
 
 ![WhatsApp Image 2024-08-06 at 14 21 27](https://github.com/user-attachments/assets/d54e2a0e-b83a-4f65-87c8-ab0d423f0ea7) <br >
