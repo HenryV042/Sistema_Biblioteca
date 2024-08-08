@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS `eeepma26_biblioteca`;
-USE `eeepma26_biblioteca`
+USE `eeepma26_biblioteca`;
 
 -- Criar a tabela bibliotecario
 CREATE TABLE IF NOT EXISTS bibliotecario(
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS aluno(
   id INT AUTO_INCREMENT,
   numero INT(2),
   matricula INT(10),
-  cpf INT(11),
+  cpf VARCHAR(14),
   nome_completo VARCHAR(55),
   sala_identificacao VARCHAR(55),
   curso VARCHAR(15),
