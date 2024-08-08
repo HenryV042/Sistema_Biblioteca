@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS `eeepma26_biblioteca`;
-USE `eeepma26_biblioteca`
+USE `eeepma26_biblioteca`;
 
 -- Criar a tabela bibliotecario
 CREATE TABLE IF NOT EXISTS bibliotecario(
