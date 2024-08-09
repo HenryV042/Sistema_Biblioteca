@@ -17,24 +17,36 @@ try {
 }
 
 // Check if the form is submitted
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Retrieve form data
-    $bookName = $_POST['bookName'];
-    $author = $_POST['author'];
-    $cdu = $_POST['cdu'];
-    $cdd = $_POST['cdd'];
-    $origin = $_POST['origin'];
-    $publisher = $_POST['publisher'];
-    $location = $_POST['location'];
-    $genre = $_POST['genre'];
-    $seal = $_POST['seal'];
-    $acquisitionYear = $_POST['acquisitionYear'];
-    $registrationNumber = $_POST['registrationNumber'];
+    $bookName = $_POST['bookName'] ?? '';
+    $author = $_POST['author'] ?? '';
+    $cdu = $_POST['cdu'] ?? '';
+    $cdd = $_POST['cdd'] ?? '';
+    $origin = $_POST['origin'] ?? '';
+    $publisher = $_POST['publisher'] ?? '';
+    $location = $_POST['location'] ?? '';
+    $genre = $_POST['genre'] ?? '';
+    $seal = $_POST['seal'] ?? '';
+    $acquisitionYear = $_POST['acquisitionYear'] ?? '';
+    $registrationNumber = $_POST['registrationNumber'] ?? '';
+
+    // Validate required fields
+    $requiredFields = [$bookName, $author, $cdu, $cdd, $origin, $publisher, $location, $genre, $registrationNumber];
+    foreach ($requiredFields as $field) {
+        if (empty($field)) {
+            echo json_encode(['status' => 'error', 'message' => 'Todos os campos são obrigatórios.']);
+            exit();
+        }
+    }
 
     // Handle file upload
     $image = null;
-    if (isset($_FILES['bookImage']) && $_FILES['bookImage']['error'] == UPLOAD_ERR_OK) {
+    if (isset($_FILES['bookImage']) && $_FILES['bookImage']['error'] === UPLOAD_ERR_OK) {
         $image = file_get_contents($_FILES['bookImage']['tmp_name']);
+    } elseif (isset($_FILES['bookImage']) && $_FILES['bookImage']['error'] !== UPLOAD_ERR_NO_FILE) {
+        echo json_encode(['status' => 'error', 'message' => 'Erro no upload da imagem.']);
+        exit();
     }
 
     function checkRegistrationNumber($conn, $registrationNumber)
@@ -76,4 +88,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 } else {
     echo json_encode(['status' => 'error', 'message' => 'Método de requisição inválido.']);
 }
-?>;
