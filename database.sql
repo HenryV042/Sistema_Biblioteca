@@ -16,12 +16,13 @@ CREATE TABLE IF NOT EXISTS turma(
   curso VARCHAR(30),
   ano_inicio YEAR(4),
   ano_conclusao YEAR(4),
-  serie INT(1),
+  atividade INT,
+  serie INT,
   PRIMARY KEY (id),
   UNIQUE (nome_identificacao, curso, serie)
 );
 
--- Criar a tabela aluno com a chave estrangeira composta
+-- Criar a tabela aluno com a chave estrangeira correta
 CREATE TABLE IF NOT EXISTS aluno(
   id INT AUTO_INCREMENT,
   numero INT(2),
@@ -31,8 +32,9 @@ CREATE TABLE IF NOT EXISTS aluno(
   sala_identificacao VARCHAR(55),
   curso VARCHAR(15),
   serie VARCHAR(1),
+  id_turma INT NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (sala_identificacao, curso) REFERENCES turma(nome_identificacao, curso)
+  FOREIGN KEY (id_turma) REFERENCES turma(id)
 );
 
 -- Criar tabela Livros
@@ -59,7 +61,7 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   aluno_id INT,
   matricula VARCHAR(7) NOT NULL,
   titulo_livro VARCHAR(300) NOT NULL,
-  numero_registro VARCHAR(10),
+  numero_registro VARCHAR(10) NOT NULL,
   curso VARCHAR(30) NOT NULL,
   serie VARCHAR(1) NOT NULL,
   data_emprestimo DATETIME,
