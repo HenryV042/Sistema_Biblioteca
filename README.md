@@ -50,6 +50,21 @@ Suas principais atividades incluem:
 3. Design da interface do usuário (UI) e experiência do usuário (UX).
 4. Colaboração com os desenvolvedores para garantir a implementação adequada dos designs.
 
+# DESCRIÇÃO HERÁLDICA: <br>
+Coruja: <br>
+    • Simbolismo: A coruja é tradicionalmente associada à sabedoria e ao conhecimento. Na heráldica, ela representa vigilância, inteligência e discernimento, qualidades essenciais para a educação e o aprendizado. A coruja, com seus grandes olhos verdes, sugere um olhar atento e cuidadoso, características importantes para professores e alunos. <br>
+    • Letras escondidas: Há duas letras "M" escondidas nos vetores da coruja: uma acima dos olhos descendo até o bico, compondo grande parte da estrutura da coruja, e outra localizada na parte superior da cabeça, ambas em laranja. As letras fazem referência a Manoel Mano, nome da instituição de ensino a qual a biblioteca faz parte. <br>
+Livro Aberto: <br>
+    • Simbolismo: O livro aberto é um símbolo universal do aprendizado, conhecimento e transmissão de saberes. Ele representa a fonte de informação e o desejo de descobrir e explorar novos mundos através da leitura. Na heráldica, o livro é frequentemente usado para simbolizar instituições de ensino e bibliotecas. <br>
+    • Cores das páginas: As páginas amarelas destacam a importância da iluminação e do esclarecimento que o conhecimento proporciona, enquanto as páginas pretas representam a profundidade e a vastidão do conhecimento. <br>
+    Cores: <br>
+    • Verde: Associada à esperança, renovação e crescimento, essa cor é muito utilizada na heráldica para simbolizar a fertilidade do solo, e, por extensão, o crescimento intelectual e espiritual. No contexto educacional, o verde pode representar o crescimento contínuo dos estudantes. <br>
+    • Laranja/Marrom: Essas cores podem simbolizar a criatividade, entusiasmo e a energia dos jovens, além de estabilidade e maturidade, valores que a educação busca fomentar nos alunos. <br>
+    • Amarelo: Frequentemente associado à luz, ao otimismo e à sabedoria. Na heráldica, o amarelo (ou ouro) é um símbolo de generosidade e elevação da mente, essenciais para o ambiente educacional. <br>
+    • Referência: As cores utilizadas na coruja, verde, laranja e cinza, também fazem parte da logo da escola E.E.E.P. Manoel Mano, causando assim uma coincidência proposital, destacando o fato de pertencer a instituição. <br>
+
+    
+
 # 🖥️Colaboradores do desenvolvimento
 [![GitHub](https://img.shields.io/badge/GitHub-Matheus-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheussoares1) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Paulo_Henrique-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phgomes40) <br>
