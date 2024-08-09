@@ -32,7 +32,8 @@ Ao logo da apresentação do projeto, estará uma síntese dos principais pontos
 [![GitHub](https://img.shields.io/badge/GitHub-Alanna-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlanaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Erica-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ericaoliveira12) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Maria-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mariaclara76869) <br>
-Este grupo tem como objetivo organizar as etapas de produção para o sistema da biblioteca. Através de cronogramas e prazos de entrega, visam garantir que todas as fases do projeto sejam concluídas de maneira eficiente e no tempo estipulado, promovendo a organização das etapas e definição de funções para que todos produzam. . <br>
+<p align="justify"> 
+Este grupo tem como objetivo organizar as etapas de produção para o sistema da biblioteca. Através de cronogramas e prazos de entrega, visam garantir que todas as fases do projeto sejam concluídas de maneira eficiente e no tempo estipulado, promovendo a organização das etapas e definição de funções para que todos produzam. . <br> </p>
 
 # ✒️Colaboradores do design <br />
 [![GitHub](https://img.shields.io/badge/GitHub-Kaua-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauto22) <br>
@@ -52,7 +53,7 @@ Suas principais atividades incluem:
 
 # DESCRIÇÃO HERÁLDICA: <br>
 Coruja: <br>
-    • Simbolismo: A coruja é tradicionalmente associada à sabedoria e ao conhecimento. Na heráldica, ela representa vigilância, inteligência e discernimento, qualidades essenciais para a educação e o aprendizado. A coruja, com seus grandes olhos verdes, sugere um olhar atento e cuidadoso, características importantes para professores e alunos. <br> <br>
+   <p align="justify">  • Simbolismo: A coruja é tradicionalmente associada à sabedoria e ao conhecimento. Na heráldica, ela representa vigilância, inteligência e discernimento, qualidades essenciais para a educação e o aprendizado. A coruja, com seus grandes olhos verdes, sugere um olhar atento e cuidadoso, características importantes para professores e alunos. <br> <br> 
     • Letras escondidas: Há duas letras "M" escondidas nos vetores da coruja: uma acima dos olhos descendo até o bico, compondo grande parte da estrutura da coruja, e outra localizada na parte superior da cabeça, ambas em laranja. As letras fazem referência a Manoel Mano, nome da instituição de ensino a qual a biblioteca faz parte. <br> <br>
 Livro Aberto: <br> <br>
     • Simbolismo: O livro aberto é um símbolo universal do aprendizado, conhecimento e transmissão de saberes. Ele representa a fonte de informação e o desejo de descobrir e explorar novos mundos através da leitura. Na heráldica, o livro é frequentemente usado para simbolizar instituições de ensino e bibliotecas. <br> <br>
@@ -61,7 +62,7 @@ Livro Aberto: <br> <br>
     • Verde: Associada à esperança, renovação e crescimento, essa cor é muito utilizada na heráldica para simbolizar a fertilidade do solo, e, por extensão, o crescimento intelectual e espiritual. No contexto educacional, o verde pode representar o crescimento contínuo dos estudantes. <br> <br>
     • Laranja/Marrom: Essas cores podem simbolizar a criatividade, entusiasmo e a energia dos jovens, além de estabilidade e maturidade, valores que a educação busca fomentar nos alunos. <br> <br>
     • Amarelo: Frequentemente associado à luz, ao otimismo e à sabedoria. Na heráldica, o amarelo (ou ouro) é um símbolo de generosidade e elevação da mente, essenciais para o ambiente educacional. <br> <br>
-    • Referência: As cores utilizadas na coruja, verde, laranja e cinza, também fazem parte da logo da escola E.E.E.P. Manoel Mano, causando assim uma coincidência proposital, destacando o fato de pertencer a instituição. <br> <br>
+    • Referência: As cores utilizadas na coruja, verde, laranja e cinza, também fazem parte da logo da escola E.E.E.P. Manoel Mano, causando assim uma coincidência proposital, destacando o fato de pertencer a instituição. <br> <br> <p/>
     
 <div align="center">
   <img src="https://github.com/user-attachments/assets/618f0b21-c0b5-4c48-ac33-8ebd935c10d4" width="100px"/>
@@ -80,9 +81,9 @@ Livro Aberto: <br> <br>
 [![GitHub](https://img.shields.io/badge/GitHub-David-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DavidSSF) <br>
 
 <br />
-
+<p align="justify">
 O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do sistema para facilitar o acesso aos funcionários , este grupo tem como setor fazer toda a parte de funcionamento do sistema, alunos envolvidos a esse processo procuram agilizar e fluir de maneira mas rápida para que o processo de desenvolvimento ocorra de modo mais veloz e o site seja feito para acesso a todos. <br>
-
+<p/>
 
 # 📝Colaboradores de implementação
 [![GitHub](https://img.shields.io/badge/GitHub-Breno-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bren0sx) <br>
@@ -93,7 +94,7 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 [![GitHub](https://img.shields.io/badge/GitHub-Ciro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CiroNobre3) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Nagila-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NagilaLopes) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ykaro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ykaroribeiro) <br>
-A divisão responsável pela implantação e testes do sistema da biblioteca visa assegurar uma integração eficiente do novo sistema ao acervo e operações da biblioteca. Seu objetivo inclui a catalogação detalhada dos livros disponíveis, configurando o sistema para refletir as necessidades da biblioteca, e realizar testes para garantir que todas as funcionalidades operem conforme o esperado. Além disso, a divisão identifica e reporta os problemas encontrados durante os testes, fornece treinamento aos funcionários e oferece suporte contínuo durante a fase inicial de operação para garantir uma transição suave e sem interrupções.
+<p align="justify"> A divisão responsável pela implantação e testes do sistema da biblioteca visa assegurar uma integração eficiente do novo sistema ao acervo e operações da biblioteca. Seu objetivo inclui a catalogação detalhada dos livros disponíveis, configurando o sistema para refletir as necessidades da biblioteca, e realizar testes para garantir que todas as funcionalidades operem conforme o esperado. Além disso, a divisão identifica e reporta os problemas encontrados durante os testes, fornece treinamento aos funcionários e oferece suporte contínuo durante a fase inicial de operação para garantir uma transição suave e sem interrupções. </P>
 
 # 📋Colaboradores de documentação
 [![GitHub](https://img.shields.io/badge/GitHub-Livia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/liviacarvalho07) <br>
@@ -105,7 +106,7 @@ A divisão responsável pela implantação e testes do sistema da biblioteca vis
 [![GitHub](https://img.shields.io/badge/GitHub-Kalel-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KalelOliveira) <br>
 [![GitHub](https://img.shields.io/badge/GitHub-Ygor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YgorBao) <br>
 
-Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão. <br>
+<p align="justify"> Esta equipe é responsável por registrar não somente a apresentação geral do projeto social e os objetivos da turma ao desenvolvê-lo, mas também pela descrição de todo o processo de criação do sistema. Os alunos envolvidos neste processo assumiram a responsabilidade de representar todos os grupos, visto que esta é uma parte imprescindível para garantir a validação do esforço de cada componente deste projeto. O documento descreve minuciosamente cada fase, sendo organizado para apresentar os objetivos e cada etapa do desenvolvimento, detalhando os seus autores, datas de início e término, entre outras singularidades. Resumidamente, a documentação é o processo final de todo e qualquer projeto e foi elaborada com pleno compromisso em torná-la o mais compreensível possível para todas as partes interessadas, garantindo que o trabalho realizado possa ser avaliado e compreendido com clareza e precisão. <br> </p>
 
 #
 
@@ -244,7 +245,8 @@ CREATE TABLE IF NOT EXISTS emprestimos(
 );
 ```
 <br> 
-
+<p align="justify">
+  
 # Etapas de Criação do Banco de Dados <br> 
 ## 1. Planejamento e Design <br> 
 **•Objetivo:** Definir a estrutura do banco de dados, as tabelas e os relacionamentos entre elas. <br>
@@ -270,27 +272,29 @@ CREATE TABLE IF NOT EXISTS emprestimos(
 **•Objetivo:** Manter o banco de dados atualizado e funcionando de maneira eficiente. <br> 
 **•Backup Regular:** Configure backups regulares para proteger os dados. <br> 
 **•Monitoramento e Otimização:** Monitore o desempenho e faça ajustes conforme necessário. <br> <br>
-
+</p>
+  
 # Conclusão
 
 ### Conclusão para um Sistema de Biblioteca Escolar
-
-A implementação do sistema de biblioteca escolar representa um avanço significativo na organização e gerenciamento dos recursos bibliográficos e das atividades relacionadas à biblioteca. Este sistema visa modernizar e otimizar o processo de administração dos livros, controle de empréstimos, e acompanhamento dos alunos e turmas, proporcionando uma solução eficiente e integrada para o ambiente educacional.
+  
+<p align="justify"> A implementação do sistema de biblioteca escolar representa um avanço significativo na organização e gerenciamento dos recursos bibliográficos e das atividades relacionadas à biblioteca. Este sistema visa modernizar e otimizar o processo de administração dos livros, controle de empréstimos, e acompanhamento dos alunos e turmas, proporcionando uma solução eficiente e integrada para o ambiente educacional. </p>
 
 **Principais Benefícios**:
 
 1. **Gerenciamento Eficiente**:
-   - A criação de tabelas específicas para bibliotecários, turmas, alunos, livros e empréstimos permite uma gestão clara e estruturada dos recursos da biblioteca. A capacidade de rastrear e registrar todas as operações de empréstimo e devolução melhora a organização e reduz o risco de perda ou extravio de materiais.
+   <p align="justify"> A criação de tabelas específicas para bibliotecários, turmas, alunos, livros e empréstimos permite uma gestão clara e estruturada dos recursos da biblioteca. A capacidade de rastrear e registrar todas as operações de empréstimo e devolução melhora a organização e reduz o risco de perda ou extravio de materiais. </p>
 
 2. **Facilidade de Acesso à Informação**:
-   - Com um banco de dados bem estruturado, os usuários têm acesso rápido e fácil às informações sobre livros disponíveis, suas localizações, e o status dos empréstimos. Isso facilita a consulta e a operação tanto para os funcionários da biblioteca quanto para os alunos.
+   <p align="justify"> Com um banco de dados bem estruturado, os usuários têm acesso rápido e fácil às informações sobre livros disponíveis, suas localizações, e o status dos empréstimos. Isso facilita a consulta e a operação tanto para os funcionários da biblioteca quanto para os alunos. </p>
 
 3. **Integração de Dados**:
-   - O sistema integra dados sobre alunos e suas respectivas turmas, garantindo que o processo de empréstimo e devolução esteja alinhado com a estrutura acadêmica da escola. Isso permite uma abordagem personalizada e eficiente na gestão dos recursos da biblioteca.
+    <p align="justify"> O sistema integra dados sobre alunos e suas respectivas turmas, garantindo que o processo de empréstimo e devolução esteja alinhado com a estrutura acadêmica da escola. Isso permite uma abordagem personalizada e eficiente na gestão dos recursos da biblioteca. </p>
 
 4. **Acompanhamento e Relatórios**:
-   - O sistema possibilita o acompanhamento detalhado das atividades da biblioteca, desde o histórico de empréstimos até a gestão dos recursos e o desempenho da biblioteca. A capacidade de gerar relatórios detalhados é essencial para a tomada de decisões e para a melhoria contínua dos serviços oferecidos.
+    <p align="justify"> O sistema possibilita o acompanhamento detalhado das atividades da biblioteca, desde o histórico de empréstimos até a gestão dos recursos e o desempenho da biblioteca. A capacidade de gerar relatórios detalhados é essencial para a tomada de decisões e para a melhoria contínua dos serviços oferecidos. </p>
 
 5. **Segurança e Integridade dos Dados**:
-   - Com a implementação de chaves primárias e estrangeiras, o sistema garante a integridade referencial e a segurança dos dados armazenados. A estrutura de dados bem definida ajuda a prevenir inconsistências e a proteger as informações contra alterações indesejadas.
-
+   <p align="justify"> Com a implementação de chaves primárias e estrangeiras, o sistema garante a integridade referencial e a segurança dos dados armazenados. A estrutura de dados bem definida ajuda a prevenir inconsistências e a proteger as informações contra alterações indesejadas. </p>
+     
+ 
