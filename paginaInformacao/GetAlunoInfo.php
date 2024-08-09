@@ -1,6 +1,6 @@
 
 <?php
-// login.php
+// mostrar_aluno.php
 
 // Database connection
 $host = 'localhost';
@@ -12,9 +12,8 @@ try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
+    die("Connection failed: " . $e->getMessage()); // Use die() to stop execution on error
 }
-// Inclua o arquivo de conexão
 
 // Verifica se o ID foi passado via GET e se é um número
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {

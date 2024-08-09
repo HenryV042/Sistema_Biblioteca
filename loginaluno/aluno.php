@@ -37,10 +37,10 @@
 
                 <button type="submit" class="Botao-entrar">Entrar</button>
 
-                  <h4>
+                  <h6>
                   Não sabe sua matrícula?  
                   Dirija-se à secretaria ou biblioteca e solicite ajuda ou acesse o <a href="#">aluno online</a>
-                  </h4>
+                  </h6>
                 </form>
                 </div>
             </div>
