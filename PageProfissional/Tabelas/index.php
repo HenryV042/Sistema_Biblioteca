@@ -17,13 +17,7 @@ $total_records = $total_query->fetchColumn();
 $total_pages = ceil($total_records / $records_per_page);
 
 // Consulta para obter os registros da página atual
-$sql = '
-    SELECT aluno.id, aluno.numero, aluno.matricula, aluno.cpf, aluno.nome_completo, 
-           turma.nome_identificacao, turma.curso, turma.serie 
-    FROM aluno 
-    JOIN turma ON aluno.turma_id = turma.id 
-    LIMIT :limit OFFSET :offset
-';
+$sql = 'SELECT * FROM aluno LIMIT :limit OFFSET :offset';
 $stmt = $conn->prepare($sql);
 $stmt->bindValue(':limit', $records_per_page, PDO::PARAM_INT);
 $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
@@ -98,12 +92,9 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <form id="addStudentForm" method="post" action="addAluno.php">
                         <label for="nome">Nome do Estudante:</label>
                         <input type="text" id="nome" name="nome" required>
-
-                        <label for="sexo">Sexo:</label>
-                        <select id="sexo" name="sexo" required>
-                            <option value="M">Masculino</option>
-                            <option value="F">Feminino</option>
-                        </select>
+                        
+                        <label for="numero">Numero da Chamada:</label>
+                        <input type="text" id="numero" name="numero" required>
 
                         <label for="cpf">CPF:</label>
                         <input type="text" id="cpf" name="cpf" required>
@@ -111,16 +102,18 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <label for="matricula">Matrícula:</label>
                         <input type="text" id="matricula" name="matricula" required>
 
+                        <label for="sala_identificacao">Sala Identificação:</label>
+                        <input type="text" id="sala_identificacao" value="<?php echo htmlspecialchars($aluno['sala_identificacao']) ?>" name="sala_identificacao" required>
+
                         <label for="curso">Curso:</label>
-                        <input type="text" id="curso" name="curso"
-                            value="<?php echo htmlspecialchars($aluno['sala_identificacao']) ?>" required disabled>
+                        <input type="text" id="curso" name="curso" value="<?php echo htmlspecialchars($aluno['curso']) ?>" required>
 
                         <label for="serie">Série:</label>
-                        <input type="text" id="serie" name="serie"
-                            value="<?php echo htmlspecialchars($aluno['serie']) ?>" required disabled>
+                        <input type="text" id="serie" name="serie" value="<?php echo htmlspecialchars($aluno['serie']) ?>" required>
 
                         <button type="submit">Adicionar</button>
                     </form>
+                    <div id="message" style="margin-top: 10px;"></div>
                 </div>
             </div>
 
@@ -141,7 +134,7 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             <script>
                 $(document).ready(function () {
-                    $('#header').load('../Component/Menu_Nav');
+                    $('#header').load('../../Component/Menu_Nav');
                 });
             </script>
 
