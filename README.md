@@ -64,7 +64,7 @@ Livro Aberto: <br> <br>
     • Referência: As cores utilizadas na coruja, verde, laranja e cinza, também fazem parte da logo da escola E.E.E.P. Manoel Mano, causando assim uma coincidência proposital, destacando o fato de pertencer a instituição. <br> <br>
     
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ca1566d0-8139-4a8a-ab6f-617a12536464" width="100px"/>
+  <img src="https://github.com/user-attachments/assets/618f0b21-c0b5-4c48-ac33-8ebd935c10d4" width="100px"/>
 </div>
 
 # 🖥️Colaboradores do desenvolvimento
