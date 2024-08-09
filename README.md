@@ -10,10 +10,10 @@
 </div>
 
 # 📌Descrição
-
-A presente introdução tem como objetivo oferecer uma visão geral sobre a criação e execução do projeto social por parte da turma do 3º ano do curso técnico em informática na escola de ensino profissionalizante Manoel Mano. O projeto consiste no desenvolvimento de um sistema destinado às necessidades da biblioteca da mesma instituição, aglutinando funcionalidades comuns do dia a dia nesta área escolar, como a organização de seções de livros e empréstimo dos mesmos. 
+<p align="justify"> A presente introdução tem como objetivo oferecer uma visão geral sobre a criação e execução do projeto social por parte da turma do 3º ano do curso técnico em informática na escola de ensino profissionalizante Manoel Mano. O projeto consiste no desenvolvimento de um sistema destinado às necessidades da biblioteca da mesma instituição, aglutinando funcionalidades comuns do dia a dia nesta área escolar, como a organização de seções de livros e empréstimo dos mesmos. 
 Nesse contexto, a turma foi dividida em grupos com seus respectivos líderes e responsabilidades específicas, baseadas na experiência e especialidades de cada aluno, visando otimizar o tempo de realização do projeto. Este relatório detalha o objetivo, as fases de criação e as contribuições de cada grupo envolvido em suas respectivas áreas. Além disso, serão apresentados os resultados desta aplicação ao ser executada.
-Ao logo da apresentação do projeto, estará uma síntese dos principais pontos discutidos ao longo do relatório, reiterando a relevância da iniciativa e dos objetivos alcançados, além das considerações finais sobre a experiência adquirida.
+Ao logo da apresentação do projeto, estará uma síntese dos principais pontos discutidos ao longo do relatório, reiterando a relevância da iniciativa e dos objetivos alcançados, além das considerações finais sobre a experiência adquirida. </p>
+
 
 
 # ⚙️Gerente do projeto <br> 
