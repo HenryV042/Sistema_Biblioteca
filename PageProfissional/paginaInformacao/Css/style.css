@@ -131,38 +131,3 @@ header {
    height: 5.8vh;
    margin: 0px 0px 0px 40px;
 }
-
-/* corpo do site */
-main{
-   margin-top: 2vh;
-}
-.voltar{
-   margin: 10%;
-   font-size: 200%;
-}
-
-/* fim corpo do site */
-.titulo{
-    padding: 0.3vw;
-    color: #44B172;
-    font-size: 3.5vh;
-    margin-left:7vh;
-}
-
-.rot{
-   font-size: 2%;
-    margin-left:7vh;
-    color: #7d807e;
-}
-
-.linha{
-width: 100%;
-height:0.5vh ;
-background:#e7750b;
-}
-
-
-
-/* media screen para dispositivos */
-@media(max-width ){}
-/* fim midia screen */
