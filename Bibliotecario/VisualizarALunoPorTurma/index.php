@@ -39,8 +39,8 @@ $turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
     <title>Tabela de Alunos</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -96,10 +96,10 @@ $turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
                         <input type="text" id="nome" name="nome" required>
 
                         <label for="numero">Numero da Chamada:</label>
-                        <input type="text" id="numero" name="numero" required>
+                        <input type="text" id="numero" name="numero" maxlength="2" required>
 
                         <label for="cpf">CPF:</label>
-                        <input type="text" id="cpf" name="cpf" required>
+                        <input type="text" id="cpf" maxlength="14" name="cpf" required>
 
                         <label for="matricula">Matrícula:</label>
                         <input type="text" id="matricula" name="matricula" required>
@@ -115,16 +115,58 @@ $turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
                         </select>
 
                         <label for="curso">Curso:</label>
-                        <input type="text" id="curso" name="curso" required>
+                        <input type="text" id="curso" name="curso" required readonly>
 
                         <label for="serie">Série:</label>
-                        <input type="text" id="serie" name="serie" required>
+                        <input type="text" id="serie" name="serie" required readonly>
 
                         <button type="submit">Adicionar</button>
                     </form>
                     <div id="message" style="margin-top: 10px;"></div>
                 </div>
             </div>
+
+            <!-- Modal para Editar Aluno -->
+            <div id="editModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button" onclick="closeEditModal()">&times;</span>
+                    <h2>Editar Aluno</h2>
+                    <form id="editStudentForm" method="post" action="editAluno.php">
+                        <input type="hidden" id="edit_id" name="id">
+
+                        <label for="edit_nome">Nome do Estudante:</label>
+                        <input type="text" id="edit_nome" name="nome" required>
+
+                        <label for="edit_numero">Numero da Chamada:</label>
+                        <input type="text" id="edit_numero" maxlength="2" name="numero" required>
+
+                        <label for="edit_cpf">CPF:</label>
+                        <input type="text" id="edit_cpf" maxlength="14" name="cpf" required>
+
+                        <label for="edit_matricula">Matrícula:</label>
+                        <input type="text" id="edit_matricula" maxlength="30" name="matricula" required>
+
+                        <label for="edit_sala_identificacao">Sala Identificação:</label>
+                        <select id="edit_sala_identificacao" name="sala_identificacao" required>
+                            <option value="">Selecione uma Sala</option>
+                            <?php foreach ($turmas as $turma): ?>
+                                <option value="<?php echo htmlspecialchars($turma['nome_identificacao']) ?>">
+                                    <?php echo htmlspecialchars($turma['nome_identificacao']) ?>
+                                </option>
+                            <?php endforeach ?>
+                        </select>
+
+                        <label for="edit_curso">Curso:</label>
+                        <input type="text" id="edit_curso" name="curso" required readonly>
+
+                        <label for="edit_serie">Série:</label>
+                        <input type="text" id="edit_serie" name="serie" required readonly>
+
+                        <button type="submit">Salvar Alterações</button>
+                    </form>
+                </div>
+            </div>
+
 
             <script>
                 // Open the modal
@@ -151,6 +193,46 @@ $turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
                         }
                     <?php endforeach ?>
                 });
+
+                // Abrir modal de edição e preencher com os dados do aluno
+                function openEditModal(aluno) {
+                    document.getElementById('edit_id').value = aluno.id;
+                    document.getElementById('edit_nome').value = aluno.nome_completo;
+                    document.getElementById('edit_numero').value = aluno.numero;
+                    document.getElementById('edit_cpf').value = aluno.cpf;
+                    document.getElementById('edit_matricula').value = aluno.matricula;
+                    document.getElementById('edit_sala_identificacao').value = aluno.sala_identificacao;
+                    document.getElementById('edit_curso').value = aluno.curso;
+                    document.getElementById('edit_serie').value = aluno.serie;
+
+                    document.getElementById('editModal').style.display = 'block';
+                }
+
+                // Fechar modal de edição
+                function closeEditModal() {
+                    document.getElementById('editModal').style.display = 'none';
+                }
+
+                // Adicionar evento nos botões de edição para abrir o modal com os dados do aluno
+                document.querySelectorAll('.icon-button').forEach(function (button, index) {
+                    button.addEventListener('click', function () {
+                        var aluno = <?php echo json_encode($alunos); ?>[index];
+                        openEditModal(aluno);
+                    });
+                });
+
+                // Atualizar curso e série ao alterar sala_identificacao no modal de edição
+                document.getElementById('edit_sala_identificacao').addEventListener('change', function () {
+                    const selectedValue = this.value;
+
+                    <?php foreach ($turmas as $turma): ?>
+                        if (selectedValue === "<?php echo htmlspecialchars($turma['nome_identificacao']); ?>") {
+                            document.getElementById('edit_curso').value = "<?php echo htmlspecialchars($turma['curso']); ?>";
+                            document.getElementById('edit_serie').value = "<?php echo htmlspecialchars($turma['serie']); ?>";
+                        }
+                    <?php endforeach ?>
+                });
+
             </script>
 
             <script>
@@ -158,6 +240,88 @@ $turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
                     $('#header').load('../../dependencies/Menu_Nav');
                 });
             </script>
+
+            <script>
+                // Função para aplicar máscara de CPF
+                function applyCpfMask(input) {
+                    let value = input.value.replace(/\D/g, ''); // Remove tudo que não é dígito
+                    value = value.replace(/^(\d{3})(\d)/, '$1.$2');
+                    value = value.replace(/^(\d{3})\.(\d{3})(\d)/, '$1.$2.$3');
+                    value = value.replace(/^(\d{3})\.(\d{3})\.(\d{3})(\d)/, '$1.$2.$3-$4');
+                    input.value = value;
+                }
+
+                // Função para aplicar máscara de matrícula
+                function applyMatriculaMask(input) {
+                    let value = input.value.replace(/\D/g, ''); // Remove tudo que não é dígito
+                    value = value.replace(/^(\d{8})(\d)/, '$1-$2');
+                    input.value = value;
+                }
+
+                // Adicionar eventos de máscara nos campos de CPF e matrícula
+                document.getElementById('cpf').addEventListener('input', function () {
+                    applyCpfMask(this);
+                });
+
+                document.getElementById('matricula').addEventListener('input', function () {
+                    applyMatriculaMask(this);
+                });
+
+                document.getElementById('edit_cpf').addEventListener('input', function () {
+                    applyCpfMask(this);
+                });
+
+                document.getElementById('edit_matricula').addEventListener('input', function () {
+                    applyMatriculaMask(this);
+                });
+
+                // Funções para abrir e fechar os modais permanecem inalteradas
+                function openModal() {
+                    document.getElementById('modal').style.display = 'block';
+                }
+
+                function closeModal() {
+                    document.getElementById('modal').style.display = 'none';
+                }
+
+                function openEditModal(aluno) {
+                    document.getElementById('edit_id').value = aluno.id;
+                    document.getElementById('edit_nome').value = aluno.nome_completo;
+                    document.getElementById('edit_numero').value = aluno.numero;
+                    document.getElementById('edit_cpf').value = aluno.cpf;
+                    document.getElementById('edit_matricula').value = aluno.matricula;
+                    document.getElementById('edit_sala_identificacao').value = aluno.sala_identificacao;
+                    document.getElementById('edit_curso').value = aluno.curso;
+                    document.getElementById('edit_serie').value = aluno.serie;
+
+                    document.getElementById('editModal').style.display = 'block';
+                }
+
+                function closeEditModal() {
+                    document.getElementById('editModal').style.display = 'none';
+                }
+
+                // Adicionar evento nos botões de edição para abrir o modal com os dados do aluno
+                document.querySelectorAll('.icon-button').forEach(function (button, index) {
+                    button.addEventListener('click', function () {
+                        var aluno = <?php echo json_encode($alunos); ?>[index];
+                        openEditModal(aluno);
+                    });
+                });
+
+                // Atualizar curso e série ao alterar sala_identificacao no modal de edição
+                document.getElementById('edit_sala_identificacao').addEventListener('change', function () {
+                    const selectedValue = this.value;
+
+                    <?php foreach ($turmas as $turma): ?>
+                        if (selectedValue === "<?php echo htmlspecialchars($turma['nome_identificacao']); ?>") {
+                            document.getElementById('edit_curso').value = "<?php echo htmlspecialchars($turma['curso']); ?>";
+                            document.getElementById('edit_serie').value = "<?php echo htmlspecialchars($turma['serie']); ?>";
+                        }
+                    <?php endforeach ?>
+                });
+            </script>
+
 
             <div class="pagination">
                 <?php if ($page > 1): ?>
@@ -170,4 +334,5 @@ $turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 </body>
+
 </html>

@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $id_turma = $turma['id'];
 
                 // Preparar a consulta SQL para inserção
-                $sqlInsert = 'INSERT INTO aluno (numero, nome_completo, cpf, matricula, id_turma, curso, serie) VALUES (:numero, :nome, :cpf, :matricula, :id_turma, :curso, :serie)';
+                $sqlInsert = 'INSERT INTO aluno (numero, nome_completo, cpf, matricula, id_turma, sala_identificacao, curso, serie) VALUES (:numero, :nome, :cpf, :matricula, :id_turma, :sala_identificacao, :curso, :serie)';
                 $stmtInsert = $conn->prepare($sqlInsert);
 
                 // Associar os parâmetros
@@ -46,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $stmtInsert->bindValue(':cpf', $cpf, PDO::PARAM_STR);
                 $stmtInsert->bindValue(':matricula', $matricula, PDO::PARAM_STR);
                 $stmtInsert->bindValue(':id_turma', $id_turma, PDO::PARAM_INT);
+                $stmtInsert->bindValue(':sala_identificacao', $sala_identificacao, PDO::PARAM_STR);
                 $stmtInsert->bindValue(':numero', $numero, PDO::PARAM_STR);
                 $stmtInsert->bindValue(':curso', $curso, PDO::PARAM_STR);
                 $stmtInsert->bindValue(':serie', $serie, PDO::PARAM_STR);

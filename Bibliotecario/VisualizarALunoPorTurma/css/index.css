@@ -210,6 +210,8 @@ table {
     position: relative;
     top: 100;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2); /* Optional shadow for better visibility */
+    border-radius: 1rem;
+
 }
 
 .close-button {
@@ -245,6 +247,8 @@ form button {
     padding: 15px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 1rem;
+    margin-top: 10px;
 }
 
 form button:hover {
