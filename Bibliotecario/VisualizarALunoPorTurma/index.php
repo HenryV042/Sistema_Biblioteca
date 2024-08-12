@@ -92,7 +92,7 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <form id="addStudentForm" method="post" action="addAluno.php">
                         <label for="nome">Nome do Estudante:</label>
                         <input type="text" id="nome" name="nome" required>
-                        
+
                         <label for="numero">Numero da Chamada:</label>
                         <input type="text" id="numero" name="numero" required>
 
@@ -103,13 +103,17 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <input type="text" id="matricula" name="matricula" required>
 
                         <label for="sala_identificacao">Sala Identificação:</label>
-                        <input type="text" id="sala_identificacao" value="<?php echo htmlspecialchars($aluno['sala_identificacao']) ?>" name="sala_identificacao" required>
+                        <input type="text" id="sala_identificacao"
+                            value="<?php echo htmlspecialchars($aluno['sala_identificacao']) ?>"
+                            name="sala_identificacao" required>
 
                         <label for="curso">Curso:</label>
-                        <input type="text" id="curso" name="curso" value="<?php echo htmlspecialchars($aluno['curso']) ?>" required>
+                        <input type="text" id="curso" name="curso"
+                            value="<?php echo htmlspecialchars($aluno['curso']) ?>" required>
 
                         <label for="serie">Série:</label>
-                        <input type="text" id="serie" name="serie" value="<?php echo htmlspecialchars($aluno['serie']) ?>" required>
+                        <input type="text" id="serie" name="serie"
+                            value="<?php echo htmlspecialchars($aluno['serie']) ?>" required>
 
                         <button type="submit">Adicionar</button>
                     </form>
