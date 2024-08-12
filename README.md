@@ -301,6 +301,11 @@ CREATE TABLE IF NOT EXISTS emprestimos(
    <p align="justify"> Com a implementação de chaves primárias e estrangeiras, o sistema garante a integridade referencial e a segurança dos dados armazenados. A estrutura de dados bem definida ajuda a prevenir inconsistências e a proteger as informações contra alterações indesejadas. </p>
 
 #Suporte
-<p> align="justify"> </p>
+<p> align="justify">Está com dúvdas? Tem sugestões? Nossa equipe está disponível para colaborar através de um suporte dedicado via e-mail, respondendo prontamente às consultas e fornecendo assistência personalizada ao usuário. </p>
+ matheus.soares7648@gmail.com
+ ksilvabarretoc@gmail.com
+ silvaanaluiza120@gmail.com
+ analiviacarvalho495@gmail.com
+ henryviana042@gmail.com
      
  
