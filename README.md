@@ -302,10 +302,11 @@ CREATE TABLE IF NOT EXISTS emprestimos(
 
 # 🤝Suporte
 <p align="justify"> Está com dúvdas? Tem sugestões? Nossa equipe está disponível para colaborar através de um suporte dedicado via e-mail, respondendo prontamente às consultas e fornecendo assistência personalizada ao usuário. </p>
- matheus.soares7648@gmail.com<br>
- ksilvabarretoc@gmail.com<br>
- silvaanaluiza120@gmail.com<br>
- analiviacarvalho495@gmail.com<br>
- henryviana042@gmail.com<br>
+<img src="https://img.shields.io/badge/matheus.soares7648@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/ksilvabarretoc@gmail.com-777BB4?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/silvaanaluiza120@gmail.com-f4c43?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/analiviacarvalho495@gmail.com-7100ff?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/henryviana042@gmail.com-FF0000?style=for-the-badge&logo=gmail&logoColor=white" />
+
      
  
