@@ -201,12 +201,12 @@ table {
 }
 
 .modal-content {
-    background-color: #fefefe;
+    background-color: #fffffff1;
     margin: 8% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 50%; /* Adjust width as needed */
-    max-width: 600px; /* Limit the maximum width */
+    width: 70%; /* Adjust width as needed */
+    max-width: 800px; /* Limit the maximum width */
     position: relative;
     top: 100;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2); /* Optional shadow for better visibility */

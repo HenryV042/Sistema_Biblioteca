@@ -1,7 +1,7 @@
 <?php
 // index.php
 
-require_once '../../dependencies/config.php';
+require_once '../../dependencies/config.php'; // Ajuste o caminho conforme necessário
 
 // Número de registros por página
 $records_per_page = 12;
@@ -24,8 +24,11 @@ $stmt->bindValue(':offset', $offset, PDO::PARAM_INT);
 $stmt->execute();
 $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-?>
+// Consulta para obter todas as turmas disponíveis com atividade = 1
+$turmas_query = $conn->query('SELECT nome_identificacao, curso, serie FROM turma WHERE atividade = 1');
+$turmas = $turmas_query->fetchAll(PDO::FETCH_ASSOC);
 
+?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -34,13 +37,12 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de Alunos</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -103,17 +105,20 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <input type="text" id="matricula" name="matricula" required>
 
                         <label for="sala_identificacao">Sala Identificação:</label>
-                        <input type="text" id="sala_identificacao"
-                            value="<?php echo htmlspecialchars($aluno['sala_identificacao']) ?>"
-                            name="sala_identificacao" required>
+                        <select id="sala_identificacao" name="sala_identificacao" required>
+                            <option value="">Selecione uma Sala</option>
+                            <?php foreach ($turmas as $turma): ?>
+                                <option value="<?php echo htmlspecialchars($turma['nome_identificacao']) ?>">
+                                    <?php echo htmlspecialchars($turma['nome_identificacao']) ?>
+                                </option>
+                            <?php endforeach ?>
+                        </select>
 
                         <label for="curso">Curso:</label>
-                        <input type="text" id="curso" name="curso"
-                            value="<?php echo htmlspecialchars($aluno['curso']) ?>" required>
+                        <input type="text" id="curso" name="curso" required>
 
                         <label for="serie">Série:</label>
-                        <input type="text" id="serie" name="serie"
-                            value="<?php echo htmlspecialchars($aluno['serie']) ?>" required>
+                        <input type="text" id="serie" name="serie" required>
 
                         <button type="submit">Adicionar</button>
                     </form>
@@ -124,21 +129,33 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <script>
                 // Open the modal
                 function openModal() {
-                    document.getElementById('modal').style.display = 'block'
+                    document.getElementById('modal').style.display = 'block';
                 }
 
                 // Close the modal
                 function closeModal() {
-                    document.getElementById('modal').style.display = 'none'
+                    document.getElementById('modal').style.display = 'none';
                 }
 
                 // Add event listener to the 'Adicionar Aluno' button
-                document.querySelector('.print-button').addEventListener('click', openModal)
+                document.querySelector('.print-button').addEventListener('click', openModal);
+
+                // Populate curso and serie fields based on selected sala_identificacao
+                document.getElementById('sala_identificacao').addEventListener('change', function () {
+                    const selectedValue = this.value;
+
+                    <?php foreach ($turmas as $turma): ?>
+                        if (selectedValue === "<?php echo htmlspecialchars($turma['nome_identificacao']); ?>") {
+                            document.getElementById('curso').value = "<?php echo htmlspecialchars($turma['curso']); ?>";
+                            document.getElementById('serie').value = "<?php echo htmlspecialchars($turma['serie']); ?>";
+                        }
+                    <?php endforeach ?>
+                });
             </script>
 
             <script>
                 $(document).ready(function () {
-                    $('#header').load('../../Component/Menu_Nav');
+                    $('#header').load('../../dependencies/Menu_Nav');
                 });
             </script>
 
@@ -153,5 +170,4 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 </body>
-
 </html>

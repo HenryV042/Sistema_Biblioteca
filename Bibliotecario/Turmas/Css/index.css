@@ -1,0 +1,139 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins" sans-serif;
+}
+
+.container {
+    width: 50%; /* Defina a largura desejada */
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    text-align: center; /* Centraliza o conteúdo da div */
+}
+
+
+.title {
+    max-width: 60%;
+    color: #000; 
+    text-transform: uppercase; 
+    text-align: left;
+    display: flex;
+    text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.5); 
+    margin-bottom: 10px;
+}
+
+.print-button {
+    display: flex;
+    background-color: #FFA500; 
+    color: #fff; 
+    border: none;
+    border-radius: 15px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem; 
+    font-weight: 600; 
+    width: 140px; 
+    height: 44px; 
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+    margin-top: 50px;
+}
+
+.bloco-top {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos nos cantos */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 10px; /* Adiciona um pouco de espaço interno */
+}
+
+
+.booksTable{
+    margin-top: -30px;
+}
+
+.print-button:hover {
+    background-color: #e59400; /* Cor de fundo ao passar o mouse */
+}
+
+.container {
+    width: 118%; 
+    max-width: 1411px; 
+    overflow-x: auto;
+    margin-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+    font-size: 0.936rem;
+}
+
+th, td {
+    padding: 9px; 
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+    text-align: center; 
+}
+
+
+
+td.button-cell {
+    text-align: center;
+    vertical-align: middle; 
+}
+.icon-button {
+    background-color: #037847;
+    
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    font-size: 0.936rem;
+    margin: 0 3.6px; 
+    border-radius: 30%; 
+    padding: 6px 12px; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff; 
+}
+
+
+th, td {
+    border-bottom: 1px solid #ddd; 
+}
+
+th:first-child, td:first-child {
+    border-left: 1px solid #ddd; /* Borda esquerda para a primeira coluna */
+}
+
+th:last-child, td:last-child {
+    border-right: none; /* Remove a borda direita da última coluna */
+}
+
+td.orange {
+    background-color: #ffecb3;
+}
+
+td.red {
+    background-color: #f8d7da;
+}
+
+td.dark-red {
+    background-color: #f5c6cb;
+}
