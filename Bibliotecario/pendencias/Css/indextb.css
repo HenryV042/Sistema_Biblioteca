@@ -1,0 +1,118 @@
+
+.cabecario{
+    width: 80%;
+    display: ruby-text;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+}
+.title {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem; 
+    font-weight: 600; 
+    color: #000; 
+    text-transform: uppercase; 
+    display: flex;
+    text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.5); 
+}
+.print-button {
+    display: flex;
+    background-color: #FFA500; 
+    color: #fff; 
+    border: none;
+    border-radius: 15px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem; 
+    font-weight: 600; 
+    width: 140px; 
+    height: 44px; 
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+
+.print-button:hover {
+    background-color: #e59400; /* Cor de fundo ao passar o mouse */
+}
+
+.container {
+    /* width: 100%; */
+    display: flow-root; 
+    /* max-width: 1411px; */ 
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%; /* Reduz a largura da tabela em 20% em relação à largura original */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Garante que a tabela fique centralizada dentro do container */
+    font-size: 0.749rem; /* Reduz o tamanho da fonte em 20% (0.936rem * 0.8) */
+}
+th, td {
+    padding: 9px; 
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+    text-align: center; 
+}
+
+
+
+td.button-cell {
+    text-align: center;
+    vertical-align: middle; 
+}
+.icon-button {
+    background-color: #037847;
+    
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    font-size: 0.936rem;
+    margin: 0 3.6px; 
+    border-radius: 30%; 
+    padding: 6px 12px; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff; 
+}
+
+
+th, td {
+    border-bottom: 1px solid #ddd; 
+}
+
+th:first-child, td:first-child {
+    border-left: 1px solid #ddd; /* Borda esquerda para a primeira coluna */
+}
+
+th:last-child, td:last-child {
+    border-right: none; /* Remove a borda direita da última coluna */
+}
+
+td.orange {
+    background-color: #ffecb3;
+}
+
+td.red {
+    background-color: #f8d7da;
+}
+
+td.dark-red {
+    background-color: #f5c6cb;
+}
