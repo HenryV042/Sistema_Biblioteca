@@ -294,7 +294,13 @@ CREATE TABLE IF NOT EXISTS emprestimos(
 4. **Acompanhamento e Relatórios**:
     <p align="justify"> O sistema possibilita o acompanhamento detalhado das atividades da biblioteca, desde o histórico de empréstimos até a gestão dos recursos e o desempenho da biblioteca. A capacidade de gerar relatórios detalhados é essencial para a tomada de decisões e para a melhoria contínua dos serviços oferecidos. </p>
 
+#Suporte
+<p> Está com dúvdas? Tem sugestões? Nossa equipe está disponível para colaborar através de um suporte dedicado via e-mail, respondendo prontamente às consultas e fornecendo assistência personalizada ao usuário.</p>
+
 5. **Segurança e Integridade dos Dados**:
    <p align="justify"> Com a implementação de chaves primárias e estrangeiras, o sistema garante a integridade referencial e a segurança dos dados armazenados. A estrutura de dados bem definida ajuda a prevenir inconsistências e a proteger as informações contra alterações indesejadas. </p>
+
+#Suporte
+<p> align="justify"> </p>
      
  
