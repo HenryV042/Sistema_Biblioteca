@@ -5,14 +5,14 @@ VALUES
   ('1º B - Informática', 'Informática', 2024, 2026, 1),
   ('1º C - Comércio', 'Comércio', 2024, 2026, 1),
   ('1º D - Administração', 'Administração', 2024, 2026, 1),
-  ('2º A - Enfermagem', 'Enfermagem', 2023, 2025, 1),
-  ('2º B - Informática', 'Informática', 2023, 2025, 1),
-  ('2º C - Comércio', 'Comércio', 2023, 2025, 1),
-  ('2º D - Administração', 'Administração', 2023, 2025, 1),
-  ('3º A - Enfermagem', 'Enfermagem', 2022, 2024, 1),
-  ('3º B - Informática', 'Informática', 2022, 2024, 1),
-  ('3º C - Comércio', 'Comércio', 2022, 2024, 1),
-  ('3º D - Administração', 'Administração', 2022, 2024, 1);
+  ('2º A - Enfermagem', 'Enfermagem', 2023, 2025, 2),
+  ('2º B - Informática', 'Informática', 2023, 2025, 2),
+  ('2º C - Comércio', 'Comércio', 2023, 2025, 2),
+  ('2º D - Administração', 'Administração', 2023, 2025, 2),
+  ('3º A - Enfermagem', 'Enfermagem', 2022, 2024, 3),
+  ('3º B - Informática', 'Informática', 2022, 2024, 3),
+  ('3º C - Comércio', 'Comércio', 2022, 2024, 3),
+  ('3º D - Administração', 'Administração', 2022, 2024, 3);
 -- -------------------------------------------------------------------------------------------------------------------
 -- 1A 
 INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
