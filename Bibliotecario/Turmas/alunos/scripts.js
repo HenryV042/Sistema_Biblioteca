@@ -6,5 +6,3 @@ function fecharMenu(){
     document.getElementById("menu-Oculto").style.width="0vw";
     document.getElementById("principal").style.marginLeft="0vw";
 }
-
-
