@@ -79,7 +79,7 @@
                             <td>{$row['curso']}</td>
                             <td>{$row['ano_inicio']} - {$row['ano_conclusao']}</td>
                             <td>{$row['atividade']}</td>
-                            <td><a href='alunos/index.php?turma_id={$row['id']}' class='icon-button'><i class='fa-solid fa-eye' style='color: #ffffff;'></i></a></td>
+<td><a href='alunos/index.php?turma_id={$row['id']}' class='icon-button'><i class='fa-solid fa-eye' style='color: #ffffff;'></i></a></td>
                             <td><button class='icon-button'><i class='fa-solid fa-pen-to-square' style='color: #ffffff;'></i></button></td>
                           </tr>";
                 }
