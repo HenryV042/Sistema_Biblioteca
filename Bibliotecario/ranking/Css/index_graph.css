@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem; 
+    font-weight: 600; 
+    color: green;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.buttons-container {
+    text-align: center;
+    margin-bottom: 2%;
+    position: relative;
+}
+.report-btn{
+    background-color: #F59E00;
+    width: 164px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.dropdown-btn {
+    width: 164px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #C9C9C9;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 164px;
+}
+
+.dropdown-content select {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.dropdown-content select option {
+    background-color: #fff;
+}
+
+
+.dropdown-content select {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.dropdown-btn:hover .dropdown-content {
+    display: block;
+}
+.charts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os gráficos */
+    margin-top: 1%;
+}
+
+#chart_livros, #chart_cursos {
+    width: 500px;
+    height: 300px;
+}

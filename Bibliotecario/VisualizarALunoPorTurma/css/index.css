@@ -1,0 +1,257 @@
+
+body {
+    background-image: url("../img/ondas-governo-rodape.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+    width: 100vw;
+    height: 100vh;
+    }
+
+
+.Hiddenbox{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    max-width: 100%; /* Garante que o título não quebre a página */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0; /* Espaçamento em torno do título */
+    text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.5);
+}
+
+.c2 {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.print-button {
+    display: flex;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 140px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 10px 0; /* Espaçamento ajustado */
+}
+
+.print-button:hover {
+    background-color: #e59400;
+}
+
+.container {
+    width: 80vw;
+    max-width: 80vw;
+    overflow-x: auto; /* Permite rolagem horizontal */
+    padding: 0 10px; /* Adicionado preenchimento para evitar quebra */
+    box-sizing: border-box; /* Inclui o preenchimento e bordas na largura total */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; /* Ajusta a largura da tabela ao contêiner */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; /* Espaçamento em torno da tabela */
+    font-size: 0.936rem;
+    table-layout: fixed; /* Garante que a tabela não quebre */
+}
+
+th, td {
+    padding: 9px;
+    text-align: center; /* Alinhamento centralizado por padrão */
+    word-wrap: break-word; /* Quebra palavras longas */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+th:first-child, td:first-child {
+    border-left: 1px solid #ddd;
+}
+
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+td.orange {
+    background-color: #ffecb3;
+}
+
+td.red {
+    background-color: #f8d7da;
+}
+
+td.dark-red {
+    background-color: #f5c6cb;
+}
+
+/* Botão de Edição */
+.icon-button {
+    background-color: #037847;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 0.936rem;
+    margin: 0 3.6px;
+    border-radius: 30%;
+    padding: 6px 12px;
+    transition: background-color 0.3s;
+}
+
+.icon-button:hover {
+    background-color: #026734;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .print-button {
+        width: 120px;
+        height: 40px;
+    }
+
+    table {
+        font-size: 0.8rem;
+    }
+}
+
+/* Estilização da barra de rolagem para navegadores WebKit (Chrome, Safari) */
+.container::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+.container::-webkit-scrollbar-track {
+    background: #f4f4f4; /* Cor de fundo da área de rolagem */
+    border-radius: 10px; /* Bordas arredondadas da área de rolagem */
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #888; /* Cor do "thumb" (a parte que você arrasta) */
+    border-radius: 10px; /* Bordas arredondadas do thumb */
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor do thumb ao passar o mouse */
+}
+
+/* Estilização da barra de rolagem para Firefox */
+.container {
+    scrollbar-width: thin; /* Espessura da barra de rolagem */
+    scrollbar-color: #888 #f4f4f4; /* Cor do thumb e da área de rolagem */
+}
+
+/* Adiciona uma borda ao redor da tabela para uma melhor aparência */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    font-size: 0.936rem;
+    overflow-x: auto; /* Garante que a tabela tenha rolagem horizontal se necessário */
+    table-layout: auto; /* Ajusta o layout da tabela */
+}
+
+
+/* CSS for Modal */
+/* CSS for Modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fffffff1;
+    margin: 8% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%; /* Adjust width as needed */
+    max-width: 800px; /* Limit the maximum width */
+    position: relative;
+    top: 100;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2); /* Optional shadow for better visibility */
+    border-radius: 1rem;
+
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
