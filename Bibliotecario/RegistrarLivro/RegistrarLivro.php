@@ -98,12 +98,6 @@
         </div>
     </div>
 
-    <script>
-        $(document).ready(function () {
-            $('#header').load('../../Component/Menu_Nav');
-        });
-    </script>
-
     <script src="cdd_genero.js"></script>
 
 
@@ -192,6 +186,12 @@
                 };
                 reader.readAsDataURL(file);
             }
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('#header').load('/sistema_biblioteca/dependencies/Menu_Nav');
         });
     </script>
 
