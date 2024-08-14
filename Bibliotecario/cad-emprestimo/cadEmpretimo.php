@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="RegistrarLivro.css">
+    <link rel="stylesheet" href="styleEmprestimo.css">
     <title>Registro De Livros</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -19,57 +19,36 @@
             </div>
             <form action="register.php" method="post" enctype="multipart/form-data">
                 <div class="form-group full-width imgContainerImg">
-                    <div class="file-input-container" id="fileInputContainer">
-                        <input type="file" id="bookImage" name="bookImage" accept="image/*">
-                        <img id="previewImage" src="" alt="Pré-visualização da imagem"
-                            style="display: none; max-height: auto;">
+                   
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="Name">Nome do Estudante:</label>
+                    <input type="text" id="Name" name="Name" placeholder="Digite o nome do livro" required>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="matricula">Matricula</label>
+                    <input type="text" id="matricula" name="matricula" placeholder="Digite a matricula" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="titulolivro">titulo do livro:</label>
+                        <input type="text" id="titulolivro" name="titulolivro" placeholder="Digite o titulo do livro" required>
                     </div>
-                </div>
-
-                <div class="form-group full-width">
-                    <label for="bookName">Nome do Livro:</label>
-                    <input type="text" id="bookName" name="bookName" placeholder="Digite o nome do livro" required>
-                </div>
-
-                <div class="form-group full-width">
-                    <label for="author">Autor:</label>
+                    <div class="form-group">
+                    <label for="author">Autor do livro:</label>
                     <input type="text" id="author" name="author" placeholder="Digite o nome do autor" required>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="cdu">CDU:</label>
-                        <input type="text" id="cdu" name="cdu" placeholder="Digite o CDU" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="cdd">CDD:</label>
-                        <input type="text" id="cdd" name="cdd" placeholder="Digite o CDD" required>
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="origin">Origem:</label>
-                        <input type="text" id="origin" name="origin" placeholder="Digite a origem" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="publisher">Editora:</label>
-                        <input type="text" id="publisher" name="publisher" placeholder="Digite a editora" required>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="location">Local:</label>
-                        <input type="text" id="location" name="location" placeholder="Digite o local" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="genre">Gênero:</label>
-                        <input type="text" id="genre" name="genre" placeholder="Digite o gênero" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="seal">Selo:</label>
-                        <select id="seal" name="seal" required>
+                        <label for="curso">curso:</label>
+                        <select id="curso" name="curso" required>
+                            <option value="sim">Sim</option>
+                            <option value="nao">Não</option>
                             <option value="sim">Sim</option>
                             <option value="nao">Não</option>
                         </select>
@@ -78,15 +57,11 @@
 
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="acquisitionYear">Ano de Aquisição:</label>
-                        <input type="number" id="acquisitionYear" name="acquisitionYear"
+                        <label for="observacao">observação:</label>
+                        <input type="text" id="observacao" name="obsevacao"
                             placeholder="Digite o ano de aquisição" required>
                     </div>
-                    <div class="form-group">
-                        <label for="registrationNumber">Número de Registro:</label>
-                        <input type="text" id="registrationNumber" name="registrationNumber"
-                            placeholder="Digite o número de registro" required>
-                    </div>
+                   
                 </div>
 
                 <div class="button-container">
@@ -97,6 +72,12 @@
             </form>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#header').load('../../Component/Menu_Nav');
+        });
+    </script>
 
     <script src="cdd_genero.js"></script>
 
@@ -186,12 +167,6 @@
                 };
                 reader.readAsDataURL(file);
             }
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-            $('#header').load('/sistema_biblioteca/dependencies/Menu_Nav');
         });
     </script>
 
