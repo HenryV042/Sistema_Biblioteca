@@ -163,15 +163,6 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 
 ![Captura de tela 2024-08-08 134532](https://github.com/user-attachments/assets/11a5dfa6-6ee3-4beb-98a5-fbb5b6ce193e)
 
-Criando o `Banco de Dados` 
-
-
-```sql
-CREATE DATABASE IF NOT EXISTS `biblioteca`;
-USE `biblioteca`
-````
-Criando as `Tabelas`
-```sql
 -- Criar a tabela bibliotecario
 CREATE TABLE IF NOT EXISTS bibliotecario(
   id INT AUTO_INCREMENT,
@@ -187,23 +178,25 @@ CREATE TABLE IF NOT EXISTS turma(
   curso VARCHAR(30),
   ano_inicio YEAR(4),
   ano_conclusao YEAR(4),
-  serie INT(1),
+  atividade INT,
+  serie INT,
   PRIMARY KEY (id),
   UNIQUE (nome_identificacao, curso, serie)
 );
 
--- Criar a tabela aluno com a chave estrangeira composta
+-- Criar a tabela aluno com a chave estrangeira correta
 CREATE TABLE IF NOT EXISTS aluno(
   id INT AUTO_INCREMENT,
   numero INT(2),
   matricula INT(10),
-  cpf INT(11),
+  cpf VARCHAR(14),
   nome_completo VARCHAR(55),
   sala_identificacao VARCHAR(55),
   curso VARCHAR(15),
   serie VARCHAR(1),
+  id_turma INT NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (sala_identificacao, curso) REFERENCES turma(nome_identificacao, curso)
+  FOREIGN KEY (id_turma) REFERENCES turma(id) ON DELETE CASCADE
 );
 
 -- Criar tabela Livros
@@ -230,18 +223,18 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   aluno_id INT,
   matricula VARCHAR(7) NOT NULL,
   titulo_livro VARCHAR(300) NOT NULL,
-  numero_registro VARCHAR(10),
+  numero_registro VARCHAR(10) NOT NULL,
   curso VARCHAR(30) NOT NULL,
   serie VARCHAR(1) NOT NULL,
-  data_emprestimo TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  data_emprestimo DATETIME,
   data_devolucao DATETIME,
   data_rascunho DATETIME,
   descricao VARCHAR(750),
   nome_bibliotecario VARCHAR(255) NOT NULL,
   status VARCHAR(255) NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (aluno_id) REFERENCES aluno(id),
-  FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro)
+  FOREIGN KEY (aluno_id) REFERENCES aluno(id) ON DELETE SET NULL,
+  FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro) ON DELETE CASCADE
 );
 ```
 <br> 
