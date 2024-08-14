@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `eeepma26_biblioteca`;
-USE `eeepma26_biblioteca`;
-
 -- Criar a tabela bibliotecario
 CREATE TABLE IF NOT EXISTS bibliotecario(
   id INT AUTO_INCREMENT,
@@ -34,7 +31,7 @@ CREATE TABLE IF NOT EXISTS aluno(
   serie VARCHAR(1),
   id_turma INT NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (id_turma) REFERENCES turma(id)
+  FOREIGN KEY (id_turma) REFERENCES turma(id) ON DELETE CASCADE
 );
 
 -- Criar tabela Livros
@@ -71,12 +68,6 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   nome_bibliotecario VARCHAR(255) NOT NULL,
   status VARCHAR(255) NOT NULL,
   PRIMARY KEY (id),
-  FOREIGN KEY (aluno_id) REFERENCES aluno(id),
-  FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro)
+  FOREIGN KEY (aluno_id) REFERENCES aluno(id) ON DELETE SET NULL,
+  FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro) ON DELETE CASCADE
 );
-
-
-
-
-ALTER TABLE aluno ADD COLUMN turma_id INT;
-
