@@ -1,0 +1,96 @@
+/* corpo do site */
+* {
+    /* overflow: hidden; */
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Open Sans", sans-serif;
+ }
+main{
+
+    margin-top: 2vh;
+ }
+ .voltar{
+    margin: 3%;
+    font-size: 200%;
+ }
+ 
+ /* fim corpo do site */
+ .titulo{
+     padding: 0.3vw;
+     color: #44B172;
+     font-size: 3.5vh;
+     margin-left:7vh;
+ }
+ 
+ .rot{
+    font-size: 2%;
+     margin-left:7vh;
+     color: #7d807e;
+    }
+    
+    .rot2 {
+        padding: 15px;
+        margin-top: 20px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .rot2 p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .informacao-aluno {
+        margin-bottom: 20px; 
+      }
+      
+      .informacao-emprestimo {
+        margin-top: 20px;
+      }
+      
+      
+      .rot h3 {
+        margin-bottom: 20px;
+      }
+
+      input[type="text"], input[type="password"], textarea {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #333;
+      }
+      
+      select {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #333;
+      }
+
+      
+span {
+    color: rgb(0, 0, 0); 
+  }
+  
+  
+  .informacao-aluno span {
+    color: #000000; 
+  }
+  
+  
+  .informacao-emprestimo span {
+    color: #000000; 
+  }
+  
+ 
+ .linha{
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #e84f0d 0%, #fccf00 100%);
+    margin-bottom: 40px;
+ }
+ 
+ 
