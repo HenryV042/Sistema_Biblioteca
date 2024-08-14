@@ -15,17 +15,43 @@
     <div class="Encapsulamento">
         <div class="grayBox">
             <div class="CadastrarLivro">
-                <span>CADASTRAR LIVRO</span>
+                <span>CADASTRAR EMPRESTIMO</span>
             </div>
             <form action="register.php" method="post" enctype="multipart/form-data">
                 <div class="form-group full-width imgContainerImg">
                    
                 </div>
 
-                <div class="form-group full-width">
+                <div class="curso-turma">
+                <div class="form-nome ">
                     <label for="Name">Nome do Estudante:</label>
                     <input type="text" id="Name" name="Name" placeholder="Digite o nome do livro" required>
                 </div>
+               
+                <div class="form-row">
+                    <div class="form-cursos">
+                        <label for="curso">curso:</label>
+                        <select id="curso" name="curso" required>
+                            <option value="Enfermagem">Enfermagem</option>
+                            <option value="Informatica">Informatica</option>
+                            <option value="Adiministracao">Adiministração</option>
+                            <option value="Comercio">Comercio</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-turma">
+                        <label for="turma">turma:</label>
+                        <select id="turma" name="turma" required>
+                            <option value="1">1º </option>
+                            <option value="2">2º </option>
+                            <option value="3">3º </option>
+                        </select>
+                    </div>
+                </div>
+                </div>
+                
 
                 <div class="form-group full-width">
                     <label for="matricula">Matricula</label>
@@ -43,30 +69,26 @@
                     </div>
                 </div>
 
+                <div class="form-group">
+                        <label for="registrationNumber">Número de Registro:</label>
+                        <input type="text" id="registrationNumber" name="registrationNumber"
+                            placeholder="Digite o número de registro" required>
+                    </div>  
+
                 <div class="form-row">
-                    <div class="form-group">
-                        <label for="curso">curso:</label>
-                        <select id="curso" name="curso" required>
-                            <option value="sim">Sim</option>
-                            <option value="nao">Não</option>
-                            <option value="sim">Sim</option>
-                            <option value="nao">Não</option>
-                        </select>
+                    <div class="form-grup full-width ">
+                        <label for="observacao">observação:</label>
+                        <input class="obs" type="text" id="observacao" name="obsevacao"
+                            placeholder="Digite aqui sua observação" required>
                     </div>
                 </div>
 
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="observacao">observação:</label>
-                        <input type="text" id="observacao" name="obsevacao"
-                            placeholder="Digite o ano de aquisição" required>
-                    </div>
-                   
-                </div>
+
+                
 
                 <div class="button-container">
                     <button type="submit" class="cadastrarButton">
-                        <i class="fas fa-check"></i> Cadastrar
+                        <i class="fas fa-check"></i> Adicionar
                     </button>
                 </div>
             </form>
