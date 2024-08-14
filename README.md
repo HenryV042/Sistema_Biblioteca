@@ -163,7 +163,8 @@ O Grupo de Desenvolvimento da biblioteca é uma equipe dedicada a criação do s
 
 ![Captura de tela 2024-08-08 134532](https://github.com/user-attachments/assets/11a5dfa6-6ee3-4beb-98a5-fbb5b6ce193e)
 
-<img src= />
+# Diagrama
+<img src=https://github.com/user-attachments/assets/2a386c28-b954-4748-84a5-7fc55bad38a0 /> <br>
 
 ```
 -- Criar a tabela bibliotecario
