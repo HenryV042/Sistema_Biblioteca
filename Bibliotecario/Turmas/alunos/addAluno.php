@@ -1,7 +1,5 @@
 <?php
-// addAluno.php
-
-require_once '../../dependencies/config.php';
+require_once '../dependencies/config.php';
 
 // Verificar se o formulário foi enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -14,6 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $serie = filter_input(INPUT_POST, 'serie', FILTER_SANITIZE_STRING);
     $numero = filter_input(INPUT_POST, 'numero', FILTER_SANITIZE_STRING);
 
+    $response = [];
+
     try {
         // Verificar se o CPF ou matrícula já existe
         $sqlCheck = 'SELECT COUNT(*) FROM aluno WHERE cpf = :cpf OR matricula = :matricula';
@@ -24,8 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $count = $stmtCheck->fetchColumn();
 
         if ($count > 0) {
-            // Se já existe um registro com o mesmo CPF ou matrícula, exibir mensagem de erro
-            echo "<script>alert('Já existe um aluno com o mesmo CPF ou matrícula.'); window.location.href='index.php';</script>";
+            // Se já existe um registro com o mesmo CPF ou matrícula, retornar erro
+            $response['status'] = 'error';
+            $response['message'] = 'Já existe um aluno com o mesmo CPF ou matrícula.';
         } else {
             // Obter o ID da turma com base no nome da sala_identificacao
             $sqlGetId = 'SELECT id FROM turma WHERE nome_identificacao = :sala_identificacao';
@@ -54,19 +55,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Executar a consulta de inserção
                 $stmtInsert->execute();
 
-                // Redirecionar para a página principal com uma mensagem de sucesso
-                echo "<script>alert('Aluno adicionado com sucesso'); window.location.href='index.php';</script>";
+                // Retornar uma mensagem de sucesso
+                $response['status'] = 'success';
+                $response['message'] = 'Aluno adicionado com sucesso.';
             } else {
                 // Turma não encontrada
-                echo "<script>alert('A turma selecionada não existe.'); window.location.href='index.php';</script>";
+                $response['status'] = 'error';
+                $response['message'] = 'A turma selecionada não existe.';
             }
         }
 
     } catch (PDOException $e) {
-        // Exibir mensagem de erro detalhada
-        echo "<script>alert('Erro ao adicionar aluno: " . htmlspecialchars($e->getMessage()) . "'); window.location.href='index.php';</script>";
+        // Retornar mensagem de erro detalhada
+        $response['status'] = 'error';
+        $response['message'] = 'Erro ao adicionar aluno: ' . htmlspecialchars($e->getMessage());
     }
+
+    // Retornar resposta JSON
+    echo json_encode($response);
 } else {
-    echo "Método de requisição inválido.";
+    echo json_encode(['status' => 'error', 'message' => 'Método de requisição inválido.']);
 }
 ?>
