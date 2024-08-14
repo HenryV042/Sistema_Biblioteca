@@ -1,5 +1,5 @@
 <?php
-require_once '../../dependencies/config.php';
+require_once '../dependencies/config.php';
 
 $id = $_POST['id'];
 $nome = $_POST['nome'];
@@ -17,6 +17,8 @@ $stmt_turma->bindParam(':sala_identificacao', $sala_identificacao);
 $stmt_turma->execute();
 $id_turma = $stmt_turma->fetchColumn();
 
+$response = [];
+
 if ($id_turma !== false) {
     // Atualizar o registro do aluno com o id_turma
     $sql = "UPDATE aluno SET nome_completo = :nome, numero = :numero, cpf = :cpf, matricula = :matricula, sala_identificacao = :sala_identificacao, curso = :curso, serie = :serie, id_turma = :id_turma WHERE id = :id";
@@ -32,11 +34,16 @@ if ($id_turma !== false) {
     $stmt->bindParam(':id_turma', $id_turma);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Aluno atualizado com sucesso!'); window.location.href='index.php';</script>";
+        $response['status'] = 'success';
+        $response['message'] = 'Aluno atualizado com sucesso!';
     } else {
-        echo "<script>alert('Erro ao atualizar aluno.'); window.location.href='index.php';</script>";
+        $response['status'] = 'error';
+        $response['message'] = 'Erro ao atualizar aluno.';
     }
 } else {
-    echo "<script>alert('Turma não encontrada.'); window.location.href='index.php';</script>";
+    $response['status'] = 'error';
+    $response['message'] = 'Turma não encontrada.';
 }
+
+echo json_encode($response);
 ?>

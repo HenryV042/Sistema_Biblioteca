@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+   background-image: url(img/ondas-governo-rodape.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: contain;
+   height: 100vh;
+}
+
+/* Header or Navbar */
+header {
+    background-image: linear-gradient(90deg, #26A737, #2DB39E);
+    border-bottom: 3px solid #E84F0D;
+}
+
+                                    /* menu lateral */
+.menu-Oculto{
+   height: 100%;
+   width: 0vw;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+   background-color: #ffffff;
+   box-shadow: rgba(3, 3, 3, 0.521) 0.2px 0px 12px 0px ;
+   transition: 0.5s;
+}
+
+.opcoes {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.menu-Oculto a{
+   text-decoration: none;
+   color: rgb(34,166,56);
+   padding: 24px 8px 8px 32px;
+   font-size: 23px;
+   display: block;
+   transition: 0.4s;
+}
+.menu-Oculto a:hover{
+   color: #ffffff;
+   background-color: #89db86;
+   
+}
+.fechar{
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 50px;
+   margin-left: 50px;
+   border: none;
+   background-color: white;
+   cursor: pointer;
+}
+
+@media screen and(max-heigth: 450px) {
+   .menu-Oculto{padding-top: 15px;}
+   .menu-Oculto a{font-size: 18px;}
+}
+@media screen and(min-width: 450px) {
+   .menu-Oculto{padding-top: 15px;}
+   .menu-Oculto a{font-size: 1px;}
+}
+
+.logoMenu{
+   height: 27vh;
+   margin-left: 40px;
+}
+.imageMenu{
+   display: flex;
+   align-items: center;
+}
+
+.linha-menu{
+   width: 100%;
+   height: 5px;
+   background: linear-gradient(to right, #e84f0d 0%, #fccf00 100%);
+   margin-bottom: 40px;
+}
+.opcoes .sair{
+   color: red;
+}
+.opcoes .sair:hover{
+   color: #ffffff;
+   background-color: #ff0000;
+}
+
+#principal{
+   display: flex;
+   padding: 10px;
+   transition: margin-left 0.5s;
+}
+
+#principal span{
+   margin: 10px 10px 1px 20px;
+   color: #ffffff;
+}
+
+/* NavBar */
+.nav-logo {
+   display: flex;
+}
+
+.logo_eeep{
+   margin: 1px 30px 1px 27px;
+   width: 6.6vw;
+   height: 6vh;    
+}
+
+.ret{
+   border-radius: 100px;
+   width: 0.3vw;
+   height: 5.5vh;
+   background: #ffffff;
+   margin-right: 12px;
+}
+.nav-logo .library{
+   width: 13vw;
+   height: 5.8vh;
+   margin: 0px 0px 0px 40px;
+}
