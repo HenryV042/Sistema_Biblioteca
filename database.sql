@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS livros(
   cdd VARCHAR(10),
   cdu VARCHAR(10),
   numero_registro VARCHAR(10) NOT NULL,
+  selo VARCHAR(3),
   imagem LONGBLOB,
   PRIMARY KEY (id),
   UNIQUE (titulo_livro, numero_registro)
