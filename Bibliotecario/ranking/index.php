@@ -1,148 +1,253 @@
+<?php
+require_once '../../dependencies/config.php';
+
+// Array de tradução dos meses para o português
+$mesesPortugues = [
+    'January' => 'Janeiro',
+    'February' => 'Fevereiro',
+    'March' => 'Março',
+    'April' => 'Abril',
+    'May' => 'Maio',
+    'June' => 'Junho',
+    'July' => 'Julho',
+    'August' => 'Agosto',
+    'September' => 'Setembro',
+    'October' => 'Outubro',
+    'November' => 'Novembro',
+    'December' => 'Dezembro',
+];
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
     <link rel="stylesheet" href="Css/style.css">
-    <link rel="stylesheet" href="Css/index_graph.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Css/buttons.css"> <!-- Link para o CSS dos botões -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="topbar" id="header"></div>
+    <header>
+        <nav>
+            <aside id="menu-Oculto" class="menu-Oculto">
+                <div class="imagemMenu">
+                    <img src="img/logoMenu.png" alt="" class="logoMenu">
+                    <button class="fechar" href="" onclick="fecharMenu()"><i
+                            class="fa-solid fa-circle-arrow-left"></i></button>
+                </div>
+                <div class="linha"></div>
+                <div class="opcoes">
+                    <a href=""><i class="fa-solid fa-file"></i> Cadastrar Livro</a>
+                    <a href=""><i class="fa-solid fa-book-open-reader"></i> Cadastrar Empréstimo</a>
+                    <a href=""><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
+                    <a href=""><i class="fa-brands fa-leanpub"></i> Empréstimos</a>
+                    <a href=""><i class="fa-solid fa-user-plus"></i> Adicionar Turma</a>
+                    <a href=""><i class="fa-solid fa-address-book"></i> Pedidos</a>
+                    <a href=""><i class="fa-solid fa-file-import"></i> Relatório</a>
+                    <a href="" class="sair"><i class="fa-solid fa-circle-xmark"></i> Sair</a>
+                </div>
+            </aside>
+            <section id="principal">
+                <span style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
+                <div class="nav-logo">
+                    <img src="img/logoEEEP.png" alt="logo" class="logo_eeep" />
+                    <div class="ret"></div>
+                    <img src="img/logoNav.png" alt="logo" class="library" />
+                </div>
+            </section>
+        </nav>
+    </header>
 
-    <!-- RANKING e Botões -->
-    <div class="title">
-        <div class="h1">RANKING</div>
+    <!-- Incluindo o arquivo de conexão com o banco de dados -->
+
+    <!-- Ranking e Filtros -->
+    <div class="ranking-filtros">
+        <div class="ranking"><b>Ranking</b></div>
+        <div class="filtros">
+            <div>
+                <select id="mes-inicial" class="mes-inicialFil" name="mes-inicial">
+                    <option value="">Mês Inicial</option>
+                    <?php
+                    // Obter meses distintos do banco de dados
+                    $mesQuery = $conn->query("SELECT DISTINCT MONTH(data_emprestimo) AS mes FROM emprestimos");
+                    $meses = $mesQuery->fetchAll(PDO::FETCH_ASSOC);
+                    foreach ($meses as $mes) {
+                        $mesNome = date('F', mktime(0, 0, 0, $mes['mes'], 10));
+                        echo '<option value="' . str_pad($mes['mes'], 2, '0', STR_PAD_LEFT) . '">' . $mesesPortugues[$mesNome] . '</option>';
+                    }
+                    ?>
+                </select>
+            </div>
+            <div>
+                <select id="mes-final" name="mes-final" class="mes-finalFil">
+                    <option value="">Mês Final</option>
+                    <?php
+                    // Repetir para o mês final
+                    foreach ($meses as $mes) {
+                        $mesNome = date('F', mktime(0, 0, 0, $mes['mes'], 10));
+                        echo '<option value="' . str_pad($mes['mes'], 2, '0', STR_PAD_LEFT) . '">' . $mesesPortugues[$mesNome] . '</option>';
+                    }
+                    ?>
+                </select>
+            </div>
+            <button id="aplicar-filtros" class="relatorio"><i class="fa-solid fa-print"></i> Aplicar Filtros</button>
+        </div>
     </div>
 
-    <div class="buttons-container">
-        <button class="dropdown-btn">MÊS INICIAL <i class="fa-solid fa-chevron-down"></i></button>
-        <div class="dropdown-content">
-            <select name="mes-inicial" id="mes-inicial">
-                <option value="janeiro">Janeiro</option>
-                <option value="fevereiro">Fevereiro</option>
-                <option value="marco">Março</option>
-                <option value="abril">Abril</option>
-                <option value="maio">Maio</option>
-                <option value="junho">Junho</option>
-                <option value="julho">Julho</option>
-                <option value="agosto">Agosto</option>
-                <option value="setembro">Setembro</option>
-                <option value="outubro">Outubro</option>
-                <option value="novembro">Novembro</option>
-                <option value="dezembro">Dezembro</option>
-            </select>
+    <div class="container-filtro-cursos">
+        <select id="filtro-cursos" name="cursos" class="filtro-cursos">
+            <option value="">SÉRIE</option>
+            <option value="enfermagem">Enfermagem</option>
+            <option value="informatica">Informática</option>
+            <option value="comercio">Comércio</option>
+            <option value="administracao">Administração</option>
+        </select>
+    </div>
+
+    <div class="graficos">
+        <div class="grafico-curso">
+            <div class="teste" id="chart_livros"></div>
         </div>
 
-        <button class="dropdown-btn">MÊS FINAL <i class="fa-solid fa-chevron-down"></i></button>
-        <div class="dropdown-content">
-            <select name="mes-final" id="mes-final">
-                <option value="janeiro">Janeiro</option>
-                <option value="fevereiro">Fevereiro</option>
-                <option value="marco">Março</option>
-                <option value="abril">Abril</option>
-                <option value="maio">Maio</option>
-                <option value="junho">Junho</option>
-                <option value="julho">Julho</option>
-                <option value="agosto">Agosto</option>
-                <option value="setembro">Setembro</option>
-                <option value="outubro">Outubro</option>
-                <option value="novembro">Novembro</option>
-                <option value="dezembro">Dezembro</option>
-            </select>
+        <div class="grafico-livros">
+            <div class="teste" id="chart_cursos"></div>
         </div>
-
-        <button class="report-btn"><i class="fa-solid fa-print"></i> RELATÓRIO</button>
     </div>
-    
 
-    <!-- Gráficos -->
-    <div class="charts-container">
-        <div id="chart_livros"></div>
-        <div id="chart_cursos"></div>
-    </div>
+    <!-- PHP para exibir os rankings -->
+    <?php
+    try {
+        // Conexão com o banco de dados
+        require_once '../../dependencies/config.php';
+
+        // Ranking de cursos que mais leram
+        $queryCursos = $conn->query("
+        SELECT t.nome_identificacao AS turma, COUNT(e.id) AS total_leituras
+        FROM emprestimos e
+        JOIN aluno a ON e.aluno_id = a.id
+        JOIN turma t ON a.curso = t.curso AND a.serie = t.serie
+        GROUP BY t.nome_identificacao
+        ORDER BY total_leituras DESC
+        LIMIT 5
+        ");
+
+        $rankingCursos = $queryCursos->fetchAll(PDO::FETCH_ASSOC);
+
+        // Ranking dos livros mais lidos
+        $queryLivros = $conn->query("
+        SELECT e.titulo_livro AS livro, COUNT(e.id) AS total_leituras
+        FROM emprestimos e
+        GROUP BY e.titulo_livro
+        ORDER BY total_leituras DESC
+        LIMIT 5
+        ");
+        $rankingLivros = $queryLivros->fetchAll(PDO::FETCH_ASSOC);
+
+    } catch (PDOException $e) {
+        echo "Erro: " . $e->getMessage();
+    }
+    ?>
 
     <script type="text/javascript">
-        // Código dos gráficos
+        // Carregar o Google Charts
         google.charts.load('current', { 'packages': ['corechart'] });
         google.charts.setOnLoadCallback(drawCharts);
 
         function drawCharts() {
-            var data1 = google.visualization.arrayToDataTable([
-                ['Livro', 'Leituras'],
-                ['Maze Runner', 100],
-                ['Vidas Secas', 85],
-                ['Senhora', 70],
-                ['O Guarani', 65],
-                ['Dom Casmurro', 50]
+            // Dados para o gráfico de livros
+            var livrosData = google.visualization.arrayToDataTable([
+                ['Livro', 'Total Leituras'],
+                <?php
+                $livrosData = [];
+                foreach ($rankingLivros as $livro) {
+                    $livrosData[] = "['" . addslashes($livro['livro']) . "', " . $livro['total_leituras'] . "]";
+                }
+                echo implode(",", $livrosData);
+                ?>
             ]);
 
-            var options1 = {
-                title: 'LIVROS MAIS LIDOS',
-                titleTextStyle: { color: 'green' },
-                bars: 'vertical',
-                /* hAxis: { title: 'Livros' },
-                vAxis: { title: 'Leituras' }, */
-                bar: { groupWidth: '55%' },
-                colors: ['#4d4d4d'],
-                backgroundColor: 'transparent'
+            var livrosOptions = {
+                title: 'Ranking de Livros',
+                pieHole: 0.4,
             };
 
-            var chart1 = new google.visualization.ColumnChart(document.getElementById('chart_livros'));
-            chart1.draw(data1, options1);
+            var livrosChart = new google.visualization.PieChart(document.getElementById('chart_livros'));
+            livrosChart.draw(livrosData, livrosOptions);
 
-            var data2 = google.visualization.arrayToDataTable([
-                ['Curso', 'Leituras'],
-                ['Enfermagem', 90],
-                ['Informática', 75],
-                ['Comércio', 60],
-                ['Administração', 45]
+            // Dados para o gráfico de cursos
+            var cursosData = google.visualization.arrayToDataTable([
+                ['Turma', 'Total Leituras'],
+                <?php
+                $cursosData = [];
+                foreach ($rankingCursos as $curso) {
+                    $cursosData[] = "['" . addslashes($curso['turma']) . "', " . $curso['total_leituras'] . "]";
+                }
+                echo implode(",", $cursosData);
+                ?>
             ]);
 
-            var options2 = {
-                title: 'CURSO COM MAIS LEITORES',
-                titleTextStyle: { color: 'green' },
-                bars: 'vertical',
-               /*  hAxis: { title: 'Cursos' },
-                vAxis: { title: 'Leituras' }, */
-                bar: { groupWidth: '55%' },
-                colors: ['#0000FF'],
-                backgroundColor: 'transparent'
+            var cursosOptions = {
+                title: 'Ranking de Cursos',
+                pieHole: 0.4,
             };
 
-            var chart2 = new google.visualization.ColumnChart(document.getElementById('chart_cursos'));
-            chart2.draw(data2, options2);
+            var cursosChart = new google.visualization.PieChart(document.getElementById('chart_cursos'));
+            cursosChart.draw(cursosData, cursosOptions);
         }
-        
-        // Código para mostrar e ocultar os dropdowns
-        document.querySelectorAll('.dropdown-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                const dropdownContent = this.nextElementSibling;
-                dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
-            });
-        });
 
-        window.onclick = function(event) {
-            if (!event.target.matches('.dropdown-btn')) {
-                document.querySelectorAll('.dropdown-content').forEach(content => {
-                    if (content.style.display === 'block') {
-                        content.style.display = 'none';
-                    }
-                });
-            }
-        };
-    </script>
-    <script type="text/javascript" src="scripts.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#header').load('/sistema_biblioteca/dependencies/Menu_Nav');
+        // Aplicar filtros e atualizar gráficos
+        document.getElementById('aplicar-filtros').addEventListener('click', function () {
+            const mesInicial = document.getElementById('mes-inicial').value;
+            const mesFinal = document.getElementById('mes-final').value;
+            const curso = document.getElementById('filtro-cursos').value;
+
+            fetch('get_data.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({
+                    mes_inicial: mesInicial,
+                    mes_final: mesFinal,
+                    curso: curso
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Atualizar gráficos com os novos dados
+                    var livrosData = google.visualization.arrayToDataTable([
+                        ['Livro', 'Total Leituras'],
+                        ...data.livros.map(livro => [livro.livro, livro.total_leituras])
+                    ]);
+
+                    var livrosOptions = {
+                        title: 'Ranking de Livros',
+                        pieHole: 0.4,
+                    };
+
+                    var livrosChart = new google.visualization.PieChart(document.getElementById('chart_livros'));
+                    livrosChart.draw(livrosData, livrosOptions);
+
+                    var cursosData = google.visualization.arrayToDataTable([
+                        ['Turma', 'Total Leituras'],
+                        ...data.cursos.map(curso => [curso.turma, curso.total_leituras])
+                    ]);
+
+                    var cursosOptions = {
+                        title: 'Ranking de Cursos',
+                        pieHole: 0.4,
+                    };
+
+                    var cursosChart = new google.visualization.PieChart(document.getElementById('chart_cursos'));
+                    cursosChart.draw(cursosData, cursosOptions);
+                })
+                .catch(error => console.error('Error:', error));
         });
     </script>
 </body>
