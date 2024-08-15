@@ -1,7 +1,11 @@
 <?php
-require_once '../../dependencies/config.php';
+session_start();
 
-// Array de tradução dos meses para o português
+if (!isset($_SESSION['usuario'])) {
+    header("Location: ../Login/index.php"); // Redireciona para a página de login se não estiver logado
+    exit();
+}
+
 $mesesPortugues = [
     'January' => 'Janeiro',
     'February' => 'Fevereiro',
@@ -43,13 +47,13 @@ $mesesPortugues = [
                 </div>
                 <div class="linha"></div>
                 <div class="opcoes">
-                    <a href=""><i class="fa-solid fa-file"></i> Cadastrar Livro</a>
-                    <a href=""><i class="fa-solid fa-book-open-reader"></i> Cadastrar Empréstimo</a>
-                    <a href=""><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
-                    <a href=""><i class="fa-brands fa-leanpub"></i> Empréstimos</a>
-                    <a href=""><i class="fa-solid fa-user-plus"></i> Adicionar Turma</a>
-                    <a href=""><i class="fa-solid fa-address-book"></i> Pedidos</a>
-                    <a href=""><i class="fa-solid fa-file-import"></i> Relatório</a>
+                    <a href="../RegistrarLivro/"><i class="fa-solid fa-file"></i> Cadastrar Livro</a>
+                    <a href="../CadstrarEmprestimo/"><i class="fa-solid fa-book-open-reader"></i> Cadastrar Empréstimo</a>
+                    <a href="../catalogo/"><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
+                    <a href="../emprestimo/"><i class="fa-brands fa-leanpub"></i> Empréstimos</a>
+                    <a href="../Turmas/"><i class="fa-solid fa-user-plus"></i> Adicionar Turma</a>
+                    <a href="../pedidos/"><i class="fa-solid fa-address-book"></i> Pedidos</a>
+                    <a href="../ranking/"><i class="fa-solid fa-file-import"></i> Relatório</a>
                     <a href="" class="sair"><i class="fa-solid fa-circle-xmark"></i> Sair</a>
                 </div>
             </aside>
@@ -65,6 +69,7 @@ $mesesPortugues = [
     </header>
 
     <!-- Incluindo o arquivo de conexão com o banco de dados -->
+    <?php include 'dependencies/config.php'; ?>
 
     <!-- Ranking e Filtros -->
     <div class="ranking-filtros">
@@ -124,7 +129,7 @@ $mesesPortugues = [
     <?php
     try {
         // Conexão com o banco de dados
-        require_once '../../dependencies/config.php';
+        include 'dependencies/config.php';
 
         // Ranking de cursos que mais leram
         $queryCursos = $conn->query("
@@ -250,6 +255,7 @@ $mesesPortugues = [
                 .catch(error => console.error('Error:', error));
         });
     </script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
