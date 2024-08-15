@@ -15,8 +15,7 @@ CREATE TABLE IF NOT EXISTS turma(
   ano_conclusao YEAR(4),
   atividade INT,
   serie INT,
-  PRIMARY KEY (id),
-  UNIQUE (nome_identificacao, curso, serie)
+  PRIMARY KEY (id)
 );
 
 -- Criar a tabela aluno com a chave estrangeira correta
