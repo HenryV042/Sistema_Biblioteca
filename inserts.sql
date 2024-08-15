@@ -619,3 +619,11 @@ INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, 
   ('O Poder do Hábito', 'Charles Duhigg', 'Objetiva', 2020, 'Compra', 'Belo Horizonte', 'Autoajuda', '158', '150', '0019', NULL),
   ('Quem Mexeu no Meu Queijo?', 'Spencer Johnson', 'Editora Record', 2019, 'Doação', 'Rio de Janeiro', 'Autoajuda', '158', '150', '0020', NULL);
 
+-- -----------------------------
+INSERT INTO pedidos (matricula, titulo_livro, numero_registro, curso, serie, data_solicitação, nome_bibliotecario)
+VALUES
+('3528107', 'A Arte da Guerra', NULL, 'Enfermagem', '1', '2024-08-15 14:54:14', NULL),
+('3528107', 'A Culpa é das Estrelas', NULL, 'Enfermagem', '1', '2024-08-15 15:09:51', NULL),
+('3528107', 'A Revolução dos Bichos', NULL, 'Enfermagem', '1', '2024-08-15 15:11:48', NULL),
+('3528107', 'Dom Casmurro', NULL, 'Enfermagem', '1', '2024-08-15 15:18:49', NULL),
+('3528107', '1984', NULL, 'Enfermagem', '1', '2024-08-15 15:20:36', NULL);
