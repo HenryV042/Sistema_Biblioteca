@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $registrationNumber = $_POST['registrationNumber'] ?? '';
 
     // Validate required fields
-    $requiredFields = [$bookName, $author, $cdu, $cdd, $origin, $publisher, $location, $genre, $registrationNumber];
+    $requiredFields = [$bookName, $author, $cdu, $cdd, $origin, $publisher, $location, $genre, $registrationNumber, $seal];
     foreach ($requiredFields as $field) {
         if (empty($field)) {
             echo json_encode(['status' => 'error', 'message' => 'Todos os campos são obrigatórios.']);
@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo json_encode(['status' => 'error', 'message' => 'Erro: Livro com este número de registro já existe.']);
         } else {
             // Prepare and execute the insert statement
-            $sql = 'INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, imagem) VALUES (:bookName, :author, :publisher, :acquisitionYear, :origin, :location, :genre, :cdd, :cdu, :registrationNumber, :image)';
+            $sql = 'INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, selo, imagem) VALUES (:bookName, :author, :publisher, :acquisitionYear, :origin, :location, :genre, :cdd, :cdu, :registrationNumber, :image)';
             $stmt = $conn->prepare($sql);
             $stmt->bindParam(':bookName', $bookName);
             $stmt->bindParam(':author', $author);
@@ -77,6 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $stmt->bindParam(':cdd', $cdd);
             $stmt->bindParam(':cdu', $cdu);
             $stmt->bindParam(':registrationNumber', $registrationNumber);
+            $stmt->bindParam(':selo', $seal);
             $stmt->bindParam(':image', $image, PDO::PARAM_LOB);
             $stmt->execute();
 
