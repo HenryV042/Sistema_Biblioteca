@@ -597,27 +597,28 @@ VALUES
 
 -- -------------------------------------------------------------------------------------------------------------------
 
-INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, imagem) VALUES
-  ('O Alquimista', 'Paulo Coelho', 'HarperCollins', 2021, 'Compra', 'São Paulo', 'Ficção', '891', '864', '0001', NULL),
-  ('1984', 'George Orwell', 'Companhia das Letras', 2020, 'Doação', 'Rio de Janeiro', 'Distopia', '823', '821', '0002', NULL),
-  ('Dom Casmurro', 'Machado de Assis', 'Record', 2019, 'Compra', 'São Paulo', 'Romance', '869', '870', '0003', NULL),
-  ('A Revolução dos Bichos', 'George Orwell', 'Companhia das Letras', 2018, 'Compra', 'Curitiba', 'Fábula', '823', '821', '0004', NULL),
-  ('O Senhor dos Anéis', 'J.R.R. Tolkien', 'HarperCollins', 2022, 'Compra', 'Brasília', 'Fantasia', '823', '829', '0005', NULL),
-  ('O Hobbit', 'J.R.R. Tolkien', 'HarperCollins', 2021, 'Doação', 'São Paulo', 'Fantasia', '823', '829', '0006', NULL),
-  ('A Arte da Guerra', 'Sun Tzu', 'Leya', 2020, 'Compra', 'São Paulo', 'Estratégia', '895', '891', '0007', NULL),
-  ('O Código Da Vinci', 'Dan Brown', 'Sextante', 2019, 'Compra', 'Rio de Janeiro', 'Suspense', '823', '829', '0008', NULL),
-  ('A Culpa é das Estrelas', 'John Green', 'Intrínseca', 2018, 'Doação', 'Porto Alegre', 'Drama', '823', '829', '0009', NULL),
-  ('Orgulho e Preconceito', 'Jane Austen', 'Penguin Classics', 2021, 'Compra', 'São Paulo', 'Romance', '823', '821', '0010', NULL),
-  ('Moby Dick', 'Herman Melville', 'Martin Claret', 2020, 'Compra', 'Salvador', 'Aventura', '823', '820', '0011', NULL),
-  ('O Pequeno Príncipe', 'Antoine de Saint-Exupéry', 'Agir', 2019, 'Doação', 'Belo Horizonte', 'Infantil', '843', '830', '0012', NULL),
-  ('Harry Potter e a Pedra Filosofal', 'J.K. Rowling', 'Rocco', 2022, 'Compra', 'Fortaleza', 'Fantasia', '823', '829', '0013', NULL),
-  ('O Diário de Anne Frank', 'Anne Frank', 'Vozes', 2021, 'Compra', 'Recife', 'Biografia', '943', '949', '0014', NULL),
-  ('O Lobo de Wall Street', 'Jordan Belfort', 'Intrínseca', 2020, 'Compra', 'São Paulo', 'Memórias', '330', '332', '0015', NULL),
-  ('O Sol é Para Todos', 'Harper Lee', 'JBC', 2019, 'Doação', 'São Paulo', 'Drama', '823', '821', '0016', NULL),
-  ('O Homem mais Rico da Babilônia', 'George S. Clason', 'Editora Best Seller', 2022, 'Compra', 'Curitiba', 'Autoajuda', '332', '330', '0017', NULL),
-  ('Sapiens: Uma Breve História da Humanidade', 'Yuval Noah Harari', 'Lemos', 2021, 'Compra', 'Porto Alegre', 'História', '909', '910', '0018', NULL),
-  ('O Poder do Hábito', 'Charles Duhigg', 'Objetiva', 2020, 'Compra', 'Belo Horizonte', 'Autoajuda', '158', '150', '0019', NULL),
-  ('Quem Mexeu no Meu Queijo?', 'Spencer Johnson', 'Editora Record', 2019, 'Doação', 'Rio de Janeiro', 'Autoajuda', '158', '150', '0020', NULL);
+INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro, selo, imagem) VALUES
+  ('O Alquimista', 'Paulo Coelho', 'HarperCollins', 2021, 'Compra', 'São Paulo', 'Ficção', '891', '864', '0001', 'sim', NULL),
+  ('1984', 'George Orwell', 'Companhia das Letras', 2020, 'Doação', 'Rio de Janeiro', 'Distopia', '823', '821', '0002', 'sim', NULL),
+  ('Dom Casmurro', 'Machado de Assis', 'Record', 2019, 'Compra', 'São Paulo', 'Romance', '869', '870', '0003', 'sim', NULL),
+  ('A Revolução dos Bichos', 'George Orwell', 'Companhia das Letras', 2018, 'Compra', 'Curitiba', 'Fábula', '823', '821', '0004', 'sim', NULL),
+  ('O Senhor dos Anéis', 'J.R.R. Tolkien', 'HarperCollins', 2022, 'Compra', 'Brasília', 'Fantasia', '823', '829', '0005', 'sim', NULL),
+  ('O Hobbit', 'J.R.R. Tolkien', 'HarperCollins', 2021, 'Doação', 'São Paulo', 'Fantasia', '823', '829', '0006', 'sim', NULL),
+  ('A Arte da Guerra', 'Sun Tzu', 'Leya', 2020, 'Compra', 'São Paulo', 'Estratégia', '895', '891', '0007', 'sim', NULL),
+  ('O Código Da Vinci', 'Dan Brown', 'Sextante', 2019, 'Compra', 'Rio de Janeiro', 'Suspense', '823', '829', '0008', 'sim', NULL),
+  ('A Culpa é das Estrelas', 'John Green', 'Intrínseca', 2018, 'Doação', 'Porto Alegre', 'Drama', '823', '829', '0009', 'sim', NULL),
+  ('Orgulho e Preconceito', 'Jane Austen', 'Penguin Classics', 2021, 'Compra', 'São Paulo', 'Romance', '823', '821', '0010', 'sim', NULL),
+  ('Moby Dick', 'Herman Melville', 'Martin Claret', 2020, 'Compra', 'Salvador', 'Aventura', '823', '820', '0011', 'sim', NULL),
+  ('O Pequeno Príncipe', 'Antoine de Saint-Exupéry', 'Agir', 2019, 'Doação', 'Belo Horizonte', 'Infantil', '843', '830', '0012', 'sim', NULL),
+  ('Harry Potter e a Pedra Filosofal', 'J.K. Rowling', 'Rocco', 2022, 'Compra', 'Fortaleza', 'Fantasia', '823', '829', '0013', 'sim', NULL),
+  ('O Diário de Anne Frank', 'Anne Frank', 'Vozes', 2021, 'Compra', 'Recife', 'Biografia', '943', '949', '0014', 'sim', NULL),
+  ('O Lobo de Wall Street', 'Jordan Belfort', 'Intrínseca', 2020, 'Compra', 'São Paulo', 'Memórias', '330', '332', '0015', 'sim', NULL),
+  ('O Sol é Para Todos', 'Harper Lee', 'JBC', 2019, 'Doação', 'São Paulo', 'Drama', '823', '821', '0016', 'sim', NULL),
+  ('O Homem mais Rico da Babilônia', 'George S. Clason', 'Editora Best Seller', 2022, 'Compra', 'Curitiba', 'Autoajuda', '332', '330', '0017', 'sim', NULL),
+  ('Sapiens: Uma Breve História da Humanidade', 'Yuval Noah Harari', 'Lemos', 2021, 'Compra', 'Porto Alegre', 'História', '909', '910', '0018', 'sim', NULL),
+  ('O Poder do Hábito', 'Charles Duhigg', 'Objetiva', 2020, 'Compra', 'Belo Horizonte', 'Autoajuda', '158', '150', '0019', 'sim', NULL),
+  ('Quem Mexeu no Meu Queijo?', 'Spencer Johnson', 'Editora Record', 2019, 'Doação', 'Rio de Janeiro', 'Autoajuda', '158', '150', '0020', 'sim', NULL);
+
 
 -- -----------------------------
 INSERT INTO pedidos (matricula, titulo_livro, numero_registro, curso, serie, data_solicitação, nome_bibliotecario)
