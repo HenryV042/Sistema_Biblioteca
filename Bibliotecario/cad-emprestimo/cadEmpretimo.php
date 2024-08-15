@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <div class="topbar" id="header"></div>
     <div class="Encapsulamento">
         <div class="grayBox">
@@ -58,22 +59,35 @@
                     <input type="text" id="matricula" name="matricula" placeholder="Digite a matricula" required>
                 </div>
 
-                <div class="form-row">
+                <div class="livro">
                     <div class="form-group">
                         <label for="titulolivro">titulo do livro:</label>
                         <input type="text" id="titulolivro" name="titulolivro" placeholder="Digite o titulo do livro" required>
                     </div>
+                    
                     <div class="form-group">
                     <label for="author">Autor do livro:</label>
                     <input type="text" id="author" name="author" placeholder="Digite o nome do autor" required>
                     </div>
+                
                 </div>
 
+                <div class="form-row">
                 <div class="form-group">
                         <label for="registrationNumber">Número de Registro:</label>
                         <input type="text" id="registrationNumber" name="registrationNumber"
                             placeholder="Digite o número de registro" required>
                     </div>  
+                    
+                    <div class="form-group">
+                            <label for="data">Escolha uma data:</label>
+                            <input type="date" id="data" name="data"
+                                placeholder="escolha a data" required>
+                    
+                    </div>
+                
+                    
+                </div>
 
                 <div class="form-row">
                     <div class="form-grup full-width ">
