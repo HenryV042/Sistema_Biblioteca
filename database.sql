@@ -71,3 +71,17 @@ CREATE TABLE IF NOT EXISTS emprestimos(
   FOREIGN KEY (aluno_id) REFERENCES aluno(id) ON DELETE SET NULL,
   FOREIGN KEY (titulo_livro, numero_registro) REFERENCES livros(titulo_livro, numero_registro) ON DELETE CASCADE
 );
+
+-- Criar a tabela pedidos
+CREATE TABLE IF NOT EXISTS pedidos (
+  id INT AUTO_INCREMENT,
+  aluno_id INT,
+  matricula VARCHAR(7) NOT NULL,
+  titulo_livro VARCHAR(300) NOT NULL,
+  numero_registro VARCHAR(10),
+  curso VARCHAR(30) NOT NULL,
+  serie VARCHAR(1) NOT NULL,
+  data_solicitação DATETIME,
+  nome_bibliotecario VARCHAR(255),
+  PRIMARY KEY (id)
+);
