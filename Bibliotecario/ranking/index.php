@@ -1,4 +1,6 @@
 <?php
+require_once '../../dependencies/config.php';
+
 // Array de tradução dos meses para o português
 $mesesPortugues = [
     'January' => 'Janeiro',
@@ -63,7 +65,6 @@ $mesesPortugues = [
     </header>
 
     <!-- Incluindo o arquivo de conexão com o banco de dados -->
-    <?php include 'dependencies/config.php'; ?>
 
     <!-- Ranking e Filtros -->
     <div class="ranking-filtros">
@@ -123,7 +124,7 @@ $mesesPortugues = [
     <?php
     try {
         // Conexão com o banco de dados
-        include 'dependencies/config.php';
+        require_once '../../dependencies/config.php';
 
         // Ranking de cursos que mais leram
         $queryCursos = $conn->query("
