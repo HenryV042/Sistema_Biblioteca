@@ -1,0 +1,221 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.header-biblioteca {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.barra-branca {
+    margin-top: 10px;
+    height: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.restrito {
+    max-width: 50%;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    font-weight: 800;
+    background: #5EB030;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 90% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* Caixa de pesquisa */
+form {
+    max-width: 50%;
+    width: 100%;
+    background-color: transparent;
+}
+
+#divBusca {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 28px;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#txtBusca {
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 18px;
+    border: none;
+    height: 100%;
+    width: calc(100% - 40px); /* Ajusta a largura para deixar espaço para o botão */
+    box-sizing: border-box;
+}
+
+#btnBusca {
+    position: absolute;
+    right: 0;
+    border: none;
+    height: 100%;
+    border-radius: 0 28px 28px 0;
+    width: 40px; /* Largura do botão */
+    background-color: #5EB030; /* Lateral verde */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#btnBusca img {
+    width: 20px;
+    height: auto;
+}
+
+/* Adicionar estilo para o select */
+#genero {
+    border: none;
+    border-radius: 28px 0 0 28px; /* Ajustar para combinar com o estilo */
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 18px;
+    height: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    color: green;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    #divBusca {
+        width: 80vw; /* Aumenta a largura para telas menores */
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #txtBusca {
+        font-size: 16px;
+    }
+
+    #btnBusca {
+        width: 35px; /* Ajuste da largura do botão para telas muito pequenas */
+    }
+
+    #btnBusca img {
+        width: 18px;
+    }
+
+    #genero {
+        font-size: 16px; /* Ajuste o tamanho da fonte para telas pequenas */
+    }
+}
+
+/* Shop Section */
+.shop-section {
+    max-width: 1200px;
+    width: 100%; /* Garante que o contêiner use a largura total disponível até o máximo definido */
+    margin: 20px auto 80px auto; /* Ajustado o margin-bottom para criar mais espaço abaixo do contêiner */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 8px; /* Aumentei o border-radius para um visual mais suave */
+    padding: 20px; /* Adicionei padding para criar um espaço interno */
+    box-sizing: border-box; /* Inclui o padding e border na largura e altura total */
+    /* margin-bottom removido para garantir o espaçamento suficiente */
+}
+
+.shop-images {
+    padding: 20px; /* Adicionei padding para criar um espaço interno consistente */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Ajuste para uma grade flexível */
+    gap: 20px; /* Espaço entre os itens, ajustado para garantir que não quebrem */
+    width: 100%; /* Garante que a grade ocupe toda a largura do contêiner pai */
+    box-sizing: border-box; /* Inclui o padding e border na largura e altura total */
+}
+
+.shop-link {
+    background-color: #fff;
+    padding: 10px; /* Ajustado para um espaçamento interno mais compacto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para um efeito de profundidade */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais suave */
+}
+
+.shop-link img {
+    width: auto; /* Mantém a largura da imagem conforme o contêiner */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: 30vh; /* Mantém a altura da imagem em 30% da altura da viewport */
+    object-fit: contain; /* Garante que a imagem seja contida dentro dos limites */
+    margin-bottom: 10px;
+}
+
+.shop-link h3 {
+    margin-bottom: 10px; /* Ajustado o espaço abaixo do título */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.botao-verde {
+    background-color: #5EB030;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Ajuste do border-radius para um visual mais moderno */
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+
+.botao-verde:hover {
+    background-color: #4C9624;
+}
+
+.shop-link:hover a {
+    color: #c7511f;
+    text-decoration: underline;
+}
+
+/* Estilos para a navegação de paginação */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+    color: white;
+}

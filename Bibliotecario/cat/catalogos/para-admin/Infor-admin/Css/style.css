@@ -1,0 +1,315 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+   background-image: url(../img/ondas-governo-rodape.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: contain;
+   height: 100vh;
+   
+}
+
+/* Header or Navbar */
+header {
+    background-image: linear-gradient(90deg, #26A737, #2DB39E);
+    border-bottom: 3px solid #E84F0D;
+    height: 8%;
+    width: 100%;
+}
+
+                                    /* menu lateral */
+.menu-Oculto{
+   height: 100%;
+   width: 0vw;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   overflow: hidden;
+   background-color: #ffffff;
+   box-shadow: rgba(3, 3, 3, 0.521) 0.2px 0px 12px 0px ;
+   transition: 0.5s;
+}
+
+.opcoes {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.menu-Oculto a{
+   text-decoration: none;
+   color: rgb(34,166,56);
+   padding: 24px 8px 8px 32px;
+   font-size: 23px;
+   display: block;
+   transition: 0.4s;
+}
+.menu-Oculto a:hover{
+   color: #ffffff;
+   background-color: #89db86;
+   
+}
+.fechar{
+   position: absolute;
+   top: 0;
+   right: 0.1%;
+   font-size: 50px;
+   margin-left: 50px;
+   border: none;
+   background-color: white;
+   cursor: pointer;
+}
+
+.logoMenu{
+   height: 27vh;
+   margin-left: 40px;
+}
+.imageMenu{
+   display: flex;
+   align-items: center;
+}
+
+.linha{
+   width: 100%;
+   height: 5px;
+   background: linear-gradient(to right, #e84f0d 0%, #fccf00 100%);
+   margin-bottom: 40px;
+}
+.opcoes .sair{
+   color: red;
+}
+.opcoes .sair:hover{
+   color: #ffffff;
+   background-color: #ff0000;
+}
+
+#principal{
+   display: flex;
+   padding: 10px;
+   transition: margin-left 0.5s;
+}
+
+#principal span{
+   margin: 3px 10px 1px 20px;
+   color: #ffffff;
+}
+
+/* NavBar */
+.nav-logo {
+   display: flex;
+}
+
+.logo_eeep{
+   margin: 1px 30px 1px 27px;
+
+   height: 6vh;    
+}
+
+.ret{
+   border-radius: 100px;
+   width: 0.3vw;
+   height: 5.5vh;
+   background: #ffffff;
+   margin-right: 12px;
+}
+.nav-logo .library{
+   height: 5.8vh;
+   margin: 0px 0px 0px 40px;
+}
+
+/* parte do body com o formulario/modal */
+.container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: auto;
+   margin-top: 5%;
+   /* background-color: #e0e0e0; */
+   height: 560px;
+   width: 1600px;
+   padding: 20px;
+   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.img-livro {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.img-livro img {
+   max-width: 300px;
+   max-height: 500px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.formulario {
+   flex: 2;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   border-radius: 5px;
+}
+
+h2 {
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   color: green;
+   text-align: center;
+}
+
+input[type="text"], input[type="date"], select {
+   width: 100%;
+   margin-bottom: 10px;
+   padding: 10px;
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+}
+
+.input-group {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+.input-group .selec{
+   width: 150px;
+   margin-right: 35%;
+}
+
+.input-group input {
+   width: 48%;
+}
+
+select {
+   width: 48%;
+}
+
+/* Botões */
+button {
+   padding: 7px 20px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   font-size: 16px;
+   margin-right: 60px; /* Espaço entre os botões */
+   text-transform: uppercase;
+   
+}
+
+.btn-enviar {
+   background-color: #26A737;
+   color: #ffffff;
+}
+
+.btn-enviar:hover {
+   background-color: #1e8a2c;
+}
+
+.btn-voltar {
+   background-color: #FFC107; /* Cor amarela */
+   color: #ffffff;
+   margin-right: 60px;
+}
+
+.btn-voltar:hover {
+   background-color: #ffb300; /* Cor amarela mais escura para o hover */
+}
+
+/* Grupo de botões */
+.button-group {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px; /* Espaço acima dos botões */
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+   header {
+       height: auto;
+   }
+
+   .menu-Oculto {
+       width: 250px;
+   }
+
+   .container {
+       flex-direction: column;
+       height: auto;
+       width: 100%;
+       padding: 10px;
+       box-shadow: none;
+   }
+
+   .img-livro img {
+       max-width: 80px;
+       max-height: 200px;
+   }
+
+   .formulario {
+       width: 100%;
+   }
+
+   .input-group {
+       flex-direction: column;
+   }
+   
+
+   .input-group input {
+       width: 100%;
+       margin-bottom: 10px;
+   }
+
+   select {
+       width: 100%;
+   }
+}
+
+
+/* RESPONSIVIDADE MIDIA QUERRY */
+@media (max-width: 560px) {
+   .logo_eeep{
+      margin: 0px 0px 0px 0px;
+      height: 6vh;
+   }
+   .nav-logo .library{
+      margin: 0px 0px 0px 0px;
+      height: 5.6vh;
+   }
+   #principal span{
+      margin: 0px 0px 0px 0px;
+   }
+   
+}
+@media (max-width: 390px) {
+   .logo_eeep{
+
+      height: 4.5vh;
+   }
+   .nav-logo .library{
+
+      height: 4vh;
+   }
+
+}
+@media (max-width: 390px) {
+   .logoMenu{
+      height: 22vh;
+      margin-left: 20px;
+   }
+   .fechar{
+      margin-left: 0;
+      right: auto;
+   }
+   
+   
+}
