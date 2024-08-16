@@ -15,7 +15,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <style>
-        /* Estilo para o modal */
         .modal {
             display: none;
             position: fixed;
@@ -105,6 +104,77 @@
         .submit-button:hover {
             background-color: #45a049;
         }
+
+        /* Estilo para os selects de filtragem */
+        .filter-container select {
+            padding: 10px;
+            margin: 0 10px 10px 0;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        .filter-container select:hover {
+            transform: scale(1.01);
+        }
+
+        /* Estilo para os botões */
+        .filter-container .submit-button,
+        .pagination .submit-button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-container .nextPage,
+        .pagination .nextPage {
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-container .clear-button,
+        .pagination .clear-button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-container button:focus,
+        .pagination button:focus {
+            outline: none;
+            box-shadow: 0 0 10px #45a049;
+        }
+
+        .anoIniciofiltro {
+            padding: 10px;
+            margin: 0 10px 10px 0;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #333;
+            transition: all 0.3s ease;
+        }
     </style>
 
 </head>
@@ -146,6 +216,52 @@
             <h1 class="title">TURMAS</h1>
             <button class="print-button" onclick="openAddModal()">ADICIONAR</button>
         </div>
+        <div class="filter-container">
+            <form id="filterForm" onsubmit="applyFilters(event)">
+                <label for="filter_identificacao">Nome de Identificação:</label>
+                <select id="filter_identificacao" name="filter_identificacao">
+                    <option value="">Todos</option>
+                    <option value="1º A - Enfermagem">1º A - Enfermagem</option>
+                    <option value="1º B - Informática">1º B - Informática</option>
+                    <option value="1º C - Comércio">1º C - Comércio</option>
+                    <option value="1º D - Administração">1º D - Administração</option>
+                    <option value="2º A - Enfermagem">2º A - Enfermagem</option>
+                    <option value="2º B - Informática">2º B - Informática</option>
+                    <option value="2º C - Comércio">2º C - Comércio</option>
+                    <option value="2º D - Administração">2º D - Administração</option>
+                    <option value="3º A - Enfermagem">3º A - Enfermagem</option>
+                    <option value="3º B - Informática">3º B - Informática</option>
+                    <option value="3º C - Comércio">3º C - Comércio</option>
+                    <option value="3º D - Administração">3º D - Administração</option>
+                </select>
+
+                <label for="filter_curso">Curso:</label>
+                <select id="filter_curso" name="filter_curso">
+                    <option value="">Todos</option>
+                    <option value="Enfermagem">Enfermagem</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Comércio">Comércio</option>
+                    <option value="Administração">Administração</option>
+                </select>
+
+                <label for="filter_ano">Ano de Início:</label>
+                <input class="anoIniciofiltro" type="number" id="filter_ano" name="filter_ano" maxlength="4"
+                    placeholder="Ex: 2024">
+
+                <label for="filter_situacao">Situação:</label>
+                <select id="filter_situacao" name="filter_situacao">
+                    <option value="">Todos</option>
+                    <option value="Ativo">Ativo</option>
+                    <option value="Desativado">Desativado</option>
+                </select>
+
+                <button type="submit" class="submit-button">Filtrar</button>
+                <button type="button" class="clear-button" onclick="clearFilters()">Limpar Filtros</button>
+            </form>
+        </div>
+
+
+
         <table id="booksTable">
             <?php
             // Conectar ao banco de dados
@@ -209,6 +325,8 @@
                     throw new Exception("Erro ao consultar as turmas: " . implode(", ", $stmt->errorInfo()));
                 }
 
+
+
                 // Exibe os resultados na tabela
                 echo "<table id='booksTable'>";
                 echo "<thead>
@@ -224,7 +342,7 @@
                 echo "<tbody>";
 
                 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                    $atividade = $row['atividade'] == 1 ? 'Ativo' : 'Desativado';
+                    $atividade = $row['atividade'] == 1 ? 'Ativo' : 'Inativo';
                     echo "<tr>
             <td>{$row['nome_identificacao']}</td>
             <td>{$row['curso']}</td>
@@ -245,6 +363,13 @@
 
 
         </table>
+
+        <div class="pagination">
+            <button id="prevPage" onclick="prevPage()">Anterior</button>
+            <span id="pageInfo"></span>
+            <button id="nextPage" onclick="nextPage()">Próximo</button>
+        </div>
+
     </div>
 
     <!-- Modal para Adicionar Turma -->
@@ -262,14 +387,6 @@
                             <option value="1º B - Informática">1º B - Informática</option>
                             <option value="1º C - Comércio">1º C - Comércio</option>
                             <option value="1º D - Administração">1º D - Administração</option>
-                            <option value="2º A - Enfermagem">2º A - Enfermagem</option>
-                            <option value="2º B - Informática">2º B - Informática</option>
-                            <option value="2º C - Comércio">2º C - Comércio</option>
-                            <option value="2º D - Administração">2º D - Administração</option>
-                            <option value="3º A - Enfermagem">3º A - Enfermagem</option>
-                            <option value="3º B - Informática">3º B - Informática</option>
-                            <option value="3º C - Comércio">3º C - Comércio</option>
-                            <option value="3º D - Administração">3º D - Administração</option>
                         </select>
                     </div>
                     <div>
@@ -294,11 +411,7 @@
                     </div>
                     <div>
                         <label for="serie">Série:</label>
-                        <select id="serie" name="serie" required>
-                            <option value="1º">1º</option>
-                            <option value="2º">2º</option>
-                            <option value="3º">3º</option>
-                        </select>
+                        <input type="number" id="serie" name="serie" required readonly>
                     </div>
                 </div>
 
@@ -323,14 +436,6 @@
                             <option value="1º B - Informática">1º B - Informática</option>
                             <option value="1º C - Comércio">1º C - Comércio</option>
                             <option value="1º D - Administração">1º D - Administração</option>
-                            <option value="2º A - Enfermagem">2º A - Enfermagem</option>
-                            <option value="2º B - Informática">2º B - Informática</option>
-                            <option value="2º C - Comércio">2º C - Comércio</option>
-                            <option value="2º D - Administração">2º D - Administração</option>
-                            <option value="3º A - Enfermagem">3º A - Enfermagem</option>
-                            <option value="3º B - Informática">3º B - Informática</option>
-                            <option value="3º C - Comércio">3º C - Comércio</option>
-                            <option value="3º D - Administração">3º D - Administração</option>
                         </select>
                     </div>
                     <div>
@@ -346,7 +451,7 @@
                 <div class="form-row">
                     <div>
                         <label for="edit_ano_inicio">Ano de Início:</label>
-                        <input type="number" id="edit_ano_inicio" name="ano_inicio" required>
+                        <input type="number" id="edit_ano_inicio" name="ano_inicio" required readonly>
                     </div>
                     <div>
                         <label for="edit_ano_conclusao">Ano de Conclusão:</label>
@@ -354,11 +459,7 @@
                     </div>
                     <div>
                         <label for="edit_serie">Série:</label>
-                        <select id="edit_serie" name="serie" required>
-                            <option value="1">1º</option>
-                            <option value="2">2º</option>
-                            <option value="3">3º</option>
-                        </select>
+                        <input type="number" id="edit_serie" name="serie" required readonly>
                     </div>
                 </div>
 
@@ -371,6 +472,11 @@
     <script>
         // Abrir modal de adicionar turma
         function openAddModal() {
+            document.getElementById('addTurmaModal').style.display = 'block';
+            var currentYear = new Date().getFullYear(); // Obter o ano atual
+            document.getElementById('ano_inicio').value = currentYear; // Definir o ano atual
+            document.getElementById('ano_conclusao').value = currentYear + 2; // Definir o ano de conclusão automaticamente
+            document.getElementById('serie').value = 0 + 1; // Definir a série como "1º"
             document.getElementById('addTurmaModal').style.display = 'block';
         }
 
@@ -388,8 +494,6 @@
                 dataType: 'json',
                 success: function (turma) {
                     // Verifique o console para garantir que os dados estejam chegando corretamente
-                    console.log(turma);
-
                     // Certifique-se de que os valores estejam corretos
                     if (turma) {
                         document.getElementById('edit_turma_id').value = turma.id;
@@ -542,7 +646,98 @@
                 });
             });
         });
+
+        function applyFilters(event) {
+            event.preventDefault();
+
+            var filterIdentificacao = document.getElementById('filter_identificacao').value.toLowerCase();
+            var filterCurso = document.getElementById('filter_curso').value.toLowerCase();
+            var filterAno = document.getElementById('filter_ano').value;
+            var filterSituacao = document.getElementById('filter_situacao').value.toLowerCase();
+
+            var rows = document.querySelectorAll('#booksTable tbody tr');
+
+            rows.forEach(function (row) {
+                var identificacao = row.cells[0].textContent.toLowerCase();
+                var curso = row.cells[1].textContent.toLowerCase();
+                var anoInicio = row.cells[2].textContent.split(' - ')[0];
+                var situacao = row.cells[3].textContent.toLowerCase();
+
+                var show = true;
+
+                if (filterIdentificacao && !identificacao.includes(filterIdentificacao)) {
+                    show = false;
+                }
+                if (filterCurso && !curso.includes(filterCurso)) {
+                    show = false;
+                }
+                if (filterAno && anoInicio !== filterAno) {
+                    show = false;
+                }
+                if (filterSituacao && situacao !== filterSituacao) {
+                    show = false;
+                }
+
+                if (show) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+
     </script>
+
+    <script>
+        function clearFilters() {
+            document.getElementById('filterForm').reset();
+            applyFilters(new Event('submit'));  // Reaplica os filtros após limpar
+        }
+
+        var currentPage = 1;
+        var itemsPerPage = 8;  // Mostra 12 itens por página
+
+        function showPage(page) {
+            var rows = document.querySelectorAll('#booksTable tbody tr');
+            var totalPages = Math.ceil(rows.length / itemsPerPage);
+
+            if (page < 1) page = 1;
+            if (page > totalPages) page = totalPages;
+
+            for (var i = 0; i < rows.length; i++) {
+                rows[i].style.display = 'none';
+            }
+
+            for (var i = (page - 1) * itemsPerPage; i < page * itemsPerPage && i < rows.length; i++) {
+                rows[i].style.display = '';
+            }
+
+            document.getElementById('pageInfo').textContent = "Página " + page + " de " + totalPages;
+
+            document.getElementById('prevPage').disabled = (page === 1);
+            document.getElementById('nextPage').disabled = (page === totalPages);
+        }
+
+        function prevPage() {
+            if (currentPage > 1) {
+                currentPage--;
+                showPage(currentPage);
+            }
+        }
+
+        function nextPage() {
+            var totalPages = Math.ceil(document.querySelectorAll('#booksTable tbody tr').length / itemsPerPage);
+            if (currentPage < totalPages) {
+                currentPage++;
+                showPage(currentPage);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            showPage(currentPage);
+        });
+    </script>
+
 
 </body>
 

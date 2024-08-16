@@ -8,14 +8,6 @@
      font-family: "Open Sans", sans-serif;
  }
  
- body{
-    background-image: url(../img/ondas-governo-rodape.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    height: 100%;
-}
- 
  /* Header or Navbar */
  header {
      background-image: linear-gradient(90deg, #26A737, #2DB39E);

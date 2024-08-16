@@ -52,7 +52,7 @@
         </nav>
     </header>
     <?php
-    require_once "../../dependencies/config.php";
+    require_once "../../../dependencies/config.php";
 
     // Recupera a matrícula do aluno via GET
     $matricula = isset($_GET['matricula']) ? $_GET['matricula'] : '';
