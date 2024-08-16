@@ -1,5 +1,5 @@
 <!-- <?php
-require_once '../dependencies/config.php'; -->
+require_once '../dependencies/config.php';
 
 // Recuperar os dados do formulário
 $titulo_livro = isset($_POST['titulo_livro']) ? $_POST['titulo_livro'] : '';
