@@ -4,13 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleProfessor.css">
+    <link rel="stylesheet" href="Css/styleProfessor.css">
+    <link rel="stylesheet" href="Css/style.css">
     <title>Cadastro Empréstimo Professor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript"  src="scripts.js"></script>
 </head>
 
 <body>
+
+<!-- nav bar -->
+<header>
+
+        <nav>
+            <aside id="menu-Oculto" class="menu-Oculto">
+                <div class="imagemMenu">
+                    <img src="img/logoMenu.png" alt="" class="logoMenu">
+                    <button class="fechar" href="" onclick="fecharMenu()"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                        
+                </div>
+                    
+                <div class="linha"></div>
+                <div class="opcoes">
+        
+                    <a href=""><i class="fa-solid fa-file"></i>    Cadastrar Livro</a>
+                    <a href=""><i class="fa-solid fa-book-open-reader"></i>    Cadastrar Empréstimo</a>
+                    <a href=""><i class="fa-solid fa-book-bookmark"></i>    Banco de Livros</a>
+                    <a href=""><i class="fa-brands fa-leanpub"></i>    Empréstimos</a>
+                    <a href=""><i class="fa-solid fa-user-plus"></i>    Adicionar Turma</a>
+                    <a href=""><i class="fa-solid fa-address-book"></i>    Pedidos</a>
+                    <a href=""><i class="fa-solid fa-file-import"></i>    Relatório</a>
+                    <a href="" class="sair"><i class="fa-solid fa-circle-xmark"></i>    Sair</a>
+                </div>
+                    
+            </aside>
+            <section id="principal">
+                <span style="font-size:30px;cursor:pointer"onclick="abrirMenu()">&#9776;</span>
+                <div class="nav-logo">
+                    <img  src="img/logoEEEP.png" alt="logo" class="logo_eeep"/>
+                    <div class="ret"></div>
+                    <img src="img/logoNav.png" alt="logo" class="library"/>
+                </div>
+        
+            </section>
+        </nav>
+        
+    </header>
+
+<!-- nav-bar -->
 
     <div class="topbar" id="header"></div>
     <div class="Encapsulamento">
