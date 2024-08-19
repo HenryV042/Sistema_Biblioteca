@@ -217,9 +217,13 @@ try {
                 <!-- Botões em linha -->
                 <div class="buttom-container">
                     <div class="buttom">
-                        <button type="submit" id="buttom-l">
-                            Fazer Pedido
-                        </button>
+                        <?php 
+                        if($status == 'Disponível'){
+                            echo '<button type="submit" id="buttom-l">';
+                            echo    'Fazer Pedido';
+                            echo '</button>';
+                        }
+                        ?>
                     </div>
 
                     <div class="buttom">
