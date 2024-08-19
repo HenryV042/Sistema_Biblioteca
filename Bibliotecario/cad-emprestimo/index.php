@@ -1,14 +1,18 @@
+<?php date_default_timezone_set('America/Sao_Paulo'); ?>
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Css/styleProfessor.css">
+    <link rel="stylesheet" href="Css/styleEmprestimo.css">
     <link rel="stylesheet" href="Css/style.css">
-    <title>Cadastro Empréstimo Professor</title>
+    <title>Registro De Livros</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 
@@ -16,19 +20,15 @@
 
     <!-- nav bar -->
     <header>
-
         <nav>
             <aside id="menu-Oculto" class="menu-Oculto">
                 <div class="imagemMenu">
                     <img src="img/logoMenu.png" alt="" class="logoMenu">
                     <button class="fechar" href="" onclick="fecharMenu()"><i
                             class="fa-solid fa-circle-arrow-left"></i></button>
-
                 </div>
-
                 <div class="linha"></div>
                 <div class="opcoes">
-
                     <a href="../registrarlivro"><i class="fa-solid fa-file"></i> Cadastrar Livro</a>
                     <a href="../cad-emprestimo"><i class="fa-solid fa-book-open-reader"></i> Cadastrar Empréstimo</a>
                     <a href="../catalogos"><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
@@ -37,9 +37,7 @@
                     <a href="../pedidos"><i class="fa-solid fa-address-book"></i> Pedidos</a>
                     <a href="../ranking"><i class="fa-solid fa-file-import"></i> Relatório</a>
                     <a href="../sair" class="sair"><i class="fa-solid fa-circle-xmark"></i> Sair</a>
-
                 </div>
-
             </aside>
             <section id="principal">
                 <span style="font-size:30px;cursor:pointer" onclick="abrirMenu()">&#9776;</span>
@@ -48,35 +46,58 @@
                     <div class="ret"></div>
                     <img src="img/logoNav.png" alt="logo" class="library" />
                 </div>
-
             </section>
         </nav>
-
     </header>
-
     <!-- nav-bar -->
 
     <div class="topbar" id="header"></div>
     <div class="Encapsulamento">
         <div class="grayBox">
             <div class="CadastrarLivro">
-                <span>CADASTRAR EMPRÉSTIMO PROFESSOR</span>
+                <span>CADASTRAR EMPRÉSTIMO</span>
             </div>
-            <form action="register.php" method="post" enctype="multipart/form-data">
+            <form action="cadastrar.php" method="post" enctype="multipart/form-data">
                 <div class="form-group full-width imgContainerImg">
-                    <!-- If you need an image container, add content here -->
+                    <!-- Image upload preview will be here -->
+                </div>
+                
+                <div class="curso-turma">
+                    <div class="form-nome">
+                        <label for="Name">Nome do Estudante:</label>
+                        <input type="text" id="Name" name="Name" placeholder="Digite o nome do estudante" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-cursos">
+                            <label for="curso">Curso:</label>
+                            <select id="curso" name="curso" required>
+                                <option value="Enfermagem">Enfermagem</option>
+                                <option value="Informatica">Informática</option>
+                                <option value="Adiministracao">Administração</option>
+                                <option value="Comercio">Comércio</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-turma">
+                            <label for="turma">Turma:</label>
+                            <select id="turma" name="turma" required>
+                                <option value="1">1º</option>
+                                <option value="2">2º</option>
+                                <option value="3">3º</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="curso-turma">
-                    <div class="form-row full-width">
-                        <label for="Name">Nome do Professor:</label>
-                        <input type="text" id="Name" name="Name" placeholder="Digite o nome do professor" required>
-                    </div>
+                <div class="form-group full-width">
+                    <label for="matricula">Matrícula:</label>
+                    <input type="text" id="matricula" name="matricula" placeholder="Digite a matrícula" required>
                 </div>
 
                 <div class="livro">
                     <div class="form-group">
-                        <label for="titulolivro">Título do Livro:</label>
+                        <label for="titulolivro">Título do livro:</label>
                         <input type="text" id="titulolivro" name="titulolivro" placeholder="Digite o título do livro"
                             required>
                     </div>
@@ -84,14 +105,18 @@
 
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="data">Escolha uma Data:</label>
-                        <input type="date" id="data" name="data" placeholder="Escolha a data" value="<?php echo date('Y-m-d'); ?> required>
+                        <label for="data">Escolha uma data:</label>
+                        <input type="date" id="data" name="data" value="<?php echo date('Y-m-d'); ?>">
                     </div>
-
                     <div class="form-group">
                         <label for="registrationNumber">Número de Registro:</label>
                         <input type="text" id="registrationNumber" name="registrationNumber"
                             placeholder="Digite o número de registro" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nomebibliotecario">Nome Bibliotecário:</label>
+                        <input type="text" id="nomebibliotecario" name="nomebibliotecario"
+                            placeholder="Digite seu nome" required>
                     </div>
                 </div>
 
@@ -111,11 +136,10 @@
             </form>
         </div>
     </div>
-
     <script>
-        $(document).ready(function () {
-            $('#header').load('../../Component/Menu_Nav');
-        });
+        <?php
+
+?>
     </script>
 
     <script>
@@ -127,7 +151,7 @@
 
                 const formData = new FormData(form);
 
-                fetch('register.php', {
+                fetch('cadastrar.php', {
                     method: 'POST',
                     body: formData
                 })
@@ -144,67 +168,9 @@
                         alert('Erro ao realizar o cadastro.');
                     });
             });
-
-            const fileInput = document.getElementById('bookImage');
-            const fileInputContainer = document.getElementById('fileInputContainer');
-            const previewImage = document.getElementById('previewImage');
-            const fileIcon = document.querySelector('.file-icon');
-
-            fileInputContainer.addEventListener('click', () => {
-                fileInput.click();
-            });
-
-            fileInputContainer.addEventListener('dragover', (event) => {
-                event.preventDefault();
-                fileInputContainer.classList.add('dragover');
-            });
-
-            fileInputContainer.addEventListener('dragleave', () => {
-                fileInputContainer.classList.remove('dragover');
-            });
-
-            fileInputContainer.addEventListener('drop', (event) => {
-                event.preventDefault();
-                fileInputContainer.classList.remove('dragover');
-                const files = event.dataTransfer.files;
-                if (files.length > 0) {
-                    fileInput.files = files;
-                    displayImage(files[0]);
-                }
-            });
-
-            // Event listener to handle file selection
-            fileInput.addEventListener('change', () => {
-                const file = fileInput.files[0];
-                if (file) {
-                    displayImage(file);
-                }
-            });
-
-            // Function to display and resize the image
-            function displayImage(file) {
-                const reader = new FileReader();
-                reader.onload = function (e) {
-                    const img = new Image();
-                    img.src = e.target.result;
-                    img.onload = function () {
-                        const canvas = document.createElement('canvas');
-                        const ctx = canvas.getContext('2d');
-
-                        canvas.width = 256;
-                        canvas.height = 256;
-
-                        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-
-                        previewImage.src = canvas.toDataURL();
-                        previewImage.style.display = 'block';
-                        fileIcon.style.display = 'none';
-                    };
-                };
-                reader.readAsDataURL(file);
-            }
         });
     </script>
+
 </body>
 
 </html>

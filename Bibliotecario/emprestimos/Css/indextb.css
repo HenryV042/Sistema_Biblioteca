@@ -1,12 +1,34 @@
+:root {
+    --cor-principal: #26A737;
+    --cor-secundaria: #E84F0D;
+    --cor-terciaria: #2DB39E;
+    --cor-fundo: #C9C9C9;
+    --cor-hover: #89db86;
+    --cor-foco: #26A737; /* Cor de foco para acessibilidade */
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+#searchButton i {
+    font-size: 16px;
+}
+
 
 .cabecario{
     width: 80%;
     display: flex;
     justify-content: flex-end; /* Alinha a div à direita */
+    align-items: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
     margin-left: auto; /* Garante que a div esteja à direita */
     margin-right: 10%; /* Espaçamento em relação à borda direita */
+    /* background-color: green; */
 }
 .title {
     font-family: 'Inter', sans-serif;
@@ -18,38 +40,58 @@
     margin-right: auto;
 }
 /* botao das pesquisa  */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 4px; /* 2px após a barra de pesquisa  */
+    
+}
+
 .search-box {
-    width: 417px;
+    border: 1px solid #b6b5b5;
+
+    width: 400px;
     height: 39px;
-    background-color: #E9E9E9;
+    background-color: #ffffff;
     border-radius: 10px;
     display: flex;
     align-items: right;
     justify-content: center;
     
-}
-.search-container {
-    display: flex;
-    align-items: center;
-    margin-right: 4px; /* 2px após a barra de pesquisa  */
-}
-
-.search-inner {
-    width: 115px;
-    height: 39px;
-    background-color: #B7B7B7;
-    color: white;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 5px;
-    cursor: pointer;
-    margin-left: auto;
     
 }
 
-.dropdown-button {
+.search-container i {
+    
+    position: absolute;
+    right: 41%;
+}
+
+/* selects */
+
+.filtros {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    align-items: center;
+}
+
+.turma-filter, .curso-filter {
+    width: 9vw;
+    height: 5.5vh;
+    background-color: rgb(206, 198, 198);
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 5px;
+    margin-right: 10px;
+    
+}
+/* .dropdown-button {
     color: black;
     padding: 10px 20px;
     font-size: 1rem;
@@ -57,21 +99,21 @@
     border-radius: 10px;
     cursor: pointer;
     text-transform: uppercase;
-}
+    margin-right: 5px;
+} */
 
 /*  butão de imprimir*/
-
 .print-button {
     display: flex;
     background-color: #FFA500; 
     color: #fff; 
     border: none;
-    border-radius: 15px; 
+    border-radius: 10px; 
     font-family: 'Inter', sans-serif;
-    font-size: 1rem; 
+    font-size:  12px; 
     font-weight: 600; 
-    width: 140px; 
-    height: 44px; 
+    width: 7.5vw;
+    height: 5.5vh; 
     align-items: center;
     justify-content: center;
     text-transform: uppercase;

@@ -1,11 +1,15 @@
-body {
+*{
     margin: 0;
     padding: 0;
-    /* ondas do fim da tela */
+
+}
+body {
+    overflow: hidden;
     background-image: url("./img/ondas-governo-rodape.png");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+
 }
 /* nav-bar */
 nav{
@@ -23,7 +27,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 83vh;
+    height: 97.5vh;
 }
 /* fim corpo do site */
 

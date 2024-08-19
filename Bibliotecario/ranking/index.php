@@ -30,6 +30,7 @@ $mesesPortugues = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca</title>
     <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/styleNavbar.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
@@ -47,14 +48,14 @@ $mesesPortugues = [
                 </div>
                 <div class="linha"></div>
                 <div class="opcoes">
-                    <a href="../RegistrarLivro/"><i class="fa-solid fa-file"></i> Cadastrar Livro</a>
-                    <a href="../CadstrarEmprestimo/"><i class="fa-solid fa-book-open-reader"></i> Cadastrar Empréstimo</a>
-                    <a href="../catalogo/"><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
-                    <a href="../emprestimo/"><i class="fa-brands fa-leanpub"></i> Empréstimos</a>
-                    <a href="../Turmas/"><i class="fa-solid fa-user-plus"></i> Adicionar Turma</a>
-                    <a href="../pedidos/"><i class="fa-solid fa-address-book"></i> Pedidos</a>
-                    <a href="../ranking/"><i class="fa-solid fa-file-import"></i> Relatório</a>
-                    <a href="" class="sair"><i class="fa-solid fa-circle-xmark"></i> Sair</a>
+                    <a href="../registrarlivro"><i class="fa-solid fa-file"></i> Cadastrar Livro</a>
+                    <a href="../cad-emprestimo"><i class="fa-solid fa-book-open-reader"></i> Cadastrar Empréstimo</a>
+                    <a href="../catalogos"><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
+                    <a href="../emprestimos"><i class="fa-brands fa-leanpub"></i> Empréstimos</a>
+                    <a href="../turmas"><i class="fa-solid fa-user-plus"></i> Adicionar Turma</a>
+                    <a href="../pedidos"><i class="fa-solid fa-address-book"></i> Pedidos</a>
+                    <a href="../ranking"><i class="fa-solid fa-file-import"></i> Relatório</a>
+                    <a href="../sair" class="sair"><i class="fa-solid fa-circle-xmark"></i> Sair</a>
                 </div>
             </aside>
             <section id="principal">
@@ -69,7 +70,7 @@ $mesesPortugues = [
     </header>
 
     <!-- Incluindo o arquivo de conexão com o banco de dados -->
-    <?php include 'dependencies/config.php'; ?>
+    <?php require_once '../../dependencies/config.php'; ?>
 
     <!-- Ranking e Filtros -->
     <div class="ranking-filtros">
@@ -128,9 +129,7 @@ $mesesPortugues = [
     <!-- PHP para exibir os rankings -->
     <?php
     try {
-        // Conexão com o banco de dados
-        include 'dependencies/config.php';
-
+        
         // Ranking de cursos que mais leram
         $queryCursos = $conn->query("
         SELECT t.nome_identificacao AS turma, COUNT(e.id) AS total_leituras
