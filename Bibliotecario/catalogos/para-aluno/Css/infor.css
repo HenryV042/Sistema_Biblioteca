@@ -1,0 +1,140 @@
+*{
+    text-decoration: none;
+}
+
+.main-infor{
+    /* background-color: red; */
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    /* background-color: gray; */
+    max-width:70%;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.img-container{
+    height: 100%;
+    width: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: black solid 3px; */
+    /* background-color: aqua; */
+}
+
+/* .img-container img{
+    height: 100%;
+} */
+
+/* Container geral do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    width: 95vh;
+    max-height: 90%;
+    height: 100%;
+    margin: auto;
+    /* border: greenyellow solid 3px; */
+    /* background-color: brown; */
+}
+
+/* Estilo para o H1 */
+h1 {
+    color: #5EB030;
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+/* Estilo para labels */
+.inputs label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Estilo para inputs */
+.inputs input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Garante que o padding não ultrapasse a largura */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Ajuste de espaçamento entre os blocos de input */
+.inputs {
+    margin-bottom: 15px;
+    width: 100%;
+}
+/* Inputs "título" e "autor" */
+.inputs-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Inputs "status" e "gênero" */
+.inputs-inline {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputs-inline .inputs {
+    width: calc(50% - 5px); /* Divide igualmente o espaço e adiciona margin */
+}
+
+/* Botões */
+.buttom-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.buttom-container .buttom {
+    width: calc(50% + 50px); /* Divide igualmente o espaço e adiciona margin */
+}
+
+.buttom-container .buttom button {
+    width: 30%;
+    padding: 10px;
+    background-color: #5EB030;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+}
+.buttom-container .buttom #buttom-l{
+    background-color: orange;
+}
+
+.buttom-container .buttom button:hover {
+    background-color: #555;
+}
+
+.buttom-container .buttom a {
+    color: white;
+}
+
+
+
+
+
