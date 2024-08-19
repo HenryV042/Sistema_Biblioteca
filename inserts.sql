@@ -12,7 +12,8 @@ VALUES
   ('3º A - Enfermagem', 'Enfermagem', 2022, 2024, 3),
   ('3º B - Informática', 'Informática', 2022, 2024, 3),
   ('3º C - Comércio', 'Comércio', 2022, 2024, 3),
-  ('3º D - Administração', 'Administração', 2022, 2024, 3);
+  ('3º D - Administração', 'Administração', 2022, 2024, 3),
+  ('Professores - EEEP MM', 'Professores', 2024, 2200, 3);
 -- -------------------------------------------------------------------------------------------------------------------
 -- 1A 
 INSERT INTO aluno (id_turma, numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie)
