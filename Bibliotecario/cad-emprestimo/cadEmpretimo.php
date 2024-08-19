@@ -66,7 +66,7 @@
                 <div class="form-group full-width imgContainerImg">
                     <!-- Image upload preview will be here -->
                 </div>
-
+                
                 <div class="curso-turma">
                     <div class="form-nome">
                         <label for="Name">Nome do Estudante:</label>
@@ -140,6 +140,11 @@
             </form>
         </div>
     </div>
+    <script>
+        <?php
+
+?>
+    </script>
 
     <script>
         $(document).ready(function () {
