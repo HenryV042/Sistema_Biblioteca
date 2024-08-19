@@ -102,7 +102,7 @@ $mesesPortugues = [
                     ?>
                 </select>
             </div>
-            <button id="aplicar-filtros" class="relatorio"><i class="fa-solid fa-print"></i> Aplicar Filtros</button>
+            <button id="aplicar-filtros" class="relatorio"> Aplicar Filtros</button>
         </div>
     </div>
 
