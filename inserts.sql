@@ -582,6 +582,65 @@ VALUES
   (12, 42, 2590688, '118.461.133-63', 'Samara Moreno Sousa', '3º D - Administração', 'Administração', '3'),
   (12, 43, 4986580, '063.706.543-89', 'Tiago Camerino Martins Farias', '3º D - Administração', 'Administração', '3');
 
+---------------------------------------------------------------------------------------------------------------------------------
+-- Inserir dados na tabela aluno para professores e outros funcionários com série 4
+INSERT INTO aluno (numero, matricula, cpf, nome_completo, sala_identificacao, curso, serie, id_turma)
+VALUES
+  (1, 1001, '00000000191', 'POLIANA HOLANDA SARAIVA DE MELO', 'Diretoria', 'Diretoria', '4', 13),
+  (2, 1002, '00000000202', 'DILVIANA MARCIA PENHA ALVES', 'Coordenação', 'Coordenação', '4', 13),
+  (3, 1003, '00000000313', 'GLAYLTON BATISTA DE ALMEIDA', 'Coordenação', 'Coordenação', '4', 13),
+  (4, 1004, '00000000424', 'FRANCISCO SAMUEL GOMES', 'Coordenação', 'Coordenação', '4', 13),
+  (5, 1005, '00000000535', 'ROBERTA RODRIGUES DIAS', 'Financeira', 'Financeira', '4', 13),
+  (6, 1006, '00000000646', 'ALZENI JANUARIO DA COSTA', 'Secretaria', 'Secretaria', '4', 13),
+  (7, 1007, '00000000757', 'ADEILSON SALES ARAGÃO', 'Centec', 'Centec', '4', 13),
+  (8, 1008, '00000000868', 'ANTONIO ARQUIMEDES MELO', 'Efetivo', 'Efetivo', '4', 13),
+  (9, 1009, '00000000979', 'ANTONIO SOARES DA SILVA JUNIOR', 'Temporário', 'Temporário', '4', 13),
+  (10, 1010, '00000001080', 'BARBARA KARLA BEZERRA MARTINS', 'Centec', 'Centec', '4', 13),
+  (11, 1011, '00000001191', 'CLAUDIANA S. VERAS RODRIGUES', 'Temporário', 'Temporário', '4', 13),
+  (12, 1012, '00000001202', 'CRISTIANA DE PAULA SANTOS', 'Efetivo', 'Efetivo', '4', 13),
+  (13, 1013, '00000001313', 'DEBORA GONÇALA GOMES DA SILVA', 'Temporário', 'Temporário', '4', 13),
+  (14, 1014, '00000001424', 'EDIVALDO SOARES COELHO JUNIOR', 'Centec', 'Centec', '4', 13),
+  (15, 1015, '00000001535', 'ELENEILCE AMBROSIO SOUZA', 'Efetivo', 'Efetivo', '4', 13),
+  (16, 1016, '00000001646', 'ELIVANIA MARIA SOARES VIEIRA', 'Centec', 'Centec', '4', 13),
+  (17, 1017, '00000001757', 'EMERSON TELES VIANA', 'Temporário', 'Temporário', '4', 13),
+  (18, 1018, '00000001868', 'EVA MARIA SILVA COSTA', 'Efetivo', 'Efetivo', '4', 13),
+  (19, 1019, '00000001979', 'FLAVIO VIEIRA DE MENDONÇA', 'Temporário', 'Temporário', '4', 13),
+  (20, 1020, '00000002080', 'FRANCELIO SOARES DA COSTA', 'Temporário', 'Temporário', '4', 13),
+  (21, 1021, '00000002191', 'FRANCISCO ARLYSSON DA S.VERISSIMO', 'Centec', 'Centec', '4', 13),
+  (22, 1022, '00000002202', 'FRANCISCO DE ASSIS CORIOLANO', 'Efetivo', 'Efetivo', '4', 13),
+  (23, 1023, '00000002313', 'FRANCISCO DE SOUSA ARNAUD JÚNIOR', 'Temporário', 'Temporário', '4', 13),
+  (24, 1024, '00000002424', 'GLAUCIA NE RODRIGUES M. GOMES', 'Efetivo', 'Efetivo', '4', 13),
+  (25, 1025, '00000002535', 'JANAINA SAMPAIO B. MELO SILVA', 'Centec', 'Centec', '4', 13),
+  (26, 1026, '00000002646', 'JOÃO GUSTAVO SOUSA DE MARIA', 'Bibliotecário', 'Efetivo', '4', 13),
+  (27, 1027, '00000002757', 'KARINE SAMPAIO VERAS', 'Centec', 'Centec', '4', 13),
+  (28, 1028, '00000002868', 'LUCAS DE ALMEIDA RODRIGUES', 'Temporário', 'Temporário', '4', 13),
+  (29, 1029, '00000002979', 'MACIEL BOMFIM DO NASCIMENTO', 'Efetivo', 'Efetivo', '4', 13),
+  (30, 1030, '00000003080', 'MILIANE SILVA FERREIRA', 'Efetivo', 'Efetivo', '4', 13),
+  (31, 1031, '00000003191', 'OLAVO JUNIOR SOARES', 'Efetivo', 'Efetivo', '4', 13),
+  (32, 1032, '00000003202', 'OSCAR PAULINO DA SILVA', 'Temporário', 'Temporário', '4', 13),
+  (33, 1033, '00000003313', 'RAYLA RIBEIRO DE PAIVA', 'Temporário', 'Temporário', '4', 13),
+  (34, 1034, '00000003424', 'ROMERIO CARLOS DE SOUSA', 'Efetivo', 'Efetivo', '4', 13),
+  (35, 1035, '00000003535', 'ROMERYO TEMOTEO DE SOUSA', 'Temporário', 'Temporário', '4', 13),
+  (36, 1036, '00000003646', 'SAARA BARBOSA VIEIRA', 'Centec', 'Centec', '4', 13),
+  (37, 1037, '00000003757', 'THAYNAH TOMÉ G. HENRIQUE', 'Centec', 'Centec', '4', 13),
+  (38, 1038, '00000003868', 'ZILMAR MELO PEREIRA', 'Efetivo', 'Efetivo', '4', 13),
+  (39, 1039, '00000003979', 'ANTONIO MARCOS ALVES VITURINO', 'Terceirizado', 'Terceirizado', '4', 13),
+  (40, 1040, '00000004080', 'ANTONIO RENATO MACEDO GOMES', 'Aux. Adm', 'Aux. Adm', '4', 13),
+  (41, 1041, '00000004191', 'FABIANO ALVES DOS SANTOS', 'Vigilante', 'Terceirizado', '4', 13),
+  (42, 1042, '00000004202', 'FRANCISCO DAS CHAGAS DE MIRANDA', 'Vigilante', 'Terceirizado', '4', 13),
+  (43, 1043, '00000004313', 'GERLANIO FERREIRA DE SOUSA', 'Vigilante', 'Terceirizado', '4', 13),
+  (44, 1044, '00000004424', 'JOSÉ AIRTON ALEXANDRE FILHO', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (45, 1045, '00000004535', 'JOSÉ MOURÃO VERAS', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (46, 1046, '00000004646', 'LUZINETE VERAS DA SILVA', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (47, 1047, '00000004757', 'MARIA DA CONCEIÇÃO MENDES SALES', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (48, 1048, '00000004868', 'MARIA DA CONCEIÇÃO DA S OLIVEIRA', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (49, 1049, '00000004979', 'MARIA LUCIJANE DAMACENO SALES', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (50, 1050, '00000005080', 'MANOEL RODRIGUES MOURA LIMA', 'Vigilante', 'Efetivo', '4', 13),
+  (51, 1051, '00000005191', 'QUITÉRIA FERREIRA BALACO', 'Bibliotecário', 'Terceirizado', '4', 13),
+  (52, 1052, '00000005202', 'RAIMUNDA CAMELO CHAVES', 'Aux. Adm', 'Terceirizado', '4', 13),
+  (53, 1053, '00000005313', 'RAIMUNDO LOPES RESENDE', 'Aux. Adm', 'Terceirizado', '4', 13);
+
+
 
 INSERT INTO livros (titulo_livro, autor, editora, ano_aquisicao, origem, local, genero, cdd, cdu, numero_registro)
 VALUES
