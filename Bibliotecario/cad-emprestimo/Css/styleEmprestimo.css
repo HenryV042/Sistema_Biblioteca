@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden; 
+    background-image: url("./img/ondas-governo-rodape.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+}
+
+.CadastrarLivro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 40%;
+    height: 5%;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+    color: white;
+    font-weight: 900;
+    background: #5EB030;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 90% 100%);
+}
+
+.Encapsulamento {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grayBox {
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #D9D9D9;
+    width: 50vw;
+    height: 65vh;
+    border-radius: 20px;
+    overflow-y: auto;
+}
+
+form {
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 10px;
+}
+
+.form-group {
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-nome{
+    width: 50vw;
+}
+
+.obs{
+    /* para versão antiga */
+    word-wrap: break-word;
+    /* para versão mais atualiza ne pivete */
+    overflow-wrap: break-word;
+    text-wrap: 0;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.curso-turma{
+    gap: 10px;
+    display: flex;
+    float: left;
+}
+
+
+
+.full-width {
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 1px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    border-radius: 10vh;
+    padding: 3px;
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"], 
+select
+input[type="file"] {
+    border-radius: px; 
+    border: 1px solid #ccc;
+    padding: 8px; 
+    box-sizing: border-box; 
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+
+/* Estilo específico para o campo de data, se necessário */
+input[type="date"] {
+    font-size: 13.8px;
+    background-color: #fff;
+}
+
+
+
+
+.cadastrarButton {
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    border: none; 
+    background-color: #28a745; 
+    color: white; 
+    cursor: pointer; 
+}
+
+
+.cadastrarButton:hover {
+    background-color: #218838; 
+}
+
+.imgContainerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.file-input-container {
+    min-height: 256px;
+    height: 256px;
+    width: 256px;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px black;
+}
+
+.file-input-container img {
+    object-fit: cover;
+    display: none; /* Oculta a imagem por padrão */
+}
+
+
+
+.file-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #888;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cadastrarButton {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4rem;
+    background-color: #5EB030;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cadastrarButton:hover {
+    background-color: #0056b3;
+}
+
+.cadastrarButton:focus {
+    outline: none;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.form-row .form-group {
+    flex: 1;
+    min-width: calc(33.33% - 20px);
+}
+
+.file-input-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.file-input-container::before {
+    content: "\f03e"; /* Código para o ícone de quadro */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+@media (max-width: 1000px) {
+    .CadastrarLivro {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .CadastrarLivro {
+        font-size: 8px;
+    }
+
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grayBox {
+        width: 70vw;
+    }
+}
