@@ -166,7 +166,6 @@ try {
                 </div>
                 <div class="linha"></div>
                 <div class="opcoes">
-                    <a href="../../../catalogos"><i class="fa-solid fa-book-bookmark"></i> Banco de Livros</a>
                     <a href="../../../sair" class="sair"><i class="fa-solid fa-circle-xmark"></i> Sair</a>
                 </div>
             </aside>
