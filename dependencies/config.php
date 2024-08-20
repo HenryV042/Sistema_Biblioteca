@@ -4,8 +4,8 @@
 // Database connection
 $host = 'localhost';
 $dbname = 'eeepma26_biblioteca';
-$user = 'eeepma26_biblioteca';
-$password = 'biblioteca@INFO2024';
+$user = 'eeepma26_biblioteca_master';
+$password = 'biblioteca@info2024';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
