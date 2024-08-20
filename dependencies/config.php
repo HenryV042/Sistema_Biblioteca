@@ -4,8 +4,8 @@
 // Database connection
 $host = 'localhost';
 $dbname = 'eeepma26_biblioteca';
-$user = 'root';
-$password = '';
+$user = 'eeepma26_biblioteca';
+$password = 'biblioteca@INFO2024';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
@@ -14,4 +14,3 @@ try {
     echo "Connection failed: " . $e->getMessage();
 }
 ?>
-
