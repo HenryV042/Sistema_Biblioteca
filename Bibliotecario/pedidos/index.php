@@ -1,5 +1,21 @@
+<?php
+require_once '../../dependencies/config.php'; // Incluindo o arquivo de conexão
+
+// Remover pedidos que têm mais de 3 dias desde a data de solicitação
+try {
+    $sql = "DELETE FROM pedidos WHERE data_solicitação < NOW() - INTERVAL 4 DAY";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+} catch (PDOException $e) {
+    echo "Erro: " . $e->getMessage();
+}
+
+$message = $_SESSION['message'] ?? ''; // Obtém a mensagem da sessão
+unset($_SESSION['message']); // Limpa a mensagem após exibi-la
+?>
+
 <!DOCTYPE html>
-<html>
+<html lang="pt-Br">
 
 <head>
     <meta charset="UTF-8">
