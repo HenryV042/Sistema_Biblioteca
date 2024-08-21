@@ -1,3 +1,7 @@
+--- LINK PRAT
+--- https://trello.com/b/wu3ICCab/imp
+
+
 ---- 01/05
 
 INSERT INTO livros (titulo_livro, numero_registro, cdd, cdu, autor, editora, selo) VALUES
@@ -8864,11 +8868,12 @@ INSERT INTO livros (titulo_livro, numero_registro, cdd, cdu, autor, editora, sel
 	('Os sete crimes de édipo', '1555', '616.89', '615.85', 'Pedro Américo Corrêa Netto', 'AGIR', 'N'),
 	('Dom Casmurro', '7452', '869-93', '', 'Machado de Assis', 'Martin Claret', 'N'),
 	('A sútil arte de ligar o foda-se', '7479', '158', '159,947', 'Mark Manson', 'Intrínseca', 'N');
-	
+
+
 ---- adicionais 02
 
 
-INSERT INTO tableName (NOME, CÓDIGO, CDD, CDU, AUTOR, EDITORA, GOV) VALUES
+INSERT INTO Livros (titulo_livro, numero_registro, cdd, cdu, autor, editora, selo) VALUES
 	('Mamãe, vou ter um bebê', '4833', '', '', 'Eve Bunting', 'Melhoramentos', 'N'),
 	('Embrulhada para presente', '7449', '028.5', '', 'Gisele Costa', 'Prumo', 'S'),
 	('Raptado', '174', '028.5', '', 'Robert Louis Stevenson', 'Ibep', 'S'),
@@ -8905,5 +8910,4 @@ INSERT INTO tableName (NOME, CÓDIGO, CDD, CDU, AUTOR, EDITORA, GOV) VALUES
 	('Uma história de vôos', '95', '028.5', '', 'Vito Grandam', 'Melhoramentos', 'S'),
 	('Uma história de vôos', '94', '028.5', '', 'Vito Grandam', 'Melhoramentos', 'S'),
 	('Uma história de vôos', '346', '028.5', '', 'Vito Grandam', 'Melhoramentos', 'S'),
-	('Uma história de vôos', '91', '028.5', '', 'Vito Grandam', 'Melhoramentos', 'S'),
-	('', '', '', '', '', '', '');
+	('Uma história de vôos', '91', '028.5', '', 'Vito Grandam', 'Melhoramentos', 'S');
