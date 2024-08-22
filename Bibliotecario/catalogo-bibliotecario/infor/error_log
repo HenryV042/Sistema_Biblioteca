@@ -1,0 +1,79 @@
+[20-Aug-2024 20:59:40 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[20-Aug-2024 20:59:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[20-Aug-2024 20:59:44 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[20-Aug-2024 20:59:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[20-Aug-2024 21:02:07 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 3
+[20-Aug-2024 21:02:07 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 8
+[20-Aug-2024 21:07:36 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "usuario", expecting "]" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 5
+[20-Aug-2024 21:07:40 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "usuario", expecting "]" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 5
+[20-Aug-2024 21:07:41 America/Fortaleza] PHP Parse error:  syntax error, unexpected identifier "usuario", expecting "]" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 5
+[20-Aug-2024 21:08:37 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 9
+[20-Aug-2024 21:08:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 9
+[21-Aug-2024 01:24:30 America/Fortaleza] PHP Fatal error:  Cannot redeclare getBookCover() (previously declared in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:14) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 140
+[21-Aug-2024 01:24:32 America/Fortaleza] PHP Fatal error:  Cannot redeclare getBookCover() (previously declared in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:14) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 140
+[21-Aug-2024 01:24:33 America/Fortaleza] PHP Fatal error:  Cannot redeclare getBookCover() (previously declared in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:14) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 140
+[21-Aug-2024 01:24:34 America/Fortaleza] PHP Fatal error:  Cannot redeclare getBookCover() (previously declared in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:14) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 140
+[21-Aug-2024 10:36:12 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:13 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:15 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:15 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 10:36:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 2
+[21-Aug-2024 12:23:28 America/Fortaleza] PHP Warning:  Undefined variable $item in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 147
+[21-Aug-2024 12:23:28 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 147
+[21-Aug-2024 12:23:28 America/Fortaleza] PHP Warning:  Undefined variable $item in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 158
+[21-Aug-2024 12:23:28 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 158
+[21-Aug-2024 12:25:03 America/Fortaleza] PHP Warning:  Undefined variable $item in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 147
+[21-Aug-2024 12:25:03 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 147
+[21-Aug-2024 12:25:03 America/Fortaleza] PHP Warning:  Undefined variable $item in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 158
+[21-Aug-2024 12:25:03 America/Fortaleza] PHP Warning:  Trying to access array offset on value of type null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 158
+[21-Aug-2024 13:10:37 America/Fortaleza] PHP Fatal error:  Cannot redeclare getBookCover() (previously declared in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:14) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 148
+[21-Aug-2024 13:12:42 America/Fortaleza] PHP Fatal error:  Cannot redeclare getBookCover() (previously declared in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php:14) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/catalogo-bibliotecario/infor/infor.php on line 133

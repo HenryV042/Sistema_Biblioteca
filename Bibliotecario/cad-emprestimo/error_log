@@ -1,0 +1,192 @@
+[20-Aug-2024 16:30:05 America/Sao_Paulo] PHP Warning:  require_once(Location: ../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:30:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'Location: ../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:30:42 America/Sao_Paulo] PHP Warning:  require_once(Location: ../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:30:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'Location: ../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:31:21 America/Sao_Paulo] PHP Warning:  require_once(Location: ../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:31:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'Location: ../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:31:22 America/Sao_Paulo] PHP Warning:  require_once(Location: ../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:31:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'Location: ../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 16:34:13 America/Sao_Paulo] PHP Warning:  require(../../dependencies/verifica_login.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[20-Aug-2024 16:34:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../../dependencies/verifica_login.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[20-Aug-2024 16:34:15 America/Sao_Paulo] PHP Warning:  require(../../dependencies/verifica_login.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[20-Aug-2024 16:34:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../../dependencies/verifica_login.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[20-Aug-2024 20:08:41 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 4
+[20-Aug-2024 20:08:41 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 7
+[20-Aug-2024 20:09:29 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 4
+[20-Aug-2024 20:09:29 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 7
+[20-Aug-2024 20:09:36 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 4
+[20-Aug-2024 20:09:36 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 7
+[20-Aug-2024 20:10:03 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 4
+[20-Aug-2024 20:10:03 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 7
+[20-Aug-2024 20:10:12 America/Sao_Paulo] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 4
+[20-Aug-2024 20:10:12 America/Sao_Paulo] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 7
+[20-Aug-2024 20:15:28 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 20:15:28 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 6
+[20-Aug-2024 20:15:35 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 20:15:35 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 6
+[20-Aug-2024 20:15:43 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 3
+[20-Aug-2024 20:15:43 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 6
+[20-Aug-2024 20:21:32 America/Fortaleza] PHP Warning:  require(../../../dependencies/verifica-login.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[20-Aug-2024 20:21:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/verifica-login.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[20-Aug-2024 20:21:37 America/Fortaleza] PHP Warning:  require(../../../dependencies/verifica-login.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[20-Aug-2024 20:21:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/verifica-login.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:40:57 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:40:57 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:40:59 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:40:59 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:41:10 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:41:10 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:41:21 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:41:21 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:41:30 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:41:30 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:53:43 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:53:43 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:53:45 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:53:45 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 09:54:08 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 09:54:08 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 10:15:42 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 10:15:42 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 10:27:10 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 10:27:10 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 10:27:16 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 2
+[21-Aug-2024 10:27:16 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/index.php on line 5
+[21-Aug-2024 10:40:17 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:20 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:21 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:30 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:40:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:24 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:25 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:43 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:44 America/Fortaleza] PHP Warning:  require(conexao.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:43:44 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'conexao.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:53:32 America/Fortaleza] PHP Warning:  require(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:53:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:53:32 America/Fortaleza] PHP Warning:  require(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:53:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:54:08 America/Fortaleza] PHP Warning:  Undefined array key "id" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 10:54:08 America/Fortaleza] PHP Warning:  Undefined array key "id" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 10:54:11 America/Fortaleza] PHP Warning:  Undefined array key "id" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 10:54:12 America/Fortaleza] PHP Warning:  Undefined array key "id" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 10:55:13 America/Fortaleza] PHP Warning:  require(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:55:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:55:15 America/Fortaleza] PHP Warning:  require(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 10:55:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 3
+[21-Aug-2024 11:21:39 America/Fortaleza] PHP Warning:  Undefined array key "nome" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 11:21:41 America/Fortaleza] PHP Warning:  Undefined array key "nome" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 11:21:42 America/Fortaleza] PHP Warning:  Undefined array key "nome" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 5
+[21-Aug-2024 11:23:37 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 2
+[21-Aug-2024 11:23:38 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 2
+[21-Aug-2024 11:23:41 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 2
+[21-Aug-2024 11:23:42 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 2
+[21-Aug-2024 11:28:46 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 2
+[21-Aug-2024 11:28:48 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 2
+[21-Aug-2024 12:47:29 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:47:32 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:47:33 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:47:37 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:47:37 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:47:42 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:00 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:03 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:08 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:29 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:31 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:33 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:34 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:37 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:48:39 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:50:17 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:50:18 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 7
+[21-Aug-2024 12:51:13 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 8
+[21-Aug-2024 12:51:14 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 8
+[21-Aug-2024 12:51:50 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:51:52 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:51:56 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:51:58 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:52:02 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:52:05 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:52:06 America/Fortaleza] PHP Warning:  Undefined variable $tumar in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 15
+[21-Aug-2024 12:55:50 America/Fortaleza] PHP Warning:  Undefined variable $tumer in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 14
+[21-Aug-2024 12:55:51 America/Fortaleza] PHP Warning:  Undefined variable $tumer in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 14
+[21-Aug-2024 12:55:52 America/Fortaleza] PHP Warning:  Undefined variable $tumer in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 14
+[21-Aug-2024 12:55:57 America/Fortaleza] PHP Warning:  Undefined variable $tumer in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 14
+[21-Aug-2024 12:55:58 America/Fortaleza] PHP Warning:  Undefined variable $tumer in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 14
+[21-Aug-2024 22:51:37 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 22:52:13 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 22:54:52 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 22:54:56 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 22:55:10 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 22:58:38 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 23:00:40 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[21-Aug-2024 23:00:42 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[22-Aug-2024 05:54:16 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31
+[22-Aug-2024 05:54:19 America/Fortaleza] PHP Warning:  Undefined array key "Selecione:" in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/cad-emprestimo/buscar_alunos.php on line 31

@@ -1,0 +1,15 @@
+[21-Aug-2024 07:49:14 America/Fortaleza] PHP Warning:  Undefined variable $conn in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos.php on line 7
+[21-Aug-2024 07:49:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos.php on line 7
+[21-Aug-2024 07:49:27 America/Fortaleza] PHP Warning:  Undefined variable $conn in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos.php on line 7
+[21-Aug-2024 07:49:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos.php on line 7
+[21-Aug-2024 07:58:16 America/Fortaleza] PHP Warning:  Undefined variable $conn in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos_total.php on line 7
+[21-Aug-2024 07:58:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos_total.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/pdf/emprestimos_total.php on line 7

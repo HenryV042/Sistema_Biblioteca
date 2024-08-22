@@ -1,0 +1,128 @@
+[20-Aug-2024 15:52:59 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 15:52:59 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 8
+[20-Aug-2024 15:53:18 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:19 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:21 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:21 America/Fortaleza] PHP Warning:  require_once(../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:53:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:54:00 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 15:54:00 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 8
+[20-Aug-2024 15:54:54 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 15:54:54 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 8
+[20-Aug-2024 15:54:56 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 15:54:56 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 8
+[20-Aug-2024 15:55:11 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 15:55:11 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 8
+[20-Aug-2024 15:55:40 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 15:55:40 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 8
+[20-Aug-2024 15:56:05 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:06 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:06 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:22 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:23 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:24 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:28 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:28 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:29 America/Fortaleza] PHP Warning:  require_once(../../../../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../../../../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 15:56:41 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 69
+[20-Aug-2024 15:59:20 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 5
+[20-Aug-2024 15:59:20 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 9
+[20-Aug-2024 16:00:08 America/Fortaleza] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 16:00:10 America/Fortaleza] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 16:00:11 America/Fortaleza] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 16:01:17 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 10
+[20-Aug-2024 16:01:17 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 14
+[20-Aug-2024 16:04:06 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 6
+[20-Aug-2024 16:04:06 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 10
+[20-Aug-2024 21:14:10 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 3
+[20-Aug-2024 21:14:10 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 6
+[20-Aug-2024 21:14:59 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 21:14:59 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 7
+[20-Aug-2024 21:15:03 America/Fortaleza] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 4
+[20-Aug-2024 21:15:03 America/Fortaleza] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:1) in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 7
+[20-Aug-2024 21:15:12 America/Fortaleza] PHP Warning:  require_once(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 11
+[20-Aug-2024 21:15:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 11
+[20-Aug-2024 21:15:41 America/Fortaleza] PHP Warning:  require_once(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 11
+[20-Aug-2024 21:15:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 11
+[20-Aug-2024 21:15:50 America/Fortaleza] PHP Warning:  require_once(../dependencies/config.php): Failed to open stream: No such file or directory in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 11
+[20-Aug-2024 21:15:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '../dependencies/config.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/biblioteca.eeepmanoelmano.com.br/Bibliotecario/emprestimos/index.php on line 11
